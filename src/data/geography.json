@@ -1,0 +1,2712 @@
+{
+  "2": {
+    "id": "2",
+    "name": "United States of America",
+    "owner": "2",
+    "status": "independent",
+    "capital": "Washington",
+    "center": [
+      -77.036667,
+      38.895
+    ],
+    "neighbors": [
+      "20",
+      "70"
+    ]
+  },
+  "3": {
+    "id": "3",
+    "name": "Alaska",
+    "owner": "2",
+    "status": "colony",
+    "capital": "Juneau",
+    "center": [
+      -134.412019,
+      58.30434
+    ],
+    "neighbors": [
+      "20"
+    ]
+  },
+  "4": {
+    "id": "4",
+    "name": "Hawaii",
+    "owner": "2",
+    "status": "colony",
+    "capital": "Honolulu",
+    "center": [
+      -157.855954,
+      21.30746
+    ],
+    "neighbors": []
+  },
+  "6": {
+    "id": "6",
+    "name": "Puerto Rico",
+    "owner": "2",
+    "status": "colony",
+    "capital": "San Juan",
+    "center": [
+      -66.1057,
+      18.4655
+    ],
+    "neighbors": []
+  },
+  "20": {
+    "id": "20",
+    "name": "Canada",
+    "owner": "20",
+    "status": "independent",
+    "capital": "Ottawa",
+    "center": [
+      -75.690002,
+      45.42083
+    ],
+    "neighbors": [
+      "2",
+      "3",
+      "21"
+    ]
+  },
+  "21": {
+    "id": "21",
+    "name": "Newfoundland",
+    "owner": "200",
+    "status": "colony",
+    "capital": "St. John's",
+    "center": [
+      -52.681007,
+      47.58499
+    ],
+    "neighbors": [
+      "20"
+    ]
+  },
+  "31": {
+    "id": "31",
+    "name": "Bahamas",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Nassau",
+    "center": [
+      -77.343003,
+      25.07735
+    ],
+    "neighbors": []
+  },
+  "40": {
+    "id": "40",
+    "name": "Cuba",
+    "owner": "40",
+    "status": "independent",
+    "capital": "Havana",
+    "center": [
+      -82.364166,
+      23.13194
+    ],
+    "neighbors": []
+  },
+  "41": {
+    "id": "41",
+    "name": "Haiti",
+    "owner": "41",
+    "status": "independent",
+    "capital": "Port-au-Prince",
+    "center": [
+      -72.334999,
+      18.5392
+    ],
+    "neighbors": [
+      "42"
+    ]
+  },
+  "42": {
+    "id": "42",
+    "name": "Dominican Republic",
+    "owner": "42",
+    "status": "independent",
+    "capital": "Santo Domingo",
+    "center": [
+      -69.900002,
+      18.46667
+    ],
+    "neighbors": [
+      "41"
+    ]
+  },
+  "51": {
+    "id": "51",
+    "name": "Jamaica",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Kingston",
+    "center": [
+      -76.800003,
+      18
+    ],
+    "neighbors": []
+  },
+  "52": {
+    "id": "52",
+    "name": "Trinidad and Tobago",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Port-of-Spain",
+    "center": [
+      -61.51667,
+      10.65
+    ],
+    "neighbors": []
+  },
+  "53": {
+    "id": "53",
+    "name": "Barbados",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Bridgetown",
+    "center": [
+      -59.616661,
+      13.1
+    ],
+    "neighbors": []
+  },
+  "65": {
+    "id": "65",
+    "name": "Guadeloupe",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Basse-Terre",
+    "center": [
+      -61.72,
+      15.9966
+    ],
+    "neighbors": []
+  },
+  "66": {
+    "id": "66",
+    "name": "Martinique",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Fort-de-France",
+    "center": [
+      -61.0588,
+      14.6161
+    ],
+    "neighbors": []
+  },
+  "70": {
+    "id": "70",
+    "name": "Mexico",
+    "owner": "70",
+    "status": "independent",
+    "capital": "Mexico City",
+    "center": [
+      -99.138611,
+      19.43417
+    ],
+    "neighbors": [
+      "2",
+      "80",
+      "90"
+    ]
+  },
+  "80": {
+    "id": "80",
+    "name": "Belize",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Belize City",
+    "center": [
+      -88.188374,
+      17.49871
+    ],
+    "neighbors": [
+      "70",
+      "90"
+    ]
+  },
+  "90": {
+    "id": "90",
+    "name": "Guatemala",
+    "owner": "90",
+    "status": "independent",
+    "capital": "Guatemala City",
+    "center": [
+      -90.526947,
+      14.62111
+    ],
+    "neighbors": [
+      "70",
+      "80",
+      "91",
+      "92"
+    ]
+  },
+  "91": {
+    "id": "91",
+    "name": "Honduras",
+    "owner": "91",
+    "status": "independent",
+    "capital": "Tegucigalpa",
+    "center": [
+      -87.216667,
+      14.1
+    ],
+    "neighbors": [
+      "90",
+      "92",
+      "93"
+    ]
+  },
+  "92": {
+    "id": "92",
+    "name": "El Salvador",
+    "owner": "92",
+    "status": "independent",
+    "capital": "San Salvador",
+    "center": [
+      -89.203056,
+      13.70861
+    ],
+    "neighbors": [
+      "90",
+      "91"
+    ]
+  },
+  "93": {
+    "id": "93",
+    "name": "Nicaragua",
+    "owner": "93",
+    "status": "independent",
+    "capital": "Managua",
+    "center": [
+      -86.268333,
+      12.15083
+    ],
+    "neighbors": [
+      "91",
+      "94"
+    ]
+  },
+  "94": {
+    "id": "94",
+    "name": "Costa Rica",
+    "owner": "94",
+    "status": "independent",
+    "capital": "San Jose",
+    "center": [
+      -84.083344,
+      9.93333
+    ],
+    "neighbors": [
+      "93",
+      "95"
+    ]
+  },
+  "95": {
+    "id": "95",
+    "name": "Panama",
+    "owner": "95",
+    "status": "independent",
+    "capital": "Panama City",
+    "center": [
+      -79.533333,
+      8.96667
+    ],
+    "neighbors": [
+      "94",
+      "100"
+    ]
+  },
+  "100": {
+    "id": "100",
+    "name": "Colombia",
+    "owner": "100",
+    "status": "independent",
+    "capital": "Bogota",
+    "center": [
+      -74.083344,
+      4.6
+    ],
+    "neighbors": [
+      "95",
+      "101",
+      "130",
+      "135",
+      "140"
+    ]
+  },
+  "101": {
+    "id": "101",
+    "name": "Venezuela",
+    "owner": "101",
+    "status": "independent",
+    "capital": "Caracas",
+    "center": [
+      -66.916656,
+      10.5
+    ],
+    "neighbors": [
+      "100",
+      "110",
+      "140"
+    ]
+  },
+  "110": {
+    "id": "110",
+    "name": "Guyana",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Georgetown",
+    "center": [
+      -58.166672,
+      6.8
+    ],
+    "neighbors": [
+      "101",
+      "115",
+      "140"
+    ]
+  },
+  "115": {
+    "id": "115",
+    "name": "Surinam",
+    "owner": "210",
+    "status": "colony",
+    "capital": "Paramaribo",
+    "center": [
+      -55.166672,
+      5.83333
+    ],
+    "neighbors": [
+      "110",
+      "120",
+      "140",
+      "1201"
+    ]
+  },
+  "120": {
+    "id": "120",
+    "name": "French Guyana",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Cayenne",
+    "center": [
+      -52.330021,
+      4.93299
+    ],
+    "neighbors": [
+      "115",
+      "1201"
+    ]
+  },
+  "130": {
+    "id": "130",
+    "name": "Ecuador",
+    "owner": "130",
+    "status": "independent",
+    "capital": "Quito",
+    "center": [
+      -78.5,
+      -0.21667
+    ],
+    "neighbors": [
+      "100",
+      "135"
+    ]
+  },
+  "135": {
+    "id": "135",
+    "name": "Peru",
+    "owner": "135",
+    "status": "independent",
+    "capital": "Lima",
+    "center": [
+      -77.050003,
+      -12.05
+    ],
+    "neighbors": [
+      "100",
+      "130",
+      "140",
+      "145",
+      "155"
+    ]
+  },
+  "140": {
+    "id": "140",
+    "name": "Brazil",
+    "owner": "140",
+    "status": "independent",
+    "capital": "Rio de Janeiro",
+    "center": [
+      -43.1964,
+      -22.9083
+    ],
+    "neighbors": [
+      "100",
+      "101",
+      "110",
+      "115",
+      "135",
+      "145",
+      "150",
+      "160",
+      "165",
+      "1201"
+    ]
+  },
+  "145": {
+    "id": "145",
+    "name": "Bolivia",
+    "owner": "145",
+    "status": "independent",
+    "capital": "La Paz",
+    "center": [
+      -68.150002,
+      -16.5
+    ],
+    "neighbors": [
+      "135",
+      "140",
+      "150",
+      "155",
+      "160"
+    ]
+  },
+  "150": {
+    "id": "150",
+    "name": "Paraguay",
+    "owner": "150",
+    "status": "independent",
+    "capital": "Asuncion",
+    "center": [
+      -57.666672,
+      -25.26667
+    ],
+    "neighbors": [
+      "140",
+      "145",
+      "160"
+    ]
+  },
+  "155": {
+    "id": "155",
+    "name": "Chile",
+    "owner": "155",
+    "status": "independent",
+    "capital": "Santiago",
+    "center": [
+      -70.666656,
+      -33.45
+    ],
+    "neighbors": [
+      "135",
+      "145",
+      "160"
+    ]
+  },
+  "160": {
+    "id": "160",
+    "name": "Argentina",
+    "owner": "160",
+    "status": "independent",
+    "capital": "Buenos Aires",
+    "center": [
+      -58.672501,
+      -34.5875
+    ],
+    "neighbors": [
+      "140",
+      "145",
+      "150",
+      "155",
+      "165"
+    ]
+  },
+  "165": {
+    "id": "165",
+    "name": "Uruguay",
+    "owner": "165",
+    "status": "independent",
+    "capital": "Montevideo",
+    "center": [
+      -56.17083,
+      -34.85806
+    ],
+    "neighbors": [
+      "140",
+      "160"
+    ]
+  },
+  "200": {
+    "id": "200",
+    "name": "United Kingdom",
+    "owner": "200",
+    "status": "independent",
+    "capital": "London",
+    "center": [
+      -0.116667,
+      51.5
+    ],
+    "neighbors": [
+      "205"
+    ]
+  },
+  "205": {
+    "id": "205",
+    "name": "Ireland",
+    "owner": "205",
+    "status": "independent",
+    "capital": "Dublin",
+    "center": [
+      -6.248889,
+      53.33306
+    ],
+    "neighbors": [
+      "200"
+    ]
+  },
+  "210": {
+    "id": "210",
+    "name": "Netherlands",
+    "owner": "210",
+    "status": "independent",
+    "capital": "Amsterdam",
+    "center": [
+      4.916667,
+      52.35
+    ],
+    "neighbors": [
+      "211",
+      "255"
+    ]
+  },
+  "211": {
+    "id": "211",
+    "name": "Belgium",
+    "owner": "211",
+    "status": "independent",
+    "capital": "Brussels",
+    "center": [
+      4.333333,
+      50.83333
+    ],
+    "neighbors": [
+      "210",
+      "212",
+      "220",
+      "255"
+    ]
+  },
+  "212": {
+    "id": "212",
+    "name": "Luxembourg",
+    "owner": "212",
+    "status": "independent",
+    "capital": "Luxembourg",
+    "center": [
+      6.13,
+      49.61167
+    ],
+    "neighbors": [
+      "211",
+      "220",
+      "255"
+    ]
+  },
+  "220": {
+    "id": "220",
+    "name": "France",
+    "owner": "220",
+    "status": "independent",
+    "capital": "Paris",
+    "center": [
+      2.333333,
+      48.86666
+    ],
+    "neighbors": [
+      "211",
+      "212",
+      "225",
+      "230",
+      "255",
+      "325"
+    ]
+  },
+  "225": {
+    "id": "225",
+    "name": "Switzerland",
+    "owner": "225",
+    "status": "independent",
+    "capital": "Bern",
+    "center": [
+      7.466667,
+      46.91667
+    ],
+    "neighbors": [
+      "220",
+      "255",
+      "305",
+      "325"
+    ]
+  },
+  "230": {
+    "id": "230",
+    "name": "Spain",
+    "owner": "230",
+    "status": "independent",
+    "capital": "Madrid",
+    "center": [
+      -3.683333,
+      40.4
+    ],
+    "neighbors": [
+      "220",
+      "235"
+    ]
+  },
+  "235": {
+    "id": "235",
+    "name": "Portugal",
+    "owner": "235",
+    "status": "independent",
+    "capital": "Lisbon",
+    "center": [
+      -9.133333,
+      38.71667
+    ],
+    "neighbors": [
+      "230"
+    ]
+  },
+  "255": {
+    "id": "255",
+    "name": "Germany (Prussia)",
+    "owner": "255",
+    "status": "independent",
+    "capital": "Berlin",
+    "center": [
+      13.4,
+      52.51667
+    ],
+    "neighbors": [
+      "210",
+      "211",
+      "212",
+      "220",
+      "225",
+      "290",
+      "291",
+      "305",
+      "315",
+      "368",
+      "390"
+    ]
+  },
+  "290": {
+    "id": "290",
+    "name": "Poland",
+    "owner": "290",
+    "status": "independent",
+    "capital": "Warsaw",
+    "center": [
+      21,
+      52.25
+    ],
+    "neighbors": [
+      "255",
+      "291",
+      "315",
+      "360",
+      "365",
+      "367",
+      "368"
+    ]
+  },
+  "291": {
+    "id": "291",
+    "name": "Danzig",
+    "owner": "291",
+    "status": "mandate",
+    "capital": "Danzig",
+    "center": [
+      18.64004,
+      54.35998
+    ],
+    "neighbors": [
+      "255",
+      "290"
+    ]
+  },
+  "305": {
+    "id": "305",
+    "name": "Austria",
+    "owner": "305",
+    "status": "independent",
+    "capital": "Vienna",
+    "center": [
+      16.366671,
+      48.2
+    ],
+    "neighbors": [
+      "225",
+      "255",
+      "310",
+      "315",
+      "325",
+      "345"
+    ]
+  },
+  "310": {
+    "id": "310",
+    "name": "Hungary",
+    "owner": "310",
+    "status": "independent",
+    "capital": "Budapest",
+    "center": [
+      19.08333,
+      47.5
+    ],
+    "neighbors": [
+      "305",
+      "315",
+      "345",
+      "360"
+    ]
+  },
+  "315": {
+    "id": "315",
+    "name": "Czechoslovakia",
+    "owner": "315",
+    "status": "independent",
+    "capital": "Prague",
+    "center": [
+      14.46667,
+      50.08333
+    ],
+    "neighbors": [
+      "255",
+      "290",
+      "305",
+      "310",
+      "360"
+    ]
+  },
+  "325": {
+    "id": "325",
+    "name": "Italy/Sardinia",
+    "owner": "325",
+    "status": "independent",
+    "capital": "Rome",
+    "center": [
+      12.48333,
+      41.9
+    ],
+    "neighbors": [
+      "220",
+      "225",
+      "305",
+      "345"
+    ]
+  },
+  "338": {
+    "id": "338",
+    "name": "Malta",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Valletta",
+    "center": [
+      14.51472,
+      35.89972
+    ],
+    "neighbors": []
+  },
+  "339": {
+    "id": "339",
+    "name": "Albania",
+    "owner": "339",
+    "status": "independent",
+    "capital": "Tirane",
+    "center": [
+      19.81889,
+      41.3275
+    ],
+    "neighbors": [
+      "345",
+      "350"
+    ]
+  },
+  "345": {
+    "id": "345",
+    "name": "Yugoslavia",
+    "owner": "345",
+    "status": "independent",
+    "capital": "Belgrade",
+    "center": [
+      20.46806,
+      44.81861
+    ],
+    "neighbors": [
+      "305",
+      "310",
+      "325",
+      "339",
+      "350",
+      "355",
+      "360"
+    ]
+  },
+  "350": {
+    "id": "350",
+    "name": "Greece",
+    "owner": "350",
+    "status": "independent",
+    "capital": "Athens",
+    "center": [
+      23.73333,
+      37.98333
+    ],
+    "neighbors": [
+      "339",
+      "345",
+      "355",
+      "640"
+    ]
+  },
+  "352": {
+    "id": "352",
+    "name": "Cyprus",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Nicosia",
+    "center": [
+      33.366661,
+      35.16667
+    ],
+    "neighbors": []
+  },
+  "355": {
+    "id": "355",
+    "name": "Bulgaria",
+    "owner": "355",
+    "status": "independent",
+    "capital": "Sofia",
+    "center": [
+      23.316669,
+      42.68333
+    ],
+    "neighbors": [
+      "345",
+      "350",
+      "360",
+      "640"
+    ]
+  },
+  "360": {
+    "id": "360",
+    "name": "Rumania",
+    "owner": "360",
+    "status": "independent",
+    "capital": "Bukarest",
+    "center": [
+      26.1,
+      44.43333
+    ],
+    "neighbors": [
+      "290",
+      "310",
+      "315",
+      "345",
+      "355",
+      "365"
+    ]
+  },
+  "365": {
+    "id": "365",
+    "name": "Russia (Soviet Union)",
+    "owner": "365",
+    "status": "independent",
+    "capital": "Moscow",
+    "center": [
+      37.615551,
+      55.75222
+    ],
+    "neighbors": [
+      "290",
+      "360",
+      "366",
+      "367",
+      "375",
+      "630",
+      "640",
+      "700",
+      "710",
+      "712",
+      "730",
+      "750",
+      "7351"
+    ]
+  },
+  "366": {
+    "id": "366",
+    "name": "Estonia",
+    "owner": "366",
+    "status": "independent",
+    "capital": "Tallinn",
+    "center": [
+      24.72806,
+      59.43389
+    ],
+    "neighbors": [
+      "365",
+      "367"
+    ]
+  },
+  "367": {
+    "id": "367",
+    "name": "Latvia",
+    "owner": "367",
+    "status": "independent",
+    "capital": "Riga",
+    "center": [
+      24.133329,
+      56.96667
+    ],
+    "neighbors": [
+      "290",
+      "365",
+      "366",
+      "368"
+    ]
+  },
+  "368": {
+    "id": "368",
+    "name": "Lithuania",
+    "owner": "368",
+    "status": "independent",
+    "capital": "Kaunas",
+    "center": [
+      23.88003,
+      54.9504
+    ],
+    "neighbors": [
+      "255",
+      "290",
+      "367"
+    ]
+  },
+  "375": {
+    "id": "375",
+    "name": "Finland",
+    "owner": "375",
+    "status": "independent",
+    "capital": "Helsinki",
+    "center": [
+      24.93417,
+      60.17556
+    ],
+    "neighbors": [
+      "365",
+      "380",
+      "385"
+    ]
+  },
+  "380": {
+    "id": "380",
+    "name": "Sweden",
+    "owner": "380",
+    "status": "independent",
+    "capital": "Stockholm",
+    "center": [
+      18.074522,
+      59.3399
+    ],
+    "neighbors": [
+      "375",
+      "385"
+    ]
+  },
+  "385": {
+    "id": "385",
+    "name": "Norway",
+    "owner": "385",
+    "status": "independent",
+    "capital": "Oslo",
+    "center": [
+      10.752245,
+      59.91387
+    ],
+    "neighbors": [
+      "375",
+      "380"
+    ]
+  },
+  "390": {
+    "id": "390",
+    "name": "Denmark",
+    "owner": "390",
+    "status": "independent",
+    "capital": "Copenhagen",
+    "center": [
+      12.566982,
+      55.67696
+    ],
+    "neighbors": [
+      "255"
+    ]
+  },
+  "395": {
+    "id": "395",
+    "name": "Iceland",
+    "owner": "390",
+    "status": "colony",
+    "capital": "Reykjavik",
+    "center": [
+      -21.950001,
+      64.15
+    ],
+    "neighbors": []
+  },
+  "402": {
+    "id": "402",
+    "name": "Cape Verde",
+    "owner": "235",
+    "status": "colony",
+    "capital": "Praia",
+    "center": [
+      -23.51667,
+      14.91667
+    ],
+    "neighbors": []
+  },
+  "404": {
+    "id": "404",
+    "name": "Guinea-Bissau",
+    "owner": "235",
+    "status": "colony",
+    "capital": "Bolama",
+    "center": [
+      -15.482804,
+      11.58295
+    ],
+    "neighbors": [
+      "433",
+      "438"
+    ]
+  },
+  "411": {
+    "id": "411",
+    "name": "Equatorial Guinea",
+    "owner": "230",
+    "status": "colony",
+    "capital": "Malabo",
+    "center": [
+      8.737104,
+      3.75041
+    ],
+    "neighbors": [
+      "471",
+      "481"
+    ]
+  },
+  "420": {
+    "id": "420",
+    "name": "Gambia",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Banjul",
+    "center": [
+      -16.591701,
+      13.45388
+    ],
+    "neighbors": [
+      "433"
+    ]
+  },
+  "432": {
+    "id": "432",
+    "name": "Mali",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Bamako",
+    "center": [
+      -7.97491,
+      12.61771
+    ],
+    "neighbors": [
+      "433",
+      "435",
+      "436",
+      "437",
+      "438",
+      "615"
+    ]
+  },
+  "433": {
+    "id": "433",
+    "name": "Senegal",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Dakar",
+    "center": [
+      -17.45528,
+      14.70889
+    ],
+    "neighbors": [
+      "404",
+      "420",
+      "432",
+      "435",
+      "438"
+    ]
+  },
+  "434": {
+    "id": "434",
+    "name": "Benin",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Porto-Novo",
+    "center": [
+      2.616667,
+      6.48333
+    ],
+    "neighbors": [
+      "436",
+      "461",
+      "475"
+    ]
+  },
+  "435": {
+    "id": "435",
+    "name": "Mauritania",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Nouakchott",
+    "center": [
+      -16.027356,
+      18.11944
+    ],
+    "neighbors": [
+      "432",
+      "433",
+      "610",
+      "615"
+    ]
+  },
+  "436": {
+    "id": "436",
+    "name": "Niger",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Niamey",
+    "center": [
+      2.116667,
+      13.51667
+    ],
+    "neighbors": [
+      "432",
+      "434",
+      "437",
+      "461",
+      "475",
+      "483",
+      "615",
+      "620"
+    ]
+  },
+  "437": {
+    "id": "437",
+    "name": "Cote D'Ivoire",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Abidjan",
+    "center": [
+      -4.040048,
+      5.32
+    ],
+    "neighbors": [
+      "432",
+      "436",
+      "438",
+      "450",
+      "452",
+      "461"
+    ]
+  },
+  "438": {
+    "id": "438",
+    "name": "Guinea",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Conakry",
+    "center": [
+      -13.661917,
+      9.55133
+    ],
+    "neighbors": [
+      "404",
+      "432",
+      "433",
+      "437",
+      "450",
+      "451"
+    ]
+  },
+  "450": {
+    "id": "450",
+    "name": "Liberia",
+    "owner": "450",
+    "status": "independent",
+    "capital": "Monrovia",
+    "center": [
+      -10.80472,
+      6.31056
+    ],
+    "neighbors": [
+      "437",
+      "438",
+      "451"
+    ]
+  },
+  "451": {
+    "id": "451",
+    "name": "Sierra Leone",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Freetown",
+    "center": [
+      -13.23417,
+      8.49
+    ],
+    "neighbors": [
+      "438",
+      "450"
+    ]
+  },
+  "452": {
+    "id": "452",
+    "name": "Ghana",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Accra",
+    "center": [
+      -0.216667,
+      5.55
+    ],
+    "neighbors": [
+      "437",
+      "461",
+      "462"
+    ]
+  },
+  "461": {
+    "id": "461",
+    "name": "Togo",
+    "owner": "220",
+    "status": "mandate",
+    "capital": "Lome",
+    "center": [
+      1.231362,
+      6.1725
+    ],
+    "neighbors": [
+      "434",
+      "436",
+      "437",
+      "452",
+      "462"
+    ]
+  },
+  "462": {
+    "id": "462",
+    "name": "British Togoland",
+    "owner": "200",
+    "status": "mandate",
+    "capital": "Ho",
+    "center": [
+      0.469987,
+      6.60041
+    ],
+    "neighbors": [
+      "452",
+      "461"
+    ]
+  },
+  "471": {
+    "id": "471",
+    "name": "Cameroon",
+    "owner": "220",
+    "status": "mandate",
+    "capital": "Yaounde",
+    "center": [
+      11.51667,
+      3.86667
+    ],
+    "neighbors": [
+      "411",
+      "472",
+      "475",
+      "481",
+      "482",
+      "483",
+      "484"
+    ]
+  },
+  "472": {
+    "id": "472",
+    "name": "British Cameroons",
+    "owner": "200",
+    "status": "mandate",
+    "capital": "Buea",
+    "center": [
+      9.231004,
+      4.155
+    ],
+    "neighbors": [
+      "471",
+      "475"
+    ]
+  },
+  "475": {
+    "id": "475",
+    "name": "Nigeria",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Abuja",
+    "center": [
+      7.533333,
+      9.08333
+    ],
+    "neighbors": [
+      "434",
+      "436",
+      "471",
+      "472",
+      "483"
+    ]
+  },
+  "481": {
+    "id": "481",
+    "name": "Gabon",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Libreville",
+    "center": [
+      9.45,
+      0.38333
+    ],
+    "neighbors": [
+      "411",
+      "471",
+      "484"
+    ]
+  },
+  "482": {
+    "id": "482",
+    "name": "Central African Republic",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Bangui",
+    "center": [
+      18.582937,
+      4.36808
+    ],
+    "neighbors": [
+      "471",
+      "483",
+      "484",
+      "490",
+      "625"
+    ]
+  },
+  "483": {
+    "id": "483",
+    "name": "Chad",
+    "owner": "220",
+    "status": "colony",
+    "capital": "N'Djamena",
+    "center": [
+      15.21667,
+      11.71667
+    ],
+    "neighbors": [
+      "436",
+      "471",
+      "475",
+      "482",
+      "620",
+      "625"
+    ]
+  },
+  "484": {
+    "id": "484",
+    "name": "Congo",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Brazzaville",
+    "center": [
+      15.28472,
+      -4.25917
+    ],
+    "neighbors": [
+      "471",
+      "481",
+      "482",
+      "490",
+      "540"
+    ]
+  },
+  "490": {
+    "id": "490",
+    "name": "Congo, Democratic Republic of (Zaire)",
+    "owner": "211",
+    "status": "colony",
+    "capital": "Kinshasa (Léopoldville)",
+    "center": [
+      15.315,
+      -4.32972
+    ],
+    "neighbors": [
+      "482",
+      "484",
+      "500",
+      "510",
+      "515",
+      "540",
+      "551",
+      "625"
+    ]
+  },
+  "500": {
+    "id": "500",
+    "name": "Uganda",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Kampala",
+    "center": [
+      32.565559,
+      0.31556
+    ],
+    "neighbors": [
+      "490",
+      "501",
+      "510",
+      "515",
+      "625"
+    ]
+  },
+  "501": {
+    "id": "501",
+    "name": "Kenya",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Nairobi",
+    "center": [
+      36.816669,
+      -1.28333
+    ],
+    "neighbors": [
+      "500",
+      "510",
+      "530",
+      "625",
+      "5200"
+    ]
+  },
+  "510": {
+    "id": "510",
+    "name": "Tanzania (Tanganyika)",
+    "owner": "200",
+    "status": "mandate",
+    "capital": "Dodoma",
+    "center": [
+      35.741901,
+      -6.173
+    ],
+    "neighbors": [
+      "490",
+      "500",
+      "501",
+      "515",
+      "541",
+      "551",
+      "553"
+    ]
+  },
+  "511": {
+    "id": "511",
+    "name": "Zanzibar",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Zanzibar City",
+    "center": [
+      39.195592,
+      -6.16698
+    ],
+    "neighbors": []
+  },
+  "515": {
+    "id": "515",
+    "name": "Rwanda-Urundi",
+    "owner": "211",
+    "status": "mandate",
+    "capital": "Usumbura",
+    "center": [
+      29.360006,
+      -3.37609
+    ],
+    "neighbors": [
+      "490",
+      "500",
+      "510"
+    ]
+  },
+  "521": {
+    "id": "521",
+    "name": "British Somaliland (Somaliland Republic)",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Berbera",
+    "center": [
+      45.016415,
+      10.43555
+    ],
+    "neighbors": [
+      "522",
+      "530",
+      "5200"
+    ]
+  },
+  "522": {
+    "id": "522",
+    "name": "Djibouti",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Djibouti",
+    "center": [
+      43.150575,
+      11.57036
+    ],
+    "neighbors": [
+      "521",
+      "530",
+      "531"
+    ]
+  },
+  "530": {
+    "id": "530",
+    "name": "Ethiopia",
+    "owner": "530",
+    "status": "independent",
+    "capital": "Addis Ababa",
+    "center": [
+      38.77513,
+      9.01393
+    ],
+    "neighbors": [
+      "501",
+      "521",
+      "522",
+      "531",
+      "625",
+      "5200"
+    ]
+  },
+  "531": {
+    "id": "531",
+    "name": "Eritrea",
+    "owner": "325",
+    "status": "colony",
+    "capital": "Asmara",
+    "center": [
+      38.933331,
+      15.33333
+    ],
+    "neighbors": [
+      "522",
+      "530",
+      "625"
+    ]
+  },
+  "540": {
+    "id": "540",
+    "name": "Angola",
+    "owner": "235",
+    "status": "colony",
+    "capital": "Luanda",
+    "center": [
+      13.23444,
+      -8.83833
+    ],
+    "neighbors": [
+      "484",
+      "490",
+      "551",
+      "565"
+    ]
+  },
+  "541": {
+    "id": "541",
+    "name": "Mozambique",
+    "owner": "235",
+    "status": "colony",
+    "capital": "Maputo",
+    "center": [
+      32.589169,
+      -25.96528
+    ],
+    "neighbors": [
+      "510",
+      "551",
+      "552",
+      "553",
+      "560",
+      "572"
+    ]
+  },
+  "551": {
+    "id": "551",
+    "name": "Zambia",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Lusaka",
+    "center": [
+      28.283331,
+      -15.41667
+    ],
+    "neighbors": [
+      "490",
+      "510",
+      "540",
+      "541",
+      "552",
+      "553",
+      "565"
+    ]
+  },
+  "552": {
+    "id": "552",
+    "name": "Zimbabwe (Rhodesia)",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Harare",
+    "center": [
+      31.04472,
+      -17.81778
+    ],
+    "neighbors": [
+      "541",
+      "551",
+      "560",
+      "571"
+    ]
+  },
+  "553": {
+    "id": "553",
+    "name": "Malawi",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Lilongwe",
+    "center": [
+      33.783329,
+      -13.98333
+    ],
+    "neighbors": [
+      "510",
+      "541",
+      "551"
+    ]
+  },
+  "560": {
+    "id": "560",
+    "name": "South Africa",
+    "owner": "560",
+    "status": "independent",
+    "capital": "Pretoria",
+    "center": [
+      28.229441,
+      -25.70694
+    ],
+    "neighbors": [
+      "541",
+      "552",
+      "565",
+      "570",
+      "571",
+      "572"
+    ]
+  },
+  "565": {
+    "id": "565",
+    "name": "Namibia",
+    "owner": "560",
+    "status": "mandate",
+    "capital": "Windhoek",
+    "center": [
+      17.083611,
+      -22.57
+    ],
+    "neighbors": [
+      "540",
+      "551",
+      "560",
+      "571"
+    ]
+  },
+  "570": {
+    "id": "570",
+    "name": "Lesotho",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Maseru",
+    "center": [
+      27.48333,
+      -29.31667
+    ],
+    "neighbors": [
+      "560"
+    ]
+  },
+  "571": {
+    "id": "571",
+    "name": "Botswana",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Gaborone",
+    "center": [
+      25.911949,
+      -24.64639
+    ],
+    "neighbors": [
+      "552",
+      "560",
+      "565"
+    ]
+  },
+  "572": {
+    "id": "572",
+    "name": "Swaziland (Eswatini)",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Mbabane",
+    "center": [
+      31.133329,
+      -26.31667
+    ],
+    "neighbors": [
+      "541",
+      "560"
+    ]
+  },
+  "580": {
+    "id": "580",
+    "name": "Madagascar (Malagasy)",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Antananarivo",
+    "center": [
+      47.51667,
+      -18.91667
+    ],
+    "neighbors": []
+  },
+  "585": {
+    "id": "585",
+    "name": "Reunion",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Saint-Denis",
+    "center": [
+      55.4551,
+      -20.8907
+    ],
+    "neighbors": []
+  },
+  "590": {
+    "id": "590",
+    "name": "Mauritius",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Port Louis",
+    "center": [
+      57.49889,
+      -20.16195
+    ],
+    "neighbors": []
+  },
+  "600": {
+    "id": "600",
+    "name": "Morocco",
+    "owner": "220",
+    "status": "protectorate",
+    "capital": "Rabat",
+    "center": [
+      -6.83,
+      34.02
+    ],
+    "neighbors": [
+      "602",
+      "615"
+    ]
+  },
+  "602": {
+    "id": "602",
+    "name": "Spanish Morocco",
+    "owner": "230",
+    "status": "protectorate",
+    "capital": "Tetuan",
+    "center": [
+      -5.366667,
+      35.56667
+    ],
+    "neighbors": [
+      "600",
+      "610",
+      "615"
+    ]
+  },
+  "610": {
+    "id": "610",
+    "name": "Spanish West Africa",
+    "owner": "230",
+    "status": "protectorate",
+    "capital": "Villa Cisneros",
+    "center": [
+      -15.936811,
+      23.71406
+    ],
+    "neighbors": [
+      "435",
+      "602",
+      "615"
+    ]
+  },
+  "615": {
+    "id": "615",
+    "name": "Algeria",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Algiers",
+    "center": [
+      3.050556,
+      36.76305
+    ],
+    "neighbors": [
+      "432",
+      "435",
+      "436",
+      "600",
+      "602",
+      "610",
+      "616",
+      "620"
+    ]
+  },
+  "616": {
+    "id": "616",
+    "name": "Tunisia",
+    "owner": "220",
+    "status": "protectorate",
+    "capital": "Tunis",
+    "center": [
+      10.17972,
+      36.80278
+    ],
+    "neighbors": [
+      "615",
+      "620"
+    ]
+  },
+  "620": {
+    "id": "620",
+    "name": "Libya",
+    "owner": "325",
+    "status": "colony",
+    "capital": "Tripoli",
+    "center": [
+      13.18,
+      32.8925
+    ],
+    "neighbors": [
+      "436",
+      "483",
+      "615",
+      "616",
+      "625",
+      "651"
+    ]
+  },
+  "625": {
+    "id": "625",
+    "name": "Sudan",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Khartoum",
+    "center": [
+      32.534168,
+      15.58806
+    ],
+    "neighbors": [
+      "482",
+      "483",
+      "490",
+      "500",
+      "501",
+      "530",
+      "531",
+      "620",
+      "651"
+    ]
+  },
+  "630": {
+    "id": "630",
+    "name": "Iran (Persia)",
+    "owner": "630",
+    "status": "independent",
+    "capital": "Tehran",
+    "center": [
+      51.42445,
+      35.67194
+    ],
+    "neighbors": [
+      "365",
+      "640",
+      "645",
+      "700",
+      "750"
+    ]
+  },
+  "640": {
+    "id": "640",
+    "name": "Turkey (Ottoman Empire)",
+    "owner": "640",
+    "status": "independent",
+    "capital": "Ankara",
+    "center": [
+      32.864441,
+      39.92722
+    ],
+    "neighbors": [
+      "350",
+      "355",
+      "365",
+      "630",
+      "645",
+      "652"
+    ]
+  },
+  "645": {
+    "id": "645",
+    "name": "Iraq",
+    "owner": "645",
+    "status": "independent",
+    "capital": "Baghdad",
+    "center": [
+      44.39389,
+      33.33861
+    ],
+    "neighbors": [
+      "630",
+      "640",
+      "652",
+      "663",
+      "670"
+    ]
+  },
+  "651": {
+    "id": "651",
+    "name": "Egypt",
+    "owner": "651",
+    "status": "independent",
+    "capital": "Cairo",
+    "center": [
+      31.25,
+      30.05
+    ],
+    "neighbors": [
+      "620",
+      "625",
+      "665"
+    ]
+  },
+  "652": {
+    "id": "652",
+    "name": "Syria",
+    "owner": "220",
+    "status": "mandate",
+    "capital": "Damascus",
+    "center": [
+      36.299999,
+      33.5
+    ],
+    "neighbors": [
+      "640",
+      "645",
+      "660",
+      "663",
+      "665"
+    ]
+  },
+  "660": {
+    "id": "660",
+    "name": "Lebanon",
+    "owner": "220",
+    "status": "mandate",
+    "capital": "Beirut",
+    "center": [
+      35.50972,
+      33.87194
+    ],
+    "neighbors": [
+      "652",
+      "665"
+    ]
+  },
+  "663": {
+    "id": "663",
+    "name": "Jordan",
+    "owner": "200",
+    "status": "mandate",
+    "capital": "Amman",
+    "center": [
+      35.933331,
+      31.95
+    ],
+    "neighbors": [
+      "645",
+      "652",
+      "665",
+      "670"
+    ]
+  },
+  "665": {
+    "id": "665",
+    "name": "Palestine",
+    "owner": "200",
+    "status": "mandate",
+    "capital": "(East) Jerusalem",
+    "center": [
+      35.206626,
+      31.77841
+    ],
+    "neighbors": [
+      "651",
+      "652",
+      "660",
+      "663"
+    ]
+  },
+  "670": {
+    "id": "670",
+    "name": "Saudi Arabia",
+    "owner": "670",
+    "status": "independent",
+    "capital": "Riyadh",
+    "center": [
+      46.772781,
+      24.64083
+    ],
+    "neighbors": [
+      "645",
+      "663",
+      "678",
+      "694",
+      "696",
+      "698"
+    ]
+  },
+  "678": {
+    "id": "678",
+    "name": "Yemen (Arab Republic of Yemen)",
+    "owner": "678",
+    "status": "independent",
+    "capital": "Sana'a",
+    "center": [
+      44.183331,
+      15.28333
+    ],
+    "neighbors": [
+      "670"
+    ]
+  },
+  "694": {
+    "id": "694",
+    "name": "Qatar",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Doha",
+    "center": [
+      51.533329,
+      25.28667
+    ],
+    "neighbors": [
+      "670"
+    ]
+  },
+  "696": {
+    "id": "696",
+    "name": "United Arab Emirates",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Abu Dhabi",
+    "center": [
+      54.366661,
+      24.46667
+    ],
+    "neighbors": [
+      "670",
+      "698"
+    ]
+  },
+  "698": {
+    "id": "698",
+    "name": "Oman",
+    "owner": "698",
+    "status": "independent",
+    "capital": "Masqat",
+    "center": [
+      58.59333,
+      23.61333
+    ],
+    "neighbors": [
+      "670",
+      "696"
+    ]
+  },
+  "700": {
+    "id": "700",
+    "name": "Afghanistan",
+    "owner": "700",
+    "status": "independent",
+    "capital": "Kabul",
+    "center": [
+      69.183327,
+      34.51667
+    ],
+    "neighbors": [
+      "365",
+      "630",
+      "750"
+    ]
+  },
+  "710": {
+    "id": "710",
+    "name": "China",
+    "owner": "710",
+    "status": "independent",
+    "capital": "Beijing",
+    "center": [
+      116.388298,
+      39.92889
+    ],
+    "neighbors": [
+      "365",
+      "711",
+      "712",
+      "730",
+      "750",
+      "812",
+      "815"
+    ]
+  },
+  "711": {
+    "id": "711",
+    "name": "Tibet",
+    "owner": "711",
+    "status": "independent",
+    "capital": "Lhasa",
+    "center": [
+      91.10001,
+      29.64502
+    ],
+    "neighbors": [
+      "710",
+      "750",
+      "760",
+      "790"
+    ]
+  },
+  "712": {
+    "id": "712",
+    "name": "Mongolia",
+    "owner": "712",
+    "status": "independent",
+    "capital": "Ulan Bator",
+    "center": [
+      106.916702,
+      47.91667
+    ],
+    "neighbors": [
+      "365",
+      "710"
+    ]
+  },
+  "713": {
+    "id": "713",
+    "name": "Taiwan",
+    "owner": "740",
+    "status": "colony",
+    "capital": "Taipei",
+    "center": [
+      121.525002,
+      25.03917
+    ],
+    "neighbors": []
+  },
+  "730": {
+    "id": "730",
+    "name": "Korea",
+    "owner": "740",
+    "status": "colony",
+    "capital": "Seoul",
+    "center": [
+      126.999703,
+      37.56639
+    ],
+    "neighbors": [
+      "365",
+      "710"
+    ]
+  },
+  "740": {
+    "id": "740",
+    "name": "Japan",
+    "owner": "740",
+    "status": "independent",
+    "capital": "Tokyo",
+    "center": [
+      139.751404,
+      35.685
+    ],
+    "neighbors": []
+  },
+  "750": {
+    "id": "750",
+    "name": "India",
+    "owner": "200",
+    "status": "colony",
+    "capital": "New Delhi (Delhi)",
+    "center": [
+      77.199997,
+      28.6
+    ],
+    "neighbors": [
+      "365",
+      "630",
+      "700",
+      "710",
+      "711",
+      "760",
+      "790",
+      "800",
+      "812"
+    ]
+  },
+  "760": {
+    "id": "760",
+    "name": "Bhutan",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Thimphu",
+    "center": [
+      89.599998,
+      27.48333
+    ],
+    "neighbors": [
+      "711",
+      "750"
+    ]
+  },
+  "780": {
+    "id": "780",
+    "name": "Sri Lanka (Ceylon)",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Colombo",
+    "center": [
+      79.847778,
+      6.93194
+    ],
+    "neighbors": []
+  },
+  "781": {
+    "id": "781",
+    "name": "Maldives",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Male",
+    "center": [
+      73.5,
+      4.166667
+    ],
+    "neighbors": []
+  },
+  "790": {
+    "id": "790",
+    "name": "Nepal",
+    "owner": "790",
+    "status": "independent",
+    "capital": "Kathmandu",
+    "center": [
+      85.316673,
+      27.71667
+    ],
+    "neighbors": [
+      "711",
+      "750"
+    ]
+  },
+  "800": {
+    "id": "800",
+    "name": "Thailand",
+    "owner": "800",
+    "status": "independent",
+    "capital": "Bangkok",
+    "center": [
+      100.516701,
+      13.75
+    ],
+    "neighbors": [
+      "750",
+      "811",
+      "812",
+      "821",
+      "822"
+    ]
+  },
+  "811": {
+    "id": "811",
+    "name": "Cambodia (Kampuchea)",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Phnom Penh",
+    "center": [
+      104.916702,
+      11.55
+    ],
+    "neighbors": [
+      "800",
+      "812",
+      "815"
+    ]
+  },
+  "812": {
+    "id": "812",
+    "name": "Laos",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Vientiane",
+    "center": [
+      102.599999,
+      17.96667
+    ],
+    "neighbors": [
+      "710",
+      "750",
+      "800",
+      "811",
+      "815"
+    ]
+  },
+  "815": {
+    "id": "815",
+    "name": "Vietnam (Annam/Cochin China/Tonkin)",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Hue",
+    "center": [
+      107.580038,
+      16.46999
+    ],
+    "neighbors": [
+      "710",
+      "811",
+      "812"
+    ]
+  },
+  "821": {
+    "id": "821",
+    "name": "Federated Malay States",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Kuala Lumpur",
+    "center": [
+      101.699997,
+      3.16667
+    ],
+    "neighbors": [
+      "800",
+      "822",
+      "827"
+    ]
+  },
+  "822": {
+    "id": "822",
+    "name": "Unfederated Malay States",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Johor Bahru",
+    "center": [
+      103.7414,
+      1.4927
+    ],
+    "neighbors": [
+      "800",
+      "821",
+      "827"
+    ]
+  },
+  "823": {
+    "id": "823",
+    "name": "Sabah (North Borneo)",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Sandakan (Elopura)",
+    "center": [
+      118.107974,
+      5.84296
+    ],
+    "neighbors": [
+      "824",
+      "850"
+    ]
+  },
+  "824": {
+    "id": "824",
+    "name": "Sarawak",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Kuching",
+    "center": [
+      110.329999,
+      1.52997
+    ],
+    "neighbors": [
+      "823",
+      "835",
+      "850"
+    ]
+  },
+  "827": {
+    "id": "827",
+    "name": "Straits Settlements",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Singapore City",
+    "center": [
+      103.851959,
+      1.29027
+    ],
+    "neighbors": [
+      "821",
+      "822"
+    ]
+  },
+  "835": {
+    "id": "835",
+    "name": "Brunei",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Bandar Seri Begawan",
+    "center": [
+      114.933296,
+      4.88333
+    ],
+    "neighbors": [
+      "824"
+    ]
+  },
+  "840": {
+    "id": "840",
+    "name": "Philippines",
+    "owner": "2",
+    "status": "colony",
+    "capital": "Manila",
+    "center": [
+      120.982201,
+      14.60417
+    ],
+    "neighbors": []
+  },
+  "850": {
+    "id": "850",
+    "name": "Indonesia",
+    "owner": "210",
+    "status": "colony",
+    "capital": "Jakarta",
+    "center": [
+      106.829399,
+      -6.17444
+    ],
+    "neighbors": [
+      "823",
+      "824",
+      "860",
+      "911",
+      "912"
+    ]
+  },
+  "860": {
+    "id": "860",
+    "name": "East Timor",
+    "owner": "235",
+    "status": "colony",
+    "capital": "Dili",
+    "center": [
+      125.573601,
+      -8.55861
+    ],
+    "neighbors": [
+      "850"
+    ]
+  },
+  "900": {
+    "id": "900",
+    "name": "Australia",
+    "owner": "900",
+    "status": "independent",
+    "capital": "Canberra",
+    "center": [
+      149.216705,
+      -35.28333
+    ],
+    "neighbors": []
+  },
+  "911": {
+    "id": "911",
+    "name": "Papua",
+    "owner": "900",
+    "status": "colony",
+    "capital": "Port Moresby",
+    "center": [
+      147.192504,
+      -9.46471
+    ],
+    "neighbors": [
+      "850",
+      "912"
+    ]
+  },
+  "912": {
+    "id": "912",
+    "name": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+    "owner": "900",
+    "status": "mandate",
+    "capital": "Rabaul (Simpsonhafen)",
+    "center": [
+      152.143431,
+      -4.20549
+    ],
+    "neighbors": [
+      "850",
+      "911"
+    ]
+  },
+  "920": {
+    "id": "920",
+    "name": "New Zealand",
+    "owner": "920",
+    "status": "independent",
+    "capital": "Wellington",
+    "center": [
+      174.783295,
+      -41.3
+    ],
+    "neighbors": []
+  },
+  "930": {
+    "id": "930",
+    "name": "New Caledonia and Dependencies",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Nouméa",
+    "center": [
+      166.458,
+      -22.2758
+    ],
+    "neighbors": []
+  },
+  "940": {
+    "id": "940",
+    "name": "Solomon Islands",
+    "owner": "200",
+    "status": "protectorate",
+    "capital": "Tulaghi",
+    "center": [
+      160.14759,
+      -9.08558
+    ],
+    "neighbors": []
+  },
+  "950": {
+    "id": "950",
+    "name": "Fiji",
+    "owner": "200",
+    "status": "colony",
+    "capital": "Suva",
+    "center": [
+      178.430299,
+      -18.13408
+    ],
+    "neighbors": []
+  },
+  "960": {
+    "id": "960",
+    "name": "French Polynesia",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Pape'ete",
+    "center": [
+      -149.5665,
+      -17.53733
+    ],
+    "neighbors": []
+  },
+  "1201": {
+    "id": "1201",
+    "name": "Inini",
+    "owner": "220",
+    "status": "colony",
+    "capital": "Saint-Elie",
+    "center": [
+      -53.2764,
+      4.8227
+    ],
+    "neighbors": [
+      "115",
+      "120",
+      "140"
+    ]
+  },
+  "5200": {
+    "id": "5200",
+    "name": "Italian Somaliland",
+    "owner": "325",
+    "status": "colony",
+    "capital": "Mogadishu",
+    "center": [
+      45.366678,
+      2.046934
+    ],
+    "neighbors": [
+      "501",
+      "521",
+      "530"
+    ]
+  },
+  "7351": {
+    "id": "7351",
+    "name": "Southern Sakhalin Island",
+    "owner": "740",
+    "status": "colony",
+    "capital": "Toyohara",
+    "center": [
+      142.740011,
+      46.96497
+    ],
+    "neighbors": [
+      "365"
+    ]
+  }
+}
