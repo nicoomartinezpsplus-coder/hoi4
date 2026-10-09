@@ -49,7 +49,7 @@ test('research starts, blocks a second project and persists in a loaded save',as
 });
 
 test('declare war, select troops and issue an invasion order through the map',async({page})=>{
-  await page.getByRole('button',{name:'Дипломатия',exact:true}).click();
+  await page.getByRole('navigation',{name:'Основное меню'}).getByRole('button',{name:'Дипломатия',exact:true}).click();
   await page.locator('.field-label select').selectOption('305');
   await page.getByRole('button',{name:/Объявить войну/}).click();
   await page.getByRole('dialog').getByRole('button',{name:/Объявить войну/}).click();
@@ -99,4 +99,45 @@ test('mobile layout has no horizontal overflow and supports the full workflow',a
   await page.getByRole('button',{name:'Запустить время',exact:true}).click();
   await expect(page.getByRole('button',{name:'Поставить на паузу',exact:true})).toBeVisible();
   await page.screenshot({path:'/tmp/ironfront-mobile.png',fullPage:true});
+});
+
+test('cities are individually selectable and Salzburg can be captured while Vienna remains Austrian',async({page})=>{
+  await expect(page.locator('[data-province]')).toHaveCount(479);
+  await page.getByRole('button',{name:'Выбрать город Зальцбург',exact:true}).click();
+  await expect(page.locator('.city-inspector')).toContainText('Зальцбург');
+  await expect(page.locator('.city-inspector-owner')).toContainText('Австрия');
+  await page.getByRole('navigation',{name:'Основное меню'}).getByRole('button',{name:'Дипломатия',exact:true}).click();
+  await page.getByRole('button',{name:/Объявить войну/}).click();
+  await page.getByRole('dialog').getByRole('button',{name:/Объявить войну/}).click();
+  await page.getByRole('button',{name:'Карта мира',exact:true}).click();
+  await page.getByRole('button',{name:'Выбрать все',exact:true}).click();
+  await page.getByRole('button',{name:'Выбрать город Зальцбург',exact:true}).click();
+  await expect(page.locator('.toast')).toContainText('Цель: Зальцбург');
+  await page.getByRole('button',{name:'Скорость 5x',exact:true}).click();
+  await page.getByRole('button',{name:'Запустить время',exact:true}).click();
+  await expect(page.locator('.city-inspector-owner')).toContainText('Германия',{timeout:15000});
+  await page.getByRole('button',{name:'Поставить на паузу',exact:true}).click();
+  await expect(page.locator('.city-roster-heading')).toContainText('1 / 5');
+  await page.getByRole('button',{name:'Снять выбор',exact:true}).click();
+  await page.getByRole('button',{name:'Выбрать город Вена',exact:true}).click();
+  await expect(page.locator('.city-inspector-owner')).toContainText('Австрия');
+  await page.getByRole('button',{name:'Меню кампании',exact:true}).click();
+  await page.getByRole('button',{name:'Сохранить кампанию',exact:true}).click();
+  await page.reload();await page.locator('[data-province="305-salzburg"]').waitFor();
+  await page.getByRole('button',{name:'Выбрать город Зальцбург',exact:true}).click();
+  await expect(page.locator('.city-inspector-owner')).toContainText('Германия');
+  await expect(page.locator('.time-state')).toContainText('ИГРА НА ПАУЗЕ');
+});
+
+test('cities work on mobile and their map layer can be toggled',async({page})=>{
+  await page.setViewportSize({width:390,height:844});
+  await page.getByRole('button',{name:'Выбрать город Зальцбург',exact:true}).click();
+  await expect(page.locator('.city-inspector')).toContainText('Зальцбург');
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBe(390);
+  await page.getByRole('button',{name:'Закрыть сведения о городе',exact:true}).click();
+  await page.getByRole('button',{name:'Города и области',exact:true}).click();
+  await expect(page.locator('[data-city]')).toHaveCount(0);
+  await page.getByRole('button',{name:'Города и области',exact:true}).click();
+  await expect(page.getByRole('button',{name:'Выбрать город Вена',exact:true})).toBeVisible();
+  await page.screenshot({path:'/tmp/ironfront-city-mobile.png',fullPage:true});
 });

@@ -24,3 +24,4 @@ with tempfile.TemporaryDirectory(prefix='ironfront-map-') as folder:
     path = Path(folder) / 'snapshot.topojson'
     path.write_text(json.dumps(snapshot), encoding='utf-8')
     subprocess.run(['node', str(ROOT / 'scripts/prepare-map.mjs'), str(path)], cwd=ROOT, check=True)
+    subprocess.run(['node', str(ROOT / 'scripts/prepare-provinces.mjs')], cwd=ROOT, check=True)

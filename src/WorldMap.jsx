@@ -2,14 +2,17 @@ import { useState, useMemo, useRef, useEffect } from 'react';
 import { geoMercator, geoPath, geoGraticule10, geoCentroid, geoArea } from 'd3-geo';
 import { Plus, Minus, LocateFixed, Globe2, Layers, MapPin, Crosshair, Navigation, Compass, X } from 'lucide-react';
 import { countries, UNIT_TYPES, capitalNames } from './data/countries.js';
-import { sovereign, isEnemy } from './engine.js';
+import { cities, citiesByCountry } from './data/cities.js';
+import { sovereign, isEnemy, cityOwner } from './engine.js';
 
 const projection=geoMercator().scale(160).center([0,20]).translate([500,350]);
 const path=geoPath(projection);
 const graticule=path(geoGraticule10());
 const labels={ '255':[10.7,51.2], '290':[24,52.3], '365':[39,57.5], '220':[2.2,46.4], '325':[12.7,42.6], '200':[-3.8,55], '380':[16,62], '385':[7.5,63.5], '375':[27,64.2], '315':[17,49.2], '305':[13,47.5], '360':[26,46.4], '345':[19,43.5], '310':[19.5,47], '230':[-3.3,40.2], '640':[33,39], '615':[3.5,32.7], '620':[18,29.5], '651':[30,27.5] };
-export default function WorldMap({ geo, game, target, onCountry, selected, onUnit, layer, setLayer, viewSignal }) {
+function StarIcon(){return <span aria-label="Столица">★</span>;}
+export default function WorldMap({ geo, provinceGeo, game, target, targetCity, onCity, onClearCity, onCountry, selected, onUnit, layer, setLayer, viewSignal }) {
   const [view,setView]=useState({x:416,y:152,w:250,h:175});
+  const [showCities,setShowCities]=useState(true);
   const [hover,setHover]=useState(null), [pointer,setPointer]=useState([0,0]), [hint,setHint]=useState(true);
   const svgRef=useRef(null), drag=useRef(null), dragged=useRef(false);
   const aspect=useRef(.7), measured=useRef(false);
@@ -26,6 +29,7 @@ export default function WorldMap({ geo, game, target, onCountry, selected, onUni
     observer.observe(svgRef.current);return ()=>observer.disconnect();
   },[]);
   const shapes=useMemo(()=>geo.features.map(f=>({id:f.id,d:path(f),label:projection(labels[f.id] || geoCentroid(f)),area:geoArea(f)})),[geo]);
+  const provinces=useMemo(()=>provinceGeo.features.map(f=>({id:f.id,d:path(f)})),[provinceGeo]);
   const zoom=1000/view.w;
   const changeZoom=(factor,anchor)=>setView(v=>{
     const w=Math.max(75,Math.min(1000,v.w*factor)), h=w*aspect.current;
@@ -44,7 +48,7 @@ export default function WorldMap({ geo, game, target, onCountry, selected, onUni
     return [transformed.x,transformed.y];
   };
   const color=(id)=>{
-    const owner=sovereign(game,id), c=countries[owner] || countries[id];
+    const owner=cities[id]?cityOwner(game,id):sovereign(game,id), c=countries[owner] || countries[id];
     if(layer==='diplomatic') return owner===game.player?'#899a70':isEnemy(game,game.player,owner)?'#a55e51':game.allies.includes(owner)?'#648b97':'#596c60';
     if(layer==='military') return owner===game.player?'#82976d':isEnemy(game,game.player,owner)?'#936052':'#5c6b5e';
     return c.color;
@@ -70,23 +74,21 @@ export default function WorldMap({ geo, game, target, onCountry, selected, onUni
       <g filter="url(#paper-grain)">
         {shapes.map(f=><path key={f.id} d={f.d} data-country={f.id} className={`country-shape ${target===f.id?'target-country':''}`} fill={color(f.id)} stroke={target===f.id?'#e3cc87':'#d0c9ad'} strokeWidth={target===f.id?.6:.18} strokeLinejoin="round"
           onPointerEnter={()=>!drag.current && setHover(f.id)} onPointerLeave={()=>setHover(null)} onClick={e=>{e.stopPropagation();if(!dragged.current)onCountry(f.id);}}><title>{countries[f.id].name}</title></path>)}
-        {shapes.filter(f=>game.territories[f.id]!==countries[f.id].owner).map(f=><path key={f.id} d={f.d} fill="url(#occupied)" pointerEvents="none"/>)}
+        {provinces.filter(f=>showCities || cityOwner(game,f.id)!==countries[cities[f.id].country].owner).map(f=><path key={f.id} d={f.d} data-province={f.id} className={`province-shape ${targetCity===f.id?'selected-province':''}`} fill={color(f.id)} stroke={targetCity===f.id?'#ffe19b':'#d4d1af'} strokeWidth={targetCity===f.id?.45:showCities?.1:0} strokeOpacity={targetCity===f.id?1:.5} onPointerEnter={()=>!drag.current && setHover(f.id)} onPointerLeave={()=>setHover(null)} onClick={e=>{e.stopPropagation();if(!dragged.current)onCity(f.id);}}><title>{cities[f.id].name} · {countries[cityOwner(game,f.id)].name}</title></path>)}
+        {provinces.filter(f=>cityOwner(game,f.id)!==countries[cities[f.id].country].owner).map(f=><path key={`occupation-${f.id}`} d={f.d} fill="url(#occupied)" pointerEvents="none"/>)}
+        {shapes.map(f=><path key={`border-${f.id}`} d={f.d} fill="none" stroke={target===f.id?'#ecd498':'#d0c9ad'} strokeWidth={target===f.id?.3:.16} pointerEvents="none"/>)}
       </g>
       <g className="country-labels" pointerEvents="none">
         {shapes.filter(f=>countries[f.id].status==='independent' && f.area>.0008).map(f=> <text key={f.id} x={f.label[0]} y={f.label[1]} textAnchor="middle" fontSize={f.id==='365'?4.4:f.area>.03?3.7:2.2} letterSpacing={f.area>.015?1.2:.4}>{countries[f.id].adjective}</text>)}
       </g>
-      {zoom>2 && <g className="capital-labels" pointerEvents="none">{Object.values(countries).filter(c=>c.status==='independent').map(c=>{
-        const xy=projection(c.center);
-        return <g key={c.id} transform={`translate(${xy})`}><circle r=".5"/><text x="1.3" y=".7" fontSize="1.7">{capitalNames[c.id] || c.capital}</text></g>;
-      })}</g>}
       {game.units.filter(u=>u.owner===game.player && u.order).map(u=>{
-        const a=projection(u.position),b=projection(countries[u.order.target].center);
-        return <g key={u.id} pointerEvents="none"><path className="order-line" d={`M${a}L${b}`} fill="none" stroke="#e2c57e" strokeWidth=".55" strokeDasharray="1.4 1"/><circle cx={b[0]} cy={b[1]} r="1.8" fill="none" stroke="#e2c57e" strokeWidth=".35"/></g>;
+        const a=projection(u.position),b=projection(cities[u.order.targetCity].position);
+        return <g key={u.id} pointerEvents="none"><path className="order-line" d={`M${a}${u.order.route.slice(1).map(id=>`L${projection(cities[id].position)}`).join('')}`} fill="none" stroke="#e2c57e" strokeWidth=".55" strokeDasharray="1.4 1"/><circle cx={b[0]} cy={b[1]} r="1.8" fill="none" stroke="#e2c57e" strokeWidth=".35"/></g>;
       })}
-      {game.battles.map(b=>{const xy=projection(countries[b.target].center);return <g key={b.id} transform={`translate(${xy})`} className="battle-marker" pointerEvents="none"><circle r="3.2" fill="#c36b48" opacity=".25"/><circle r="2" fill="#ac4e3d"/><text y=".85" textAnchor="middle" fontSize="2.8" fill="#f9ead0">⚔</text></g>;})}
+      {game.battles.map(b=>{const xy=projection(cities[b.targetCity].position);return <g key={b.id} transform={`translate(${xy})`} className="battle-marker" pointerEvents="none"><circle r="3.2" fill="#c36b48" opacity=".25"/><circle r="2" fill="#ac4e3d"/><text y=".85" textAnchor="middle" fontSize="2.8" fill="#f9ead0">⚔</text></g>;})}
       {layer!=='diplomatic' && game.units.filter(u=>u.owner===game.player || (isEnemy(game,game.player,u.owner) && (zoom>3 || layer==='military'))).map((u,i)=>{
         const xy=projection(u.position), own=u.owner===game.player, chosen=selected.includes(u.id), type=UNIT_TYPES[u.type], size=zoom<2?2.5:1;
-        return <g key={u.id} transform={`translate(${xy[0]+(type.category==='air'?3:type.category==='naval'?-3:(i%2)*1.5)} ${xy[1]}) scale(${size})`} className={`unit-counter ${chosen?'chosen':''}`} role="button" aria-label={`${own?'Ваши':'Вражеские'} ${type.name}, ${u.count}`} tabIndex={0} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();if(own)onUnit(u.id);else onCountry(u.location);}}} onClick={e=>{e.stopPropagation();if(!dragged.current){if(own)onUnit(u.id);else onCountry(u.location);}}}>
+        return <g key={u.id} transform={`translate(${xy[0]+(type.category==='air'?3:type.category==='naval'?-3:(i%2)*1.5)} ${xy[1]}) scale(${size})`} className={`unit-counter ${chosen?'chosen':''}`} role="button" aria-label={`${own?'Ваши':'Вражеские'} ${type.name}, ${u.count}`} tabIndex={0} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();if(own)onUnit(u.id);else onCity(u.city);}}} onClick={e=>{e.stopPropagation();if(!dragged.current){if(own)onUnit(u.id);else onCity(u.city);}}}>
           <title>{countries[u.owner].name}: {type.name}, {u.count} · {u.order?'Выполняет приказ':'Ожидает приказа'}</title>
           <rect className="counter-box" x="-3.8" y="-2.3" width="7.6" height="4.6" rx=".45" fill={own?'#e6dec1':'#b47765'} stroke={chosen?'#ffda83':own?'#314735':'#622e24'} strokeWidth={chosen?.6:.28} filter="url(#marker-shadow)"/>
           <g stroke="#334433" strokeWidth=".3" fill="none">
@@ -100,18 +102,29 @@ export default function WorldMap({ geo, game, target, onCountry, selected, onUni
           <rect x="-3.35" y="1.75" width={6.7*u.organization/100} height=".35" fill={u.organization>60?'#65834e':'#ae7c49'}/>
         </g>;
       })}
+      {showCities && zoom>2 && <g className="city-markers">{Object.values(cities).filter(c=>{const [x,y]=projection(c.position);return (c.capital || zoom>3) && x>=view.x-5 && x<=view.x+view.w+5 && y>=view.y-5 && y<=view.y+view.h+5;}).map(c=>{
+        const xy=projection(c.position),chosen=targetCity===c.id,owned=cityOwner(game,c.id)===game.player,hostile=isEnemy(game,game.player,cityOwner(game,c.id));
+        return <g key={c.id} data-city={c.id} transform={`translate(${xy})`} className={`city-marker ${chosen?'selected':''}`} onClick={e=>{e.stopPropagation();if(!dragged.current)onCity(c.id);}} onKeyDown={e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.stopPropagation();onCity(c.id);}}}>
+          <title>{c.name} · {countries[cityOwner(game,c.id)].name} · {c.victoryPoints} очков</title>
+          <circle r="1.2" fill="transparent" stroke="none" role="button" tabIndex={0} aria-label={`Выбрать город ${c.name}`}/>
+          <circle pointerEvents="none" r={c.capital?.85:.6} fill={owned?'#d6e5b1':hostile?'#f0ac86':'#e5ddbb'} stroke={chosen?'#ffe09a':'#394c35'} strokeWidth={chosen?.4:.2}/>
+          {c.capital && <path pointerEvents="none" d="m0-1.9 .25.65.7.1-.5.45.15.7-.6-.35-.6.35.15-.7-.5-.45.7-.1Z" fill="#e9c989"/>}
+          {(c.capital || c.country===target || zoom>5) && <text pointerEvents="none" x="1.3" y=".65" fontSize={c.capital?1.55:1.3}>{c.name}</text>}
+        </g>;
+      })}</g>}
       <text x="405" y="288" className="sea-label" fontSize="4" transform="rotate(-65 405 288)" pointerEvents="none">АТЛАНТИЧЕСКИЙ ОКЕАН</text>
       <text x="532" y="328" className="sea-label" fontSize="3.1" pointerEvents="none">СРЕДИЗЕМНОЕ МОРЕ</text>
     </svg>
     <div className="map-heading"><span className="eyebrow">ОПЕРАЦИОННАЯ КАРТА</span><h2>{zoom<1.8?'Мировой театр':countries[game.player].center[0]>60?'Восточный театр':'Европейский театр'}</h2><span className="map-caption"><span className="status-dot"/> Границы на 1 января 1936 года</span></div>
-    <div className="map-legend"><span><i style={{background:countries[game.player].color}}/> Ваша страна</span><span><i className="enemy-key"/> Противник</span><span><i className="neutral-key"/> Нейтральные</span></div>
+    <button className={`city-layer-toggle ${showCities?'active':''}`} onClick={()=>setShowCities(v=>!v)} aria-pressed={showCities} aria-label="Города и области"><MapPin size={14}/><span>Города и области</span><small>479</small></button><div className="map-legend"><span><i style={{background:countries[game.player].color}}/> Ваша страна</span><span><i className="enemy-key"/> Противник</span><span><i className="neutral-key"/> Нейтральные</span></div>
     <div className="map-layers" aria-label="Слой карты">
       {[['political',Layers,'Политическая карта'],['military',Crosshair,'Военная карта'],['diplomatic',Globe2,'Дипломатическая карта']].map(([id,Icon,name])=><button key={id} className={layer===id?'active':''} onClick={()=>setLayer(id)} title={name} aria-label={name}><Icon size={17}/></button>)}
     </div>
     <div className="map-tools"><button onClick={()=>changeZoom(.8)} title="Приблизить" aria-label="Приблизить карту"><Plus size={19}/></button><button onClick={()=>changeZoom(1.25)} title="Отдалить" aria-label="Отдалить карту"><Minus size={19}/></button><span/><button onClick={()=>{const p=projection(countries[game.player].center);const w=svgRef.current.clientWidth<500?190:250,h=w*aspect.current;setView({x:p[0]-w/2,y:p[1]-h/2,w,h});}} title="К своей стране" aria-label="К своей стране"><LocateFixed size={18}/></button><button onClick={()=>setView({x:0,y:40,w:1000,h:700})} title="Весь мир" aria-label="Весь мир"><Globe2 size={18}/></button></div>
     <div className="map-compass"><Compass size={46} strokeWidth={1}/><span>N</span></div>
     <div className="map-scale"><span>500 км</span><i/><small>{Math.round(zoom*100)}%</small></div>
-    {hover && !drag.current && <div className="map-tooltip" style={{left:Math.min(pointer[0]+15,svgRef.current?.clientWidth-210),top:Math.min(pointer[1]+18,svgRef.current?.clientHeight-75)}}><strong>{countries[hover].name}</strong><span>{countries[sovereign(game,hover)]?.name} · {isEnemy(game,game.player,sovereign(game,hover))?'В состоянии войны':'Нажмите для выбора'}</span></div>}
-    {hint && <div className={`map-hint ${selected.length?'order-hint':''}`}><Navigation size={15}/><span>{selected.length?`Выбрано ${selected.length}. Нажмите на страну, чтобы отдать приказ.`:'Перетаскивайте карту · Колесо мыши для масштаба'}</span><button onClick={()=>setHint(false)} aria-label="Скрыть подсказку"><X size={13}/></button></div>}
+    {hover && !drag.current && <div className="map-tooltip" style={{left:Math.max(5,Math.min(pointer[0]+15,svgRef.current?.clientWidth-210)),top:Math.min(pointer[1]+18,svgRef.current?.clientHeight-75)}}><strong>{cities[hover]?.name || countries[hover]?.name}</strong><span>{countries[cities[hover]?cityOwner(game,hover):sovereign(game,hover)]?.name} · {cities[hover]?`${cities[hover].victoryPoints} очков · Нажмите для выбора`:'Нажмите для выбора'}</span></div>}
+    {targetCity && <div className="city-inspector" data-inspected-city={targetCity}><button className="city-inspector-close" onClick={onClearCity} aria-label="Закрыть сведения о городе"><X size={14}/></button><span className="eyebrow">ГОРОДСКАЯ ОБЛАСТЬ · {countries[cities[targetCity].country].name}</span><h3>{cities[targetCity].capital && <StarIcon/>}{cities[targetCity].name}</h3><div className="city-inspector-owner"><i style={{background:countries[cityOwner(game,targetCity)].color}}/><span>Контроль: {countries[cityOwner(game,targetCity)].name}</span></div><div className="city-inspector-stats"><span>{cities[targetCity].victoryPoints} {cities[targetCity].victoryPoints===5?'очков':'очка'}</span><span>{cities[targetCity].industry} завод{cities[targetCity].industry===1?'':'а'}</span><span>{cities[targetCity].coastal?'Порт':'Сухопутный город'}</span></div><p>{game.battles.some(b=>b.targetCity===targetCity)?'Идёт сражение':`${game.units.filter(u=>u.city===targetCity && !u.order).reduce((n,u)=>n+u.count,0)} подразделений · гарнизон ${cities[targetCity].garrison}`}</p><button className="city-order-button" disabled={!selected.length} onClick={()=>onCity(targetCity)}><Crosshair size={14}/>{selected.length?`Направить войска (${selected.length})`:'Выберите войска слева'}</button></div>}
+    {hint && <div className={`map-hint ${selected.length?'order-hint':''}`}><Navigation size={15}/><span>{selected.length?`Выбрано ${selected.length}. Нажмите на город или его область, чтобы отдать приказ.`:'Перетаскивайте карту · Колесо мыши для масштаба'}</span><button onClick={()=>setHint(false)} aria-label="Скрыть подсказку"><X size={13}/></button></div>}
   </section>;
 }

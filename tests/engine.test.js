@@ -30,17 +30,17 @@ test('research finishes and changes industry and combat power',()=>{
  s=act(s,{type:'research',tech:'weapons'}).state;s=run(s,288);
  assert.ok(power(s,s.units.find(u=>u.type==='tank' && u.owner==='255'))>before);
 });
-test('peace blocks invasion, diplomacy declares war and ground units capture Austria',()=>{
+test('peace blocks invasion, diplomacy declares war and ground units capture Salzburg without annexing Austria',()=>{
  let s=createGame();const ids=s.units.filter(u=>u.owner==='255' && UNIT_TYPES[u.type].category==='land').map(u=>u.id);
- assert.ok(act(s,{type:'order',ids,target:'305'}).error);
+ assert.ok(act(s,{type:'order',ids,city:'305-salzburg'}).error);
  s=act(s,{type:'diplomacy',kind:'war',target:'305'}).state;assert.ok(isEnemy(s,'255','305'));
- const order=act(s,{type:'order',ids,target:'305'});assert.ok(!order.error);s=order.state;s.paused=false;s=run(s,240);
- assert.equal(s.territories['305'],'255');assert.ok(s.events.some(e=>e.text.includes('территория занята')));
+ const order=act(s,{type:'order',ids,city:'305-salzburg'});assert.ok(!order.error);s=order.state;s.paused=false;s=run(s,240);
+ assert.equal(s.cityControl['305-salzburg'],'255');assert.equal(s.cityControl['305-capital'],'305');assert.equal(s.territories['305'],'305');assert.ok(s.events.some(e=>e.text.includes('Город Зальцбург захвачен')));
 });
 test('air-only missions do damage but cannot conquer territory',()=>{
  let s=createGame();s=act(s,{type:'diplomacy',kind:'war',target:'305'}).state;
  const ids=s.units.filter(u=>u.owner==='255' && UNIT_TYPES[u.type].category==='air').map(u=>u.id);
- s=act(s,{type:'order',ids,target:'305'}).state;s.paused=false;s=run(s,120);
+ s=act(s,{type:'order',ids,city:'305-salzburg'}).state;s.paused=false;s=run(s,120);
  assert.equal(s.territories['305'],'305');assert.ok(s.events.some(e=>e.text.includes('Для захвата территории')));
 });
 test('relations, alliance and resource requirements are enforced',()=>{
