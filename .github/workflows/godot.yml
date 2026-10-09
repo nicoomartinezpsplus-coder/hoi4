@@ -1,0 +1,37 @@
+name: Godot desktop builds
+
+on:
+  push:
+    paths: ['godot/**', 'scripts/*godot*', '.github/workflows/godot.yml']
+  pull_request:
+    paths: ['godot/**', 'scripts/*godot*', '.github/workflows/godot.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  desktop:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install verified Godot 4.6.3 tools
+        run: python3 scripts/install-godot-tools.py
+      - name: Import and test native simulation
+        run: |
+          bash scripts/godot.sh --headless --editor --path godot --import
+          bash scripts/godot.sh --headless --path godot --script tests/test_campaign.gd
+      - name: Export native desktop applications
+        run: |
+          mkdir -p godot/builds/windows godot/builds/linux
+          bash scripts/godot.sh --headless --path godot --export-release "Windows Desktop" builds/windows/IRONFRONT.exe
+          bash scripts/godot.sh --headless --path godot --export-release "Linux Desktop" builds/linux/IRONFRONT.x86_64
+          chmod +x godot/builds/linux/IRONFRONT.x86_64
+          XDG_DATA_HOME=/tmp/ironfront-smoke godot/builds/linux/IRONFRONT.x86_64 --headless --quit-after 5
+          python3 scripts/package-godot.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: IRONFRONT-Godot-desktop
+          path: |
+            downloads/IRONFRONT-Godot-*.zip
+            downloads/SHA256SUMS.txt

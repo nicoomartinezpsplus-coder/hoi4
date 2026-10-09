@@ -4,3 +4,6 @@ playwright-report/
 test-results/
 .DS_Store
 *.log
+godot/.godot/
+godot/builds/
+/downloads/IRONFRONT-Godot-Linux.zip

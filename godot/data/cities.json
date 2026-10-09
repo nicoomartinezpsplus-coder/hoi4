@@ -1,0 +1,10047 @@
+{
+  "2-capital": {
+    "id": "2-capital",
+    "country": "2",
+    "name": "Вашингтон",
+    "position": [
+      -77.036667,
+      38.895
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "2-atlanta",
+      "2-detroit"
+    ],
+    "landPosition": true
+  },
+  "2-new-york": {
+    "id": "2-new-york",
+    "country": "2",
+    "name": "Нью-Йорк",
+    "position": [
+      -74.006,
+      40.7128
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-detroit",
+      "20-capital",
+      "20-toronto"
+    ],
+    "landPosition": false
+  },
+  "2-chicago": {
+    "id": "2-chicago",
+    "country": "2",
+    "name": "Чикаго",
+    "position": [
+      -87.6298,
+      41.8781
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-atlanta",
+      "2-denver",
+      "2-detroit",
+      "2-houston",
+      "2-minneapolis",
+      "2-new-orleans"
+    ],
+    "landPosition": true
+  },
+  "2-los-angeles": {
+    "id": "2-los-angeles",
+    "country": "2",
+    "name": "Лос-Анджелес",
+    "position": [
+      -118.2437,
+      34.0522
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-denver",
+      "2-houston",
+      "2-san-francisco",
+      "70-monterrey"
+    ],
+    "landPosition": true
+  },
+  "2-san-francisco": {
+    "id": "2-san-francisco",
+    "country": "2",
+    "name": "Сан-Франциско",
+    "position": [
+      -122.4194,
+      37.7749
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-denver",
+      "2-los-angeles",
+      "2-seattle"
+    ],
+    "landPosition": true
+  },
+  "2-detroit": {
+    "id": "2-detroit",
+    "country": "2",
+    "name": "Детройт",
+    "position": [
+      -83.0458,
+      42.3314
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-atlanta",
+      "2-capital",
+      "2-chicago",
+      "2-minneapolis",
+      "2-new-york",
+      "2-philadelphia",
+      "20-toronto"
+    ],
+    "landPosition": true
+  },
+  "2-boston": {
+    "id": "2-boston",
+    "country": "2",
+    "name": "Бостон",
+    "position": [
+      -71.0589,
+      42.3601
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "20-capital",
+      "20-halifax",
+      "20-montreal",
+      "20-quebec"
+    ],
+    "landPosition": true
+  },
+  "2-seattle": {
+    "id": "2-seattle",
+    "country": "2",
+    "name": "Сиэтл",
+    "position": [
+      -122.3321,
+      47.6062
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-denver",
+      "2-minneapolis",
+      "2-san-francisco",
+      "20-vancouver",
+      "20-winnipeg"
+    ],
+    "landPosition": true
+  },
+  "2-new-orleans": {
+    "id": "2-new-orleans",
+    "country": "2",
+    "name": "Новый Орлеан",
+    "position": [
+      -90.0715,
+      29.9511
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-atlanta",
+      "2-chicago",
+      "2-houston"
+    ],
+    "landPosition": true
+  },
+  "2-houston": {
+    "id": "2-houston",
+    "country": "2",
+    "name": "Хьюстон",
+    "position": [
+      -95.3698,
+      29.7604
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-chicago",
+      "2-denver",
+      "2-los-angeles",
+      "2-new-orleans",
+      "70-monterrey"
+    ],
+    "landPosition": true
+  },
+  "2-denver": {
+    "id": "2-denver",
+    "country": "2",
+    "name": "Денвер",
+    "position": [
+      -104.9903,
+      39.7392
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-chicago",
+      "2-houston",
+      "2-los-angeles",
+      "2-minneapolis",
+      "2-san-francisco",
+      "2-seattle",
+      "20-winnipeg",
+      "70-monterrey"
+    ],
+    "landPosition": true
+  },
+  "2-atlanta": {
+    "id": "2-atlanta",
+    "country": "2",
+    "name": "Атланта",
+    "position": [
+      -84.388,
+      33.749
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-capital",
+      "2-chicago",
+      "2-detroit",
+      "2-miami",
+      "2-new-orleans"
+    ],
+    "landPosition": true
+  },
+  "2-miami": {
+    "id": "2-miami",
+    "country": "2",
+    "name": "Майами",
+    "position": [
+      -80.1918,
+      25.7617
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-atlanta"
+    ],
+    "landPosition": true
+  },
+  "2-philadelphia": {
+    "id": "2-philadelphia",
+    "country": "2",
+    "name": "Филадельфия",
+    "position": [
+      -75.1652,
+      39.9526
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-detroit"
+    ],
+    "landPosition": true
+  },
+  "2-minneapolis": {
+    "id": "2-minneapolis",
+    "country": "2",
+    "name": "Миннеаполис",
+    "position": [
+      -93.265,
+      44.9778
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-chicago",
+      "2-denver",
+      "2-detroit",
+      "2-seattle",
+      "20-toronto",
+      "20-winnipeg"
+    ],
+    "landPosition": true
+  },
+  "3-capital": {
+    "id": "3-capital",
+    "country": "3",
+    "name": "Juneau",
+    "position": [
+      -134.412019,
+      58.30434
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "20-vancouver"
+    ],
+    "landPosition": true
+  },
+  "4-capital": {
+    "id": "4-capital",
+    "country": "4",
+    "name": "Honolulu",
+    "position": [
+      -157.855954,
+      21.30746
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "6-capital": {
+    "id": "6-capital",
+    "country": "6",
+    "name": "San Juan",
+    "position": [
+      -66.1057,
+      18.4655
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "20-capital": {
+    "id": "20-capital",
+    "country": "20",
+    "name": "Ottawa",
+    "position": [
+      -75.690002,
+      45.42083
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "2-boston",
+      "2-new-york",
+      "20-montreal",
+      "20-quebec",
+      "20-toronto"
+    ],
+    "landPosition": true
+  },
+  "20-toronto": {
+    "id": "20-toronto",
+    "country": "20",
+    "name": "Торонто",
+    "position": [
+      -79.3832,
+      43.6532
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-detroit",
+      "2-minneapolis",
+      "2-new-york",
+      "20-capital",
+      "20-montreal"
+    ],
+    "landPosition": true
+  },
+  "20-montreal": {
+    "id": "20-montreal",
+    "country": "20",
+    "name": "Монреаль",
+    "position": [
+      -73.5673,
+      45.5017
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-boston",
+      "20-capital",
+      "20-quebec",
+      "20-toronto"
+    ],
+    "landPosition": true
+  },
+  "20-vancouver": {
+    "id": "20-vancouver",
+    "country": "20",
+    "name": "Ванкувер",
+    "position": [
+      -123.1207,
+      49.2827
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-seattle",
+      "20-winnipeg",
+      "3-capital"
+    ],
+    "landPosition": false
+  },
+  "20-winnipeg": {
+    "id": "20-winnipeg",
+    "country": "20",
+    "name": "Виннипег",
+    "position": [
+      -97.1384,
+      49.8951
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-denver",
+      "2-minneapolis",
+      "2-seattle",
+      "20-quebec",
+      "20-vancouver"
+    ],
+    "landPosition": true
+  },
+  "20-halifax": {
+    "id": "20-halifax",
+    "country": "20",
+    "name": "Галифакс",
+    "position": [
+      -63.5752,
+      44.6488
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-boston",
+      "21-capital"
+    ],
+    "landPosition": false
+  },
+  "20-quebec": {
+    "id": "20-quebec",
+    "country": "20",
+    "name": "Квебек",
+    "position": [
+      -71.208,
+      46.8139
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-boston",
+      "20-capital",
+      "20-montreal",
+      "20-winnipeg",
+      "21-capital"
+    ],
+    "landPosition": false
+  },
+  "21-capital": {
+    "id": "21-capital",
+    "country": "21",
+    "name": "St. John's",
+    "position": [
+      -52.681007,
+      47.58499
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "20-halifax",
+      "20-quebec"
+    ],
+    "landPosition": true
+  },
+  "31-capital": {
+    "id": "31-capital",
+    "country": "31",
+    "name": "Nassau",
+    "position": [
+      -77.343003,
+      25.07735
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "40-capital": {
+    "id": "40-capital",
+    "country": "40",
+    "name": "Havana",
+    "position": [
+      -82.364166,
+      23.13194
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "40-camaguey",
+      "40-santiago"
+    ],
+    "landPosition": true
+  },
+  "40-santiago": {
+    "id": "40-santiago",
+    "country": "40",
+    "name": "Сантьяго-де-Куба",
+    "position": [
+      -75.8219,
+      20.0247
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "40-camaguey",
+      "40-capital"
+    ],
+    "landPosition": true
+  },
+  "40-camaguey": {
+    "id": "40-camaguey",
+    "country": "40",
+    "name": "Камагуэй",
+    "position": [
+      -77.9169,
+      21.3808
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "40-capital",
+      "40-santiago"
+    ],
+    "landPosition": true
+  },
+  "41-capital": {
+    "id": "41-capital",
+    "country": "41",
+    "name": "Port-au-Prince",
+    "position": [
+      -72.334999,
+      18.5392
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "42-capital"
+    ],
+    "landPosition": true
+  },
+  "42-capital": {
+    "id": "42-capital",
+    "country": "42",
+    "name": "Santo Domingo",
+    "position": [
+      -69.900002,
+      18.46667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "41-capital"
+    ],
+    "landPosition": true
+  },
+  "51-capital": {
+    "id": "51-capital",
+    "country": "51",
+    "name": "Kingston",
+    "position": [
+      -76.800003,
+      18
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "52-capital": {
+    "id": "52-capital",
+    "country": "52",
+    "name": "Port-of-Spain",
+    "position": [
+      -61.51667,
+      10.65
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "53-capital": {
+    "id": "53-capital",
+    "country": "53",
+    "name": "Bridgetown",
+    "position": [
+      -59.616661,
+      13.1
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "65-capital": {
+    "id": "65-capital",
+    "country": "65",
+    "name": "Basse-Terre",
+    "position": [
+      -61.72,
+      15.9966
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "66-capital": {
+    "id": "66-capital",
+    "country": "66",
+    "name": "Fort-de-France",
+    "position": [
+      -61.0588,
+      14.6161
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "70-capital": {
+    "id": "70-capital",
+    "country": "70",
+    "name": "Mexico City",
+    "position": [
+      -99.138611,
+      19.43417
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "70-guadalajara",
+      "70-monterrey",
+      "70-veracruz"
+    ],
+    "landPosition": true
+  },
+  "70-guadalajara": {
+    "id": "70-guadalajara",
+    "country": "70",
+    "name": "Гвадалахара",
+    "position": [
+      -103.3496,
+      20.6597
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "70-capital",
+      "70-monterrey"
+    ],
+    "landPosition": true
+  },
+  "70-monterrey": {
+    "id": "70-monterrey",
+    "country": "70",
+    "name": "Монтеррей",
+    "position": [
+      -100.3161,
+      25.6866
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "2-denver",
+      "2-houston",
+      "2-los-angeles",
+      "70-capital",
+      "70-guadalajara"
+    ],
+    "landPosition": true
+  },
+  "70-veracruz": {
+    "id": "70-veracruz",
+    "country": "70",
+    "name": "Веракрус",
+    "position": [
+      -96.1342,
+      19.1738
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "70-capital",
+      "80-capital",
+      "90-capital"
+    ],
+    "landPosition": true
+  },
+  "80-capital": {
+    "id": "80-capital",
+    "country": "80",
+    "name": "Belize City",
+    "position": [
+      -88.188374,
+      17.49871
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "70-veracruz",
+      "90-capital"
+    ],
+    "landPosition": true
+  },
+  "90-capital": {
+    "id": "90-capital",
+    "country": "90",
+    "name": "Guatemala City",
+    "position": [
+      -90.526947,
+      14.62111
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "70-veracruz",
+      "80-capital",
+      "91-capital",
+      "92-capital"
+    ],
+    "landPosition": true
+  },
+  "91-capital": {
+    "id": "91-capital",
+    "country": "91",
+    "name": "Tegucigalpa",
+    "position": [
+      -87.216667,
+      14.1
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "90-capital",
+      "92-capital",
+      "93-capital"
+    ],
+    "landPosition": true
+  },
+  "92-capital": {
+    "id": "92-capital",
+    "country": "92",
+    "name": "San Salvador",
+    "position": [
+      -89.203056,
+      13.70861
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "90-capital",
+      "91-capital"
+    ],
+    "landPosition": true
+  },
+  "93-capital": {
+    "id": "93-capital",
+    "country": "93",
+    "name": "Managua",
+    "position": [
+      -86.268333,
+      12.15083
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "91-capital",
+      "94-capital"
+    ],
+    "landPosition": true
+  },
+  "94-capital": {
+    "id": "94-capital",
+    "country": "94",
+    "name": "San Jose",
+    "position": [
+      -84.083344,
+      9.93333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "93-capital",
+      "95-capital"
+    ],
+    "landPosition": true
+  },
+  "95-capital": {
+    "id": "95-capital",
+    "country": "95",
+    "name": "Panama City",
+    "position": [
+      -79.533333,
+      8.96667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "100-cartagena",
+      "100-medellin",
+      "94-capital"
+    ],
+    "landPosition": true
+  },
+  "100-capital": {
+    "id": "100-capital",
+    "country": "100",
+    "name": "Bogota",
+    "position": [
+      -74.083344,
+      4.6
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "100-cali",
+      "100-cartagena",
+      "100-medellin",
+      "101-maracaibo",
+      "101-valencia",
+      "135-capital",
+      "135-cuzco",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "100-medellin": {
+    "id": "100-medellin",
+    "country": "100",
+    "name": "Медельин",
+    "position": [
+      -75.5636,
+      6.2442
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-cali",
+      "100-capital",
+      "100-cartagena",
+      "101-maracaibo",
+      "95-capital"
+    ],
+    "landPosition": true
+  },
+  "100-cali": {
+    "id": "100-cali",
+    "country": "100",
+    "name": "Кали",
+    "position": [
+      -76.532,
+      3.4516
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-capital",
+      "100-cartagena",
+      "100-medellin",
+      "130-capital",
+      "135-capital"
+    ],
+    "landPosition": true
+  },
+  "100-cartagena": {
+    "id": "100-cartagena",
+    "country": "100",
+    "name": "Картахена",
+    "position": [
+      -75.4794,
+      10.391
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-cali",
+      "100-capital",
+      "100-medellin",
+      "101-maracaibo",
+      "95-capital"
+    ],
+    "landPosition": true
+  },
+  "101-capital": {
+    "id": "101-capital",
+    "country": "101",
+    "name": "Caracas",
+    "position": [
+      -66.916656,
+      10.5
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "101-valencia",
+      "110-capital",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "101-maracaibo": {
+    "id": "101-maracaibo",
+    "country": "101",
+    "name": "Маракайбо",
+    "position": [
+      -71.6125,
+      10.6427
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-capital",
+      "100-cartagena",
+      "100-medellin",
+      "101-valencia"
+    ],
+    "landPosition": true
+  },
+  "101-valencia": {
+    "id": "101-valencia",
+    "country": "101",
+    "name": "Валенсия",
+    "position": [
+      -68.0077,
+      10.1579
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-capital",
+      "101-capital",
+      "101-maracaibo",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "110-capital": {
+    "id": "110-capital",
+    "country": "110",
+    "name": "Georgetown",
+    "position": [
+      -58.166672,
+      6.8
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "101-capital",
+      "115-capital",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "115-capital": {
+    "id": "115-capital",
+    "country": "115",
+    "name": "Paramaribo",
+    "position": [
+      -55.166672,
+      5.83333
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "110-capital",
+      "120-capital",
+      "1201-capital",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "120-capital": {
+    "id": "120-capital",
+    "country": "120",
+    "name": "Cayenne",
+    "position": [
+      -52.330021,
+      4.93299
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "115-capital",
+      "1201-capital"
+    ],
+    "landPosition": true
+  },
+  "130-capital": {
+    "id": "130-capital",
+    "country": "130",
+    "name": "Quito",
+    "position": [
+      -78.5,
+      -0.21667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "100-cali",
+      "130-cuenca",
+      "130-guayaquil",
+      "135-capital"
+    ],
+    "landPosition": true
+  },
+  "130-guayaquil": {
+    "id": "130-guayaquil",
+    "country": "130",
+    "name": "Гуаякиль",
+    "position": [
+      -79.8891,
+      -2.1709
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "130-capital",
+      "130-cuenca",
+      "135-capital"
+    ],
+    "landPosition": false
+  },
+  "130-cuenca": {
+    "id": "130-cuenca",
+    "country": "130",
+    "name": "Куэнка",
+    "position": [
+      -79.0059,
+      -2.9001
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "130-capital",
+      "130-guayaquil",
+      "135-capital"
+    ],
+    "landPosition": true
+  },
+  "135-capital": {
+    "id": "135-capital",
+    "country": "135",
+    "name": "Lima",
+    "position": [
+      -77.050003,
+      -12.05
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "100-cali",
+      "100-capital",
+      "130-capital",
+      "130-cuenca",
+      "130-guayaquil",
+      "135-arequipa",
+      "135-cuzco",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "135-arequipa": {
+    "id": "135-arequipa",
+    "country": "135",
+    "name": "Арекипа",
+    "position": [
+      -71.5375,
+      -16.409
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "135-capital",
+      "135-cuzco",
+      "145-capital",
+      "155-antofagasta"
+    ],
+    "landPosition": true
+  },
+  "135-cuzco": {
+    "id": "135-cuzco",
+    "country": "135",
+    "name": "Куско",
+    "position": [
+      -71.9675,
+      -13.5319
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-capital",
+      "135-arequipa",
+      "135-capital",
+      "140-manaus",
+      "145-capital"
+    ],
+    "landPosition": true
+  },
+  "140-capital": {
+    "id": "140-capital",
+    "country": "140",
+    "name": "Rio de Janeiro",
+    "position": [
+      -43.1964,
+      -22.9083
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "140-belo-horizonte",
+      "140-salvador"
+    ],
+    "landPosition": true
+  },
+  "140-sao-paulo": {
+    "id": "140-sao-paulo",
+    "country": "140",
+    "name": "Сан-Паулу",
+    "position": [
+      -46.6333,
+      -23.5505
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-belo-horizonte",
+      "140-manaus",
+      "145-sucre",
+      "150-concepcion"
+    ],
+    "landPosition": true
+  },
+  "140-salvador": {
+    "id": "140-salvador",
+    "country": "140",
+    "name": "Салвадор",
+    "position": [
+      -38.5014,
+      -12.9777
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-belo-horizonte",
+      "140-capital",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "140-recife": {
+    "id": "140-recife",
+    "country": "140",
+    "name": "Ресифи",
+    "position": [
+      -34.877,
+      -8.0476
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "140-porto-alegre": {
+    "id": "140-porto-alegre",
+    "country": "140",
+    "name": "Порту-Алегри",
+    "position": [
+      -51.2177,
+      -30.0346
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-manaus",
+      "150-concepcion",
+      "150-encarnacion",
+      "160-rosario",
+      "165-capital",
+      "165-salto"
+    ],
+    "landPosition": true
+  },
+  "140-manaus": {
+    "id": "140-manaus",
+    "country": "140",
+    "name": "Манаус",
+    "position": [
+      -60.0217,
+      -3.119
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "100-capital",
+      "101-capital",
+      "101-valencia",
+      "110-capital",
+      "115-capital",
+      "1201-capital",
+      "135-capital",
+      "135-cuzco",
+      "140-belo-horizonte",
+      "140-porto-alegre",
+      "140-recife",
+      "140-salvador",
+      "140-sao-paulo",
+      "145-capital",
+      "145-cochabamba",
+      "145-sucre"
+    ],
+    "landPosition": true
+  },
+  "140-belo-horizonte": {
+    "id": "140-belo-horizonte",
+    "country": "140",
+    "name": "Белу-Оризонти",
+    "position": [
+      -43.9345,
+      -19.9167
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-capital",
+      "140-manaus",
+      "140-salvador",
+      "140-sao-paulo"
+    ],
+    "landPosition": true
+  },
+  "145-capital": {
+    "id": "145-capital",
+    "country": "145",
+    "name": "La Paz",
+    "position": [
+      -68.150002,
+      -16.5
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "135-arequipa",
+      "135-cuzco",
+      "140-manaus",
+      "145-cochabamba",
+      "145-sucre",
+      "155-antofagasta"
+    ],
+    "landPosition": true
+  },
+  "145-sucre": {
+    "id": "145-sucre",
+    "country": "145",
+    "name": "Сукре",
+    "position": [
+      -65.2592,
+      -19.0196
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-manaus",
+      "140-sao-paulo",
+      "145-capital",
+      "145-cochabamba",
+      "150-concepcion",
+      "155-antofagasta",
+      "160-cordoba"
+    ],
+    "landPosition": true
+  },
+  "145-cochabamba": {
+    "id": "145-cochabamba",
+    "country": "145",
+    "name": "Кочабамба",
+    "position": [
+      -66.1568,
+      -17.3895
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-manaus",
+      "145-capital",
+      "145-sucre"
+    ],
+    "landPosition": true
+  },
+  "150-capital": {
+    "id": "150-capital",
+    "country": "150",
+    "name": "Asuncion",
+    "position": [
+      -57.666672,
+      -25.26667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "150-concepcion",
+      "150-encarnacion",
+      "160-cordoba",
+      "160-rosario"
+    ],
+    "landPosition": true
+  },
+  "150-encarnacion": {
+    "id": "150-encarnacion",
+    "country": "150",
+    "name": "Энкарнасьон",
+    "position": [
+      -55.8667,
+      -27.3333
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-porto-alegre",
+      "150-capital",
+      "150-concepcion",
+      "160-rosario"
+    ],
+    "landPosition": true
+  },
+  "150-concepcion": {
+    "id": "150-concepcion",
+    "country": "150",
+    "name": "Консепсьон",
+    "position": [
+      -57.4333,
+      -23.4
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-porto-alegre",
+      "140-sao-paulo",
+      "145-sucre",
+      "150-capital",
+      "150-encarnacion",
+      "160-cordoba"
+    ],
+    "landPosition": true
+  },
+  "155-capital": {
+    "id": "155-capital",
+    "country": "155",
+    "name": "Santiago",
+    "position": [
+      -70.666656,
+      -33.45
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "155-antofagasta",
+      "155-concepcion",
+      "155-valparaiso",
+      "160-mendoza"
+    ],
+    "landPosition": true
+  },
+  "155-valparaiso": {
+    "id": "155-valparaiso",
+    "country": "155",
+    "name": "Вальпараисо",
+    "position": [
+      -71.6127,
+      -33.0472
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "155-capital",
+      "160-mendoza"
+    ],
+    "landPosition": true
+  },
+  "155-concepcion": {
+    "id": "155-concepcion",
+    "country": "155",
+    "name": "Консепсьон",
+    "position": [
+      -73.0444,
+      -36.8201
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "155-capital",
+      "160-capital",
+      "160-mendoza"
+    ],
+    "landPosition": true
+  },
+  "155-antofagasta": {
+    "id": "155-antofagasta",
+    "country": "155",
+    "name": "Антофагаста",
+    "position": [
+      -70.3975,
+      -23.6509
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "135-arequipa",
+      "145-capital",
+      "145-sucre",
+      "155-capital",
+      "160-cordoba",
+      "160-mendoza"
+    ],
+    "landPosition": true
+  },
+  "160-capital": {
+    "id": "160-capital",
+    "country": "160",
+    "name": "Buenos Aires",
+    "position": [
+      -58.672501,
+      -34.5875
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "155-concepcion",
+      "160-mendoza",
+      "160-rosario"
+    ],
+    "landPosition": true
+  },
+  "160-cordoba": {
+    "id": "160-cordoba",
+    "country": "160",
+    "name": "Кордова",
+    "position": [
+      -64.1888,
+      -31.4201
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "145-sucre",
+      "150-capital",
+      "150-concepcion",
+      "155-antofagasta",
+      "160-mendoza",
+      "160-rosario"
+    ],
+    "landPosition": true
+  },
+  "160-rosario": {
+    "id": "160-rosario",
+    "country": "160",
+    "name": "Росарио",
+    "position": [
+      -60.6393,
+      -32.9442
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-porto-alegre",
+      "150-capital",
+      "150-encarnacion",
+      "160-capital",
+      "160-cordoba",
+      "160-mendoza",
+      "165-paysandu",
+      "165-salto"
+    ],
+    "landPosition": true
+  },
+  "160-mendoza": {
+    "id": "160-mendoza",
+    "country": "160",
+    "name": "Мендоса",
+    "position": [
+      -68.8458,
+      -32.8895
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "155-antofagasta",
+      "155-capital",
+      "155-concepcion",
+      "155-valparaiso",
+      "160-capital",
+      "160-cordoba",
+      "160-rosario"
+    ],
+    "landPosition": true
+  },
+  "165-capital": {
+    "id": "165-capital",
+    "country": "165",
+    "name": "Montevideo",
+    "position": [
+      -56.17083,
+      -34.85806
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "140-porto-alegre",
+      "165-paysandu",
+      "165-salto"
+    ],
+    "landPosition": true
+  },
+  "165-salto": {
+    "id": "165-salto",
+    "country": "165",
+    "name": "Сальто",
+    "position": [
+      -57.9667,
+      -31.3833
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "140-porto-alegre",
+      "160-rosario",
+      "165-capital"
+    ],
+    "landPosition": true
+  },
+  "165-paysandu": {
+    "id": "165-paysandu",
+    "country": "165",
+    "name": "Пайсанду",
+    "position": [
+      -58.0801,
+      -32.3171
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "160-rosario",
+      "165-capital"
+    ],
+    "landPosition": true
+  },
+  "200-capital": {
+    "id": "200-capital",
+    "country": "200",
+    "name": "Лондон",
+    "position": [
+      -0.116667,
+      51.5
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "200-birmingham",
+      "200-manchester",
+      "200-newcastle",
+      "200-portsmouth"
+    ],
+    "landPosition": true
+  },
+  "200-manchester": {
+    "id": "200-manchester",
+    "country": "200",
+    "name": "Манчестер",
+    "position": [
+      -2.2426,
+      53.4808
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-birmingham",
+      "200-capital",
+      "200-liverpool",
+      "200-newcastle"
+    ],
+    "landPosition": true
+  },
+  "200-liverpool": {
+    "id": "200-liverpool",
+    "country": "200",
+    "name": "Ливерпуль",
+    "position": [
+      -2.9779,
+      53.4084
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-birmingham",
+      "200-cardiff",
+      "200-manchester",
+      "200-newcastle"
+    ],
+    "landPosition": true
+  },
+  "200-birmingham": {
+    "id": "200-birmingham",
+    "country": "200",
+    "name": "Бирмингем",
+    "position": [
+      -1.8904,
+      52.4862
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-capital",
+      "200-cardiff",
+      "200-liverpool",
+      "200-manchester",
+      "200-portsmouth"
+    ],
+    "landPosition": true
+  },
+  "200-edinburgh": {
+    "id": "200-edinburgh",
+    "country": "200",
+    "name": "Эдинбург",
+    "position": [
+      -3.1883,
+      55.9533
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-glasgow",
+      "200-newcastle"
+    ],
+    "landPosition": true
+  },
+  "200-glasgow": {
+    "id": "200-glasgow",
+    "country": "200",
+    "name": "Глазго",
+    "position": [
+      -4.2518,
+      55.8642
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-edinburgh",
+      "200-newcastle"
+    ],
+    "landPosition": true
+  },
+  "200-plymouth": {
+    "id": "200-plymouth",
+    "country": "200",
+    "name": "Плимут",
+    "position": [
+      -4.1427,
+      50.3755
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "200-portsmouth": {
+    "id": "200-portsmouth",
+    "country": "200",
+    "name": "Портсмут",
+    "position": [
+      -1.087,
+      50.8198
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-birmingham",
+      "200-capital",
+      "200-cardiff"
+    ],
+    "landPosition": false
+  },
+  "200-cardiff": {
+    "id": "200-cardiff",
+    "country": "200",
+    "name": "Кардифф",
+    "position": [
+      -3.1791,
+      51.4816
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-birmingham",
+      "200-liverpool",
+      "200-portsmouth"
+    ],
+    "landPosition": true
+  },
+  "200-belfast": {
+    "id": "200-belfast",
+    "country": "200",
+    "name": "Белфаст",
+    "position": [
+      -5.9301,
+      54.5973
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "205-capital",
+      "205-galway"
+    ],
+    "landPosition": true
+  },
+  "200-newcastle": {
+    "id": "200-newcastle",
+    "country": "200",
+    "name": "Ньюкасл",
+    "position": [
+      -1.6178,
+      54.9783
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-capital",
+      "200-edinburgh",
+      "200-glasgow",
+      "200-liverpool",
+      "200-manchester"
+    ],
+    "landPosition": true
+  },
+  "205-capital": {
+    "id": "205-capital",
+    "country": "205",
+    "name": "Dublin",
+    "position": [
+      -6.248889,
+      53.33306
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "200-belfast",
+      "205-cork",
+      "205-galway"
+    ],
+    "landPosition": true
+  },
+  "205-cork": {
+    "id": "205-cork",
+    "country": "205",
+    "name": "Корк",
+    "position": [
+      -8.4756,
+      51.8985
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "205-capital",
+      "205-galway"
+    ],
+    "landPosition": true
+  },
+  "205-galway": {
+    "id": "205-galway",
+    "country": "205",
+    "name": "Голуэй",
+    "position": [
+      -9.0568,
+      53.2707
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "200-belfast",
+      "205-capital",
+      "205-cork"
+    ],
+    "landPosition": true
+  },
+  "210-capital": {
+    "id": "210-capital",
+    "country": "210",
+    "name": "Амстердам",
+    "position": [
+      4.916667,
+      52.35
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "210-eindhoven",
+      "210-rotterdam",
+      "210-the-hague"
+    ],
+    "landPosition": true
+  },
+  "210-rotterdam": {
+    "id": "210-rotterdam",
+    "country": "210",
+    "name": "Роттердам",
+    "position": [
+      4.4792,
+      51.9225
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-capital",
+      "210-eindhoven",
+      "210-the-hague",
+      "211-antwerp",
+      "211-ghent"
+    ],
+    "landPosition": true
+  },
+  "210-the-hague": {
+    "id": "210-the-hague",
+    "country": "210",
+    "name": "Гаага",
+    "position": [
+      4.3007,
+      52.0705
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-capital",
+      "210-rotterdam"
+    ],
+    "landPosition": true
+  },
+  "210-eindhoven": {
+    "id": "210-eindhoven",
+    "country": "210",
+    "name": "Эйндховен",
+    "position": [
+      5.4697,
+      51.4416
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-capital",
+      "210-groningen",
+      "210-rotterdam",
+      "211-antwerp",
+      "211-liege",
+      "255-cologne",
+      "255-essen"
+    ],
+    "landPosition": true
+  },
+  "210-groningen": {
+    "id": "210-groningen",
+    "country": "210",
+    "name": "Гронинген",
+    "position": [
+      6.5665,
+      53.2194
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-eindhoven",
+      "255-dortmund",
+      "255-essen",
+      "255-hamburg"
+    ],
+    "landPosition": true
+  },
+  "211-capital": {
+    "id": "211-capital",
+    "country": "211",
+    "name": "Брюссель",
+    "position": [
+      4.333333,
+      50.83333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "211-antwerp",
+      "211-ghent",
+      "211-liege",
+      "220-lille"
+    ],
+    "landPosition": true
+  },
+  "211-antwerp": {
+    "id": "211-antwerp",
+    "country": "211",
+    "name": "Антверпен",
+    "position": [
+      4.4025,
+      51.2194
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-eindhoven",
+      "210-rotterdam",
+      "211-capital",
+      "211-ghent",
+      "211-liege"
+    ],
+    "landPosition": true
+  },
+  "211-liege": {
+    "id": "211-liege",
+    "country": "211",
+    "name": "Льеж",
+    "position": [
+      5.5797,
+      50.6326
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-eindhoven",
+      "211-antwerp",
+      "211-capital",
+      "212-capital",
+      "220-lille",
+      "220-metz",
+      "255-cologne"
+    ],
+    "landPosition": true
+  },
+  "211-ghent": {
+    "id": "211-ghent",
+    "country": "211",
+    "name": "Гент",
+    "position": [
+      3.7174,
+      51.0543
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-rotterdam",
+      "211-antwerp",
+      "211-capital",
+      "220-lille"
+    ],
+    "landPosition": true
+  },
+  "212-capital": {
+    "id": "212-capital",
+    "country": "212",
+    "name": "Luxembourg",
+    "position": [
+      6.13,
+      49.61167
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "211-liege",
+      "220-metz",
+      "255-cologne"
+    ],
+    "landPosition": true
+  },
+  "220-capital": {
+    "id": "220-capital",
+    "country": "220",
+    "name": "Париж",
+    "position": [
+      2.333333,
+      48.86666
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "220-dijon",
+      "220-le-havre",
+      "220-lille",
+      "220-lyon",
+      "220-metz",
+      "220-nantes"
+    ],
+    "landPosition": true
+  },
+  "220-lyon": {
+    "id": "220-lyon",
+    "country": "220",
+    "name": "Лион",
+    "position": [
+      4.8357,
+      45.764
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-bordeaux",
+      "220-capital",
+      "220-dijon",
+      "220-marseille",
+      "220-nantes",
+      "220-nice",
+      "220-strasbourg",
+      "220-toulouse",
+      "225-geneva",
+      "325-turin"
+    ],
+    "landPosition": true
+  },
+  "220-marseille": {
+    "id": "220-marseille",
+    "country": "220",
+    "name": "Марсель",
+    "position": [
+      5.3698,
+      43.2965
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-lyon",
+      "220-nice"
+    ],
+    "landPosition": true
+  },
+  "220-bordeaux": {
+    "id": "220-bordeaux",
+    "country": "220",
+    "name": "Бордо",
+    "position": [
+      -0.5792,
+      44.8378
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-lyon",
+      "220-toulouse",
+      "230-bilbao",
+      "230-zaragoza"
+    ],
+    "landPosition": true
+  },
+  "220-toulouse": {
+    "id": "220-toulouse",
+    "country": "220",
+    "name": "Тулуза",
+    "position": [
+      1.4442,
+      43.6047
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-bordeaux",
+      "220-lyon",
+      "230-barcelona",
+      "230-zaragoza"
+    ],
+    "landPosition": true
+  },
+  "220-lille": {
+    "id": "220-lille",
+    "country": "220",
+    "name": "Лилль",
+    "position": [
+      3.0573,
+      50.6292
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "211-capital",
+      "211-ghent",
+      "211-liege",
+      "220-capital",
+      "220-le-havre"
+    ],
+    "landPosition": true
+  },
+  "220-strasbourg": {
+    "id": "220-strasbourg",
+    "country": "220",
+    "name": "Страсбург",
+    "position": [
+      7.7521,
+      48.5734
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-dijon",
+      "220-lyon",
+      "220-metz",
+      "225-basel",
+      "255-stuttgart"
+    ],
+    "landPosition": true
+  },
+  "220-brest": {
+    "id": "220-brest",
+    "country": "220",
+    "name": "Брест",
+    "position": [
+      -4.4861,
+      48.3904
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-nantes"
+    ],
+    "landPosition": true
+  },
+  "220-nantes": {
+    "id": "220-nantes",
+    "country": "220",
+    "name": "Нант",
+    "position": [
+      -1.5536,
+      47.2184
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-brest",
+      "220-capital",
+      "220-le-havre",
+      "220-lyon"
+    ],
+    "landPosition": true
+  },
+  "220-dijon": {
+    "id": "220-dijon",
+    "country": "220",
+    "name": "Дижон",
+    "position": [
+      5.0415,
+      47.322
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-capital",
+      "220-lyon",
+      "220-metz",
+      "220-strasbourg",
+      "225-basel",
+      "225-capital",
+      "225-geneva"
+    ],
+    "landPosition": true
+  },
+  "220-nice": {
+    "id": "220-nice",
+    "country": "220",
+    "name": "Ницца",
+    "position": [
+      7.262,
+      43.7102
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-lyon",
+      "220-marseille",
+      "325-genoa",
+      "325-turin"
+    ],
+    "landPosition": true
+  },
+  "220-metz": {
+    "id": "220-metz",
+    "country": "220",
+    "name": "Мец",
+    "position": [
+      6.1757,
+      49.1193
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "211-liege",
+      "212-capital",
+      "220-capital",
+      "220-dijon",
+      "220-strasbourg",
+      "255-cologne",
+      "255-frankfurt",
+      "255-stuttgart"
+    ],
+    "landPosition": true
+  },
+  "220-le-havre": {
+    "id": "220-le-havre",
+    "country": "220",
+    "name": "Гавр",
+    "position": [
+      0.1079,
+      49.4944
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-capital",
+      "220-lille",
+      "220-nantes"
+    ],
+    "landPosition": true
+  },
+  "225-capital": {
+    "id": "225-capital",
+    "country": "225",
+    "name": "Берн",
+    "position": [
+      7.466667,
+      46.91667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "220-dijon",
+      "225-basel",
+      "225-zurich",
+      "325-milan",
+      "325-turin"
+    ],
+    "landPosition": true
+  },
+  "225-zurich": {
+    "id": "225-zurich",
+    "country": "225",
+    "name": "Цюрих",
+    "position": [
+      8.5417,
+      47.3769
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "225-basel",
+      "225-capital",
+      "255-stuttgart",
+      "305-innsbruck",
+      "325-milan"
+    ],
+    "landPosition": true
+  },
+  "225-geneva": {
+    "id": "225-geneva",
+    "country": "225",
+    "name": "Женева",
+    "position": [
+      6.1432,
+      46.2044
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-dijon",
+      "220-lyon",
+      "225-basel",
+      "325-turin"
+    ],
+    "landPosition": true
+  },
+  "225-basel": {
+    "id": "225-basel",
+    "country": "225",
+    "name": "Базель",
+    "position": [
+      7.5886,
+      47.5596
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-dijon",
+      "220-strasbourg",
+      "225-capital",
+      "225-geneva",
+      "225-zurich",
+      "255-stuttgart"
+    ],
+    "landPosition": true
+  },
+  "230-capital": {
+    "id": "230-capital",
+    "country": "230",
+    "name": "Мадрид",
+    "position": [
+      -3.683333,
+      40.4
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "230-bilbao",
+      "230-la-coruna",
+      "230-malaga",
+      "230-seville",
+      "230-valencia",
+      "230-zaragoza",
+      "235-coimbra",
+      "235-porto"
+    ],
+    "landPosition": true
+  },
+  "230-barcelona": {
+    "id": "230-barcelona",
+    "country": "230",
+    "name": "Барселона",
+    "position": [
+      2.1734,
+      41.3851
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-toulouse",
+      "230-bilbao",
+      "230-zaragoza"
+    ],
+    "landPosition": true
+  },
+  "230-valencia": {
+    "id": "230-valencia",
+    "country": "230",
+    "name": "Валенсия",
+    "position": [
+      -0.3763,
+      39.4699
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-capital",
+      "230-malaga",
+      "230-zaragoza"
+    ],
+    "landPosition": true
+  },
+  "230-seville": {
+    "id": "230-seville",
+    "country": "230",
+    "name": "Севилья",
+    "position": [
+      -5.9845,
+      37.3891
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-capital",
+      "230-malaga",
+      "235-capital",
+      "235-coimbra",
+      "235-faro"
+    ],
+    "landPosition": true
+  },
+  "230-bilbao": {
+    "id": "230-bilbao",
+    "country": "230",
+    "name": "Бильбао",
+    "position": [
+      -2.935,
+      43.263
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-bordeaux",
+      "230-barcelona",
+      "230-capital",
+      "230-la-coruna",
+      "230-zaragoza"
+    ],
+    "landPosition": true
+  },
+  "230-zaragoza": {
+    "id": "230-zaragoza",
+    "country": "230",
+    "name": "Сарагоса",
+    "position": [
+      -0.8891,
+      41.6488
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-bordeaux",
+      "220-toulouse",
+      "230-barcelona",
+      "230-bilbao",
+      "230-capital",
+      "230-valencia"
+    ],
+    "landPosition": true
+  },
+  "230-malaga": {
+    "id": "230-malaga",
+    "country": "230",
+    "name": "Малага",
+    "position": [
+      -4.4214,
+      36.7213
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-capital",
+      "230-seville",
+      "230-valencia"
+    ],
+    "landPosition": true
+  },
+  "230-la-coruna": {
+    "id": "230-la-coruna",
+    "country": "230",
+    "name": "Ла-Корунья",
+    "position": [
+      -8.4115,
+      43.3623
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-bilbao",
+      "230-capital",
+      "235-porto"
+    ],
+    "landPosition": true
+  },
+  "235-capital": {
+    "id": "235-capital",
+    "country": "235",
+    "name": "Лиссабон",
+    "position": [
+      -9.133333,
+      38.71667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "230-seville",
+      "235-coimbra"
+    ],
+    "landPosition": true
+  },
+  "235-porto": {
+    "id": "235-porto",
+    "country": "235",
+    "name": "Порту",
+    "position": [
+      -8.6291,
+      41.1579
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-capital",
+      "230-la-coruna",
+      "235-coimbra"
+    ],
+    "landPosition": true
+  },
+  "235-coimbra": {
+    "id": "235-coimbra",
+    "country": "235",
+    "name": "Коимбра",
+    "position": [
+      -8.4292,
+      40.2033
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-capital",
+      "230-seville",
+      "235-capital",
+      "235-faro",
+      "235-porto"
+    ],
+    "landPosition": true
+  },
+  "235-faro": {
+    "id": "235-faro",
+    "country": "235",
+    "name": "Фару",
+    "position": [
+      -7.9304,
+      37.0194
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "230-seville",
+      "235-coimbra"
+    ],
+    "landPosition": true
+  },
+  "255-capital": {
+    "id": "255-capital",
+    "country": "255",
+    "name": "Берлин",
+    "position": [
+      13.4,
+      52.51667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "255-breslau",
+      "255-dresden",
+      "255-hamburg",
+      "255-leipzig",
+      "255-rostock",
+      "255-stettin"
+    ],
+    "landPosition": true
+  },
+  "255-hamburg": {
+    "id": "255-hamburg",
+    "country": "255",
+    "name": "Гамбург",
+    "position": [
+      9.9937,
+      53.5511
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-groningen",
+      "255-capital",
+      "255-dortmund",
+      "255-essen",
+      "255-kiel",
+      "255-leipzig",
+      "255-rostock"
+    ],
+    "landPosition": true
+  },
+  "255-munich": {
+    "id": "255-munich",
+    "country": "255",
+    "name": "Мюнхен",
+    "position": [
+      11.582,
+      48.1351
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-nuremberg",
+      "255-stuttgart",
+      "305-innsbruck",
+      "305-linz",
+      "305-salzburg",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "255-frankfurt": {
+    "id": "255-frankfurt",
+    "country": "255",
+    "name": "Франкфурт",
+    "position": [
+      8.6821,
+      50.1109
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-metz",
+      "255-cologne",
+      "255-dortmund",
+      "255-leipzig",
+      "255-nuremberg",
+      "255-stuttgart"
+    ],
+    "landPosition": true
+  },
+  "255-cologne": {
+    "id": "255-cologne",
+    "country": "255",
+    "name": "Кёльн",
+    "position": [
+      6.9603,
+      50.9375
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-eindhoven",
+      "211-liege",
+      "212-capital",
+      "220-metz",
+      "255-dortmund",
+      "255-essen",
+      "255-frankfurt",
+      "255-stuttgart"
+    ],
+    "landPosition": true
+  },
+  "255-dortmund": {
+    "id": "255-dortmund",
+    "country": "255",
+    "name": "Дортмунд",
+    "position": [
+      7.4653,
+      51.5136
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-groningen",
+      "255-cologne",
+      "255-essen",
+      "255-frankfurt",
+      "255-hamburg",
+      "255-leipzig"
+    ],
+    "landPosition": true
+  },
+  "255-leipzig": {
+    "id": "255-leipzig",
+    "country": "255",
+    "name": "Лейпциг",
+    "position": [
+      12.3731,
+      51.3397
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-capital",
+      "255-dortmund",
+      "255-dresden",
+      "255-frankfurt",
+      "255-hamburg",
+      "255-nuremberg",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "255-dresden": {
+    "id": "255-dresden",
+    "country": "255",
+    "name": "Дрезден",
+    "position": [
+      13.7373,
+      51.0504
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "255-capital",
+      "255-leipzig",
+      "315-capital",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "255-nuremberg": {
+    "id": "255-nuremberg",
+    "country": "255",
+    "name": "Нюрнберг",
+    "position": [
+      11.0767,
+      49.4521
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-frankfurt",
+      "255-leipzig",
+      "255-munich",
+      "255-stuttgart",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "255-stuttgart": {
+    "id": "255-stuttgart",
+    "country": "255",
+    "name": "Штутгарт",
+    "position": [
+      9.1829,
+      48.7758
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-metz",
+      "220-strasbourg",
+      "225-basel",
+      "225-zurich",
+      "255-cologne",
+      "255-frankfurt",
+      "255-munich",
+      "255-nuremberg",
+      "305-innsbruck"
+    ],
+    "landPosition": true
+  },
+  "255-breslau": {
+    "id": "255-breslau",
+    "country": "255",
+    "name": "Бреслау",
+    "position": [
+      17.0385,
+      51.1079
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-capital",
+      "255-dresden",
+      "255-stettin",
+      "290-katowice",
+      "290-lodz",
+      "290-poznan",
+      "315-brno",
+      "315-capital",
+      "315-ostrava"
+    ],
+    "landPosition": true
+  },
+  "255-stettin": {
+    "id": "255-stettin",
+    "country": "255",
+    "name": "Штеттин",
+    "position": [
+      14.5528,
+      53.4285
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "255-capital",
+      "255-rostock",
+      "290-gdynia",
+      "290-poznan"
+    ],
+    "landPosition": true
+  },
+  "255-konigsberg": {
+    "id": "255-konigsberg",
+    "country": "255",
+    "name": "Кёнигсберг",
+    "position": [
+      20.5073,
+      54.7104
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-bialystok",
+      "290-capital",
+      "290-gdynia",
+      "291-capital",
+      "368-capital",
+      "368-klaipeda"
+    ],
+    "landPosition": true
+  },
+  "255-kiel": {
+    "id": "255-kiel",
+    "country": "255",
+    "name": "Киль",
+    "position": [
+      10.1228,
+      54.3233
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-essen",
+      "255-hamburg",
+      "390-odense"
+    ],
+    "landPosition": true
+  },
+  "255-rostock": {
+    "id": "255-rostock",
+    "country": "255",
+    "name": "Росток",
+    "position": [
+      12.1407,
+      54.0924
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-capital",
+      "255-hamburg",
+      "255-stettin"
+    ],
+    "landPosition": true
+  },
+  "255-essen": {
+    "id": "255-essen",
+    "country": "255",
+    "name": "Эссен",
+    "position": [
+      7.0123,
+      51.4556
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "210-eindhoven",
+      "210-groningen",
+      "255-cologne",
+      "255-dortmund",
+      "255-hamburg",
+      "255-kiel"
+    ],
+    "landPosition": true
+  },
+  "290-capital": {
+    "id": "290-capital",
+    "country": "290",
+    "name": "Варшава",
+    "position": [
+      21,
+      52.25
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "255-konigsberg",
+      "290-bialystok",
+      "290-brzesc",
+      "290-lodz",
+      "290-lublin"
+    ],
+    "landPosition": true
+  },
+  "290-krakow": {
+    "id": "290-krakow",
+    "country": "290",
+    "name": "Краков",
+    "position": [
+      19.945,
+      50.0647
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-katowice",
+      "290-lodz",
+      "290-lublin",
+      "290-lwow",
+      "315-kosice",
+      "315-ostrava"
+    ],
+    "landPosition": true
+  },
+  "290-poznan": {
+    "id": "290-poznan",
+    "country": "290",
+    "name": "Познань",
+    "position": [
+      16.9252,
+      52.4064
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "255-stettin",
+      "290-gdynia",
+      "290-lodz"
+    ],
+    "landPosition": true
+  },
+  "290-lodz": {
+    "id": "290-lodz",
+    "country": "290",
+    "name": "Лодзь",
+    "position": [
+      19.455,
+      51.7592
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "290-capital",
+      "290-gdynia",
+      "290-katowice",
+      "290-krakow",
+      "290-lublin",
+      "290-poznan"
+    ],
+    "landPosition": true
+  },
+  "290-lwow": {
+    "id": "290-lwow",
+    "country": "290",
+    "name": "Львов",
+    "position": [
+      24.0297,
+      49.8397
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-brzesc",
+      "290-krakow",
+      "290-lublin",
+      "290-wilno",
+      "315-uzhhorod",
+      "360-cernauti",
+      "365-kiev"
+    ],
+    "landPosition": true
+  },
+  "290-wilno": {
+    "id": "290-wilno",
+    "country": "290",
+    "name": "Вильно",
+    "position": [
+      25.2797,
+      54.6872
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-bialystok",
+      "290-brzesc",
+      "290-lwow",
+      "365-minsk",
+      "367-daugavpils",
+      "368-capital"
+    ],
+    "landPosition": true
+  },
+  "290-lublin": {
+    "id": "290-lublin",
+    "country": "290",
+    "name": "Люблин",
+    "position": [
+      22.5684,
+      51.2465
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-brzesc",
+      "290-capital",
+      "290-krakow",
+      "290-lodz",
+      "290-lwow"
+    ],
+    "landPosition": true
+  },
+  "290-gdynia": {
+    "id": "290-gdynia",
+    "country": "290",
+    "name": "Гдыня",
+    "position": [
+      18.5305,
+      54.5189
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-konigsberg",
+      "255-stettin",
+      "290-lodz",
+      "290-poznan",
+      "291-capital"
+    ],
+    "landPosition": true
+  },
+  "290-brzesc": {
+    "id": "290-brzesc",
+    "country": "290",
+    "name": "Брест-Литовск",
+    "position": [
+      23.7341,
+      52.0976
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-bialystok",
+      "290-capital",
+      "290-lublin",
+      "290-lwow",
+      "290-wilno",
+      "365-kiev",
+      "365-minsk"
+    ],
+    "landPosition": true
+  },
+  "290-katowice": {
+    "id": "290-katowice",
+    "country": "290",
+    "name": "Катовице",
+    "position": [
+      19.0238,
+      50.2649
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "290-krakow",
+      "290-lodz",
+      "315-ostrava"
+    ],
+    "landPosition": true
+  },
+  "290-bialystok": {
+    "id": "290-bialystok",
+    "country": "290",
+    "name": "Белосток",
+    "position": [
+      23.1688,
+      53.1325
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-konigsberg",
+      "290-brzesc",
+      "290-capital",
+      "290-wilno",
+      "368-capital"
+    ],
+    "landPosition": true
+  },
+  "291-capital": {
+    "id": "291-capital",
+    "country": "291",
+    "name": "Danzig",
+    "position": [
+      18.64004,
+      54.35998
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "255-konigsberg",
+      "290-gdynia"
+    ],
+    "landPosition": true
+  },
+  "305-capital": {
+    "id": "305-capital",
+    "country": "305",
+    "name": "Вена",
+    "position": [
+      16.366671,
+      48.2
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "305-graz",
+      "305-linz",
+      "310-capital",
+      "315-bratislava",
+      "315-brno"
+    ],
+    "landPosition": true
+  },
+  "305-salzburg": {
+    "id": "305-salzburg",
+    "country": "305",
+    "name": "Зальцбург",
+    "position": [
+      13.055,
+      47.8095
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-munich",
+      "305-graz",
+      "305-linz",
+      "325-trieste"
+    ],
+    "landPosition": true
+  },
+  "305-linz": {
+    "id": "305-linz",
+    "country": "305",
+    "name": "Линц",
+    "position": [
+      14.2858,
+      48.3069
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-munich",
+      "305-capital",
+      "305-graz",
+      "305-salzburg",
+      "315-brno",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "305-innsbruck": {
+    "id": "305-innsbruck",
+    "country": "305",
+    "name": "Инсбрук",
+    "position": [
+      11.4041,
+      47.2692
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "225-zurich",
+      "255-munich",
+      "255-stuttgart",
+      "305-graz",
+      "325-milan",
+      "325-trieste",
+      "325-venice"
+    ],
+    "landPosition": true
+  },
+  "305-graz": {
+    "id": "305-graz",
+    "country": "305",
+    "name": "Грац",
+    "position": [
+      15.4395,
+      47.0707
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-capital",
+      "305-innsbruck",
+      "305-linz",
+      "305-salzburg",
+      "310-capital",
+      "310-pecs",
+      "325-trieste",
+      "345-ljubljana",
+      "345-zagreb"
+    ],
+    "landPosition": true
+  },
+  "310-capital": {
+    "id": "310-capital",
+    "country": "310",
+    "name": "Будапешт",
+    "position": [
+      19.08333,
+      47.5
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "305-capital",
+      "305-graz",
+      "310-debrecen",
+      "310-pecs",
+      "310-szeged",
+      "315-bratislava",
+      "315-kosice"
+    ],
+    "landPosition": true
+  },
+  "310-debrecen": {
+    "id": "310-debrecen",
+    "country": "310",
+    "name": "Дебрецен",
+    "position": [
+      21.6273,
+      47.5316
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "310-capital",
+      "310-szeged",
+      "315-kosice",
+      "315-uzhhorod",
+      "360-cluj",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "310-szeged": {
+    "id": "310-szeged",
+    "country": "310",
+    "name": "Сегед",
+    "position": [
+      20.1414,
+      46.253
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "310-capital",
+      "310-debrecen",
+      "310-pecs",
+      "345-novi-sad",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "310-pecs": {
+    "id": "310-pecs",
+    "country": "310",
+    "name": "Печ",
+    "position": [
+      18.2323,
+      46.0727
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-graz",
+      "310-capital",
+      "310-szeged",
+      "345-novi-sad",
+      "345-zagreb"
+    ],
+    "landPosition": true
+  },
+  "315-capital": {
+    "id": "315-capital",
+    "country": "315",
+    "name": "Прага",
+    "position": [
+      14.46667,
+      50.08333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "255-breslau",
+      "255-dresden",
+      "315-brno",
+      "315-ostrava",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "315-brno": {
+    "id": "315-brno",
+    "country": "315",
+    "name": "Брно",
+    "position": [
+      16.6068,
+      49.1951
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "305-capital",
+      "305-linz",
+      "315-capital",
+      "315-ostrava",
+      "315-plzen"
+    ],
+    "landPosition": true
+  },
+  "315-ostrava": {
+    "id": "315-ostrava",
+    "country": "315",
+    "name": "Острава",
+    "position": [
+      18.2625,
+      49.8209
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-breslau",
+      "290-katowice",
+      "290-krakow",
+      "315-bratislava",
+      "315-brno",
+      "315-capital"
+    ],
+    "landPosition": true
+  },
+  "315-bratislava": {
+    "id": "315-bratislava",
+    "country": "315",
+    "name": "Братислава",
+    "position": [
+      17.1077,
+      48.1486
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-capital",
+      "310-capital",
+      "315-kosice",
+      "315-ostrava",
+      "315-uzhhorod"
+    ],
+    "landPosition": true
+  },
+  "315-kosice": {
+    "id": "315-kosice",
+    "country": "315",
+    "name": "Кошице",
+    "position": [
+      21.2611,
+      48.7164
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-krakow",
+      "310-capital",
+      "310-debrecen",
+      "315-bratislava",
+      "315-uzhhorod"
+    ],
+    "landPosition": true
+  },
+  "315-uzhhorod": {
+    "id": "315-uzhhorod",
+    "country": "315",
+    "name": "Ужгород",
+    "position": [
+      22.298,
+      48.6208
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-lwow",
+      "310-debrecen",
+      "315-bratislava",
+      "315-kosice",
+      "360-cernauti",
+      "360-cluj"
+    ],
+    "landPosition": true
+  },
+  "315-plzen": {
+    "id": "315-plzen",
+    "country": "315",
+    "name": "Пльзень",
+    "position": [
+      13.3776,
+      49.7384
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-dresden",
+      "255-leipzig",
+      "255-munich",
+      "255-nuremberg",
+      "305-linz",
+      "315-brno",
+      "315-capital"
+    ],
+    "landPosition": true
+  },
+  "325-capital": {
+    "id": "325-capital",
+    "country": "325",
+    "name": "Рим",
+    "position": [
+      12.48333,
+      41.9
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "325-florence"
+    ],
+    "landPosition": true
+  },
+  "325-milan": {
+    "id": "325-milan",
+    "country": "325",
+    "name": "Милан",
+    "position": [
+      9.19,
+      45.4642
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "225-capital",
+      "225-zurich",
+      "305-innsbruck",
+      "325-bologna",
+      "325-genoa",
+      "325-trieste",
+      "325-turin",
+      "325-venice"
+    ],
+    "landPosition": true
+  },
+  "325-turin": {
+    "id": "325-turin",
+    "country": "325",
+    "name": "Турин",
+    "position": [
+      7.6869,
+      45.0703
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-lyon",
+      "220-nice",
+      "225-capital",
+      "225-geneva",
+      "325-genoa",
+      "325-milan"
+    ],
+    "landPosition": true
+  },
+  "325-venice": {
+    "id": "325-venice",
+    "country": "325",
+    "name": "Венеция",
+    "position": [
+      12.3155,
+      45.4408
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-innsbruck",
+      "325-bologna",
+      "325-milan"
+    ],
+    "landPosition": false
+  },
+  "325-genoa": {
+    "id": "325-genoa",
+    "country": "325",
+    "name": "Генуя",
+    "position": [
+      8.9463,
+      44.4056
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "220-nice",
+      "325-bologna",
+      "325-florence",
+      "325-milan",
+      "325-turin"
+    ],
+    "landPosition": true
+  },
+  "325-naples": {
+    "id": "325-naples",
+    "country": "325",
+    "name": "Неаполь",
+    "position": [
+      14.2681,
+      40.8518
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "325-taranto"
+    ],
+    "landPosition": true
+  },
+  "325-bologna": {
+    "id": "325-bologna",
+    "country": "325",
+    "name": "Болонья",
+    "position": [
+      11.3426,
+      44.4949
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "325-florence",
+      "325-genoa",
+      "325-milan",
+      "325-venice"
+    ],
+    "landPosition": true
+  },
+  "325-florence": {
+    "id": "325-florence",
+    "country": "325",
+    "name": "Флоренция",
+    "position": [
+      11.2558,
+      43.7696
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "325-bologna",
+      "325-capital",
+      "325-genoa"
+    ],
+    "landPosition": true
+  },
+  "325-palermo": {
+    "id": "325-palermo",
+    "country": "325",
+    "name": "Палермо",
+    "position": [
+      13.3615,
+      38.1157
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "325-taranto": {
+    "id": "325-taranto",
+    "country": "325",
+    "name": "Таранто",
+    "position": [
+      17.247,
+      40.4644
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "325-naples"
+    ],
+    "landPosition": false
+  },
+  "325-trieste": {
+    "id": "325-trieste",
+    "country": "325",
+    "name": "Триест",
+    "position": [
+      13.7768,
+      45.6495
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-graz",
+      "305-innsbruck",
+      "305-salzburg",
+      "325-milan",
+      "345-ljubljana"
+    ],
+    "landPosition": true
+  },
+  "325-cagliari": {
+    "id": "325-cagliari",
+    "country": "325",
+    "name": "Кальяри",
+    "position": [
+      9.1217,
+      39.2238
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "338-capital": {
+    "id": "338-capital",
+    "country": "338",
+    "name": "Valletta",
+    "position": [
+      14.51472,
+      35.89972
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "339-capital": {
+    "id": "339-capital",
+    "country": "339",
+    "name": "Tirane",
+    "position": [
+      19.81889,
+      41.3275
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "339-durres",
+      "339-shkoder",
+      "345-skopje",
+      "350-patras",
+      "350-thessaloniki"
+    ],
+    "landPosition": true
+  },
+  "339-durres": {
+    "id": "339-durres",
+    "country": "339",
+    "name": "Дуррес",
+    "position": [
+      19.4565,
+      41.3236
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "339-capital"
+    ],
+    "landPosition": true
+  },
+  "339-shkoder": {
+    "id": "339-shkoder",
+    "country": "339",
+    "name": "Шкодер",
+    "position": [
+      19.5126,
+      42.0693
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "339-capital",
+      "345-skopje"
+    ],
+    "landPosition": true
+  },
+  "345-capital": {
+    "id": "345-capital",
+    "country": "345",
+    "name": "Белград",
+    "position": [
+      20.46806,
+      44.81861
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "345-novi-sad",
+      "345-sarajevo",
+      "345-skopje",
+      "355-capital",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "345-zagreb": {
+    "id": "345-zagreb",
+    "country": "345",
+    "name": "Загреб",
+    "position": [
+      15.9819,
+      45.815
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-graz",
+      "310-pecs",
+      "345-ljubljana",
+      "345-novi-sad",
+      "345-sarajevo",
+      "345-split"
+    ],
+    "landPosition": true
+  },
+  "345-ljubljana": {
+    "id": "345-ljubljana",
+    "country": "345",
+    "name": "Любляна",
+    "position": [
+      14.5058,
+      46.0569
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "305-graz",
+      "325-trieste",
+      "345-novi-sad",
+      "345-split",
+      "345-zagreb"
+    ],
+    "landPosition": true
+  },
+  "345-sarajevo": {
+    "id": "345-sarajevo",
+    "country": "345",
+    "name": "Сараево",
+    "position": [
+      18.4131,
+      43.8563
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "345-capital",
+      "345-novi-sad",
+      "345-skopje",
+      "345-split",
+      "345-zagreb"
+    ],
+    "landPosition": true
+  },
+  "345-split": {
+    "id": "345-split",
+    "country": "345",
+    "name": "Сплит",
+    "position": [
+      16.4402,
+      43.5081
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "345-ljubljana",
+      "345-sarajevo",
+      "345-skopje",
+      "345-zagreb"
+    ],
+    "landPosition": false
+  },
+  "345-skopje": {
+    "id": "345-skopje",
+    "country": "345",
+    "name": "Скопье",
+    "position": [
+      21.4314,
+      41.9981
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "339-capital",
+      "339-shkoder",
+      "345-capital",
+      "345-sarajevo",
+      "345-split",
+      "350-thessaloniki",
+      "355-capital"
+    ],
+    "landPosition": true
+  },
+  "345-novi-sad": {
+    "id": "345-novi-sad",
+    "country": "345",
+    "name": "Нови-Сад",
+    "position": [
+      19.8335,
+      45.2671
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "310-pecs",
+      "310-szeged",
+      "345-capital",
+      "345-ljubljana",
+      "345-sarajevo",
+      "345-zagreb",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "350-capital": {
+    "id": "350-capital",
+    "country": "350",
+    "name": "Athens",
+    "position": [
+      23.73333,
+      37.98333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "350-thessaloniki": {
+    "id": "350-thessaloniki",
+    "country": "350",
+    "name": "Салоники",
+    "position": [
+      22.9444,
+      40.6401
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "339-capital",
+      "345-skopje",
+      "355-burgas",
+      "355-capital",
+      "355-plovdiv",
+      "640-istanbul"
+    ],
+    "landPosition": true
+  },
+  "350-patras": {
+    "id": "350-patras",
+    "country": "350",
+    "name": "Патры",
+    "position": [
+      21.7346,
+      38.2466
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "339-capital"
+    ],
+    "landPosition": true
+  },
+  "350-heraklion": {
+    "id": "350-heraklion",
+    "country": "350",
+    "name": "Ираклион",
+    "position": [
+      25.1442,
+      35.3387
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "352-capital": {
+    "id": "352-capital",
+    "country": "352",
+    "name": "Nicosia",
+    "position": [
+      33.366661,
+      35.16667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "355-capital": {
+    "id": "355-capital",
+    "country": "355",
+    "name": "Sofia",
+    "position": [
+      23.316669,
+      42.68333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "345-capital",
+      "345-skopje",
+      "350-thessaloniki",
+      "355-plovdiv",
+      "355-varna",
+      "360-capital",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "355-plovdiv": {
+    "id": "355-plovdiv",
+    "country": "355",
+    "name": "Пловдив",
+    "position": [
+      24.7453,
+      42.1354
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "350-thessaloniki",
+      "355-burgas",
+      "355-capital",
+      "355-varna",
+      "360-capital"
+    ],
+    "landPosition": true
+  },
+  "355-varna": {
+    "id": "355-varna",
+    "country": "355",
+    "name": "Варна",
+    "position": [
+      27.9147,
+      43.2141
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "355-burgas",
+      "355-capital",
+      "355-plovdiv",
+      "360-capital",
+      "360-constanta"
+    ],
+    "landPosition": true
+  },
+  "355-burgas": {
+    "id": "355-burgas",
+    "country": "355",
+    "name": "Бургас",
+    "position": [
+      27.4626,
+      42.5048
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "350-thessaloniki",
+      "355-plovdiv",
+      "355-varna",
+      "640-istanbul"
+    ],
+    "landPosition": true
+  },
+  "360-capital": {
+    "id": "360-capital",
+    "country": "360",
+    "name": "Бухарест",
+    "position": [
+      26.1,
+      44.43333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "355-capital",
+      "355-plovdiv",
+      "355-varna",
+      "360-cluj",
+      "360-constanta",
+      "360-iasi",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "360-cluj": {
+    "id": "360-cluj",
+    "country": "360",
+    "name": "Клуж",
+    "position": [
+      23.594,
+      46.7712
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "310-debrecen",
+      "315-uzhhorod",
+      "360-capital",
+      "360-cernauti",
+      "360-iasi",
+      "360-timisoara"
+    ],
+    "landPosition": true
+  },
+  "360-iasi": {
+    "id": "360-iasi",
+    "country": "360",
+    "name": "Яссы",
+    "position": [
+      27.6014,
+      47.1585
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "360-capital",
+      "360-cernauti",
+      "360-chisinau",
+      "360-cluj",
+      "360-constanta",
+      "365-odessa"
+    ],
+    "landPosition": true
+  },
+  "360-constanta": {
+    "id": "360-constanta",
+    "country": "360",
+    "name": "Констанца",
+    "position": [
+      28.6348,
+      44.1598
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "355-varna",
+      "360-capital",
+      "360-chisinau",
+      "360-iasi"
+    ],
+    "landPosition": false
+  },
+  "360-timisoara": {
+    "id": "360-timisoara",
+    "country": "360",
+    "name": "Тимишоара",
+    "position": [
+      21.2087,
+      45.7489
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "310-debrecen",
+      "310-szeged",
+      "345-capital",
+      "345-novi-sad",
+      "355-capital",
+      "360-capital",
+      "360-cernauti",
+      "360-cluj"
+    ],
+    "landPosition": true
+  },
+  "360-chisinau": {
+    "id": "360-chisinau",
+    "country": "360",
+    "name": "Кишинёв",
+    "position": [
+      28.8638,
+      47.0105
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "360-cernauti",
+      "360-constanta",
+      "360-iasi",
+      "365-odessa"
+    ],
+    "landPosition": true
+  },
+  "360-cernauti": {
+    "id": "360-cernauti",
+    "country": "360",
+    "name": "Черновцы",
+    "position": [
+      25.9358,
+      48.2921
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-lwow",
+      "315-uzhhorod",
+      "360-chisinau",
+      "360-cluj",
+      "360-iasi",
+      "360-timisoara",
+      "365-kiev",
+      "365-odessa"
+    ],
+    "landPosition": true
+  },
+  "365-capital": {
+    "id": "365-capital",
+    "country": "365",
+    "name": "Москва",
+    "position": [
+      37.615551,
+      55.75222
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-gorky",
+      "365-kharkov",
+      "365-leningrad",
+      "365-smolensk",
+      "365-stalingrad"
+    ],
+    "landPosition": true
+  },
+  "365-leningrad": {
+    "id": "365-leningrad",
+    "country": "365",
+    "name": "Ленинград",
+    "position": [
+      30.3158,
+      59.9391
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-capital",
+      "365-smolensk",
+      "366-narva",
+      "366-tartu",
+      "367-daugavpils",
+      "375-oulu",
+      "375-viipuri"
+    ],
+    "landPosition": true
+  },
+  "365-kiev": {
+    "id": "365-kiev",
+    "country": "365",
+    "name": "Киев",
+    "position": [
+      30.5234,
+      50.4501
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-brzesc",
+      "290-lwow",
+      "360-cernauti",
+      "365-kharkov",
+      "365-minsk",
+      "365-odessa",
+      "365-smolensk"
+    ],
+    "landPosition": true
+  },
+  "365-kharkov": {
+    "id": "365-kharkov",
+    "country": "365",
+    "name": "Харьков",
+    "position": [
+      36.2304,
+      49.9935
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-capital",
+      "365-kiev",
+      "365-rostov",
+      "365-sevastopol",
+      "365-smolensk",
+      "365-stalingrad"
+    ],
+    "landPosition": true
+  },
+  "365-minsk": {
+    "id": "365-minsk",
+    "country": "365",
+    "name": "Минск",
+    "position": [
+      27.5615,
+      53.9045
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-brzesc",
+      "290-wilno",
+      "365-kiev",
+      "365-odessa",
+      "365-smolensk",
+      "367-daugavpils"
+    ],
+    "landPosition": true
+  },
+  "365-odessa": {
+    "id": "365-odessa",
+    "country": "365",
+    "name": "Одесса",
+    "position": [
+      30.7233,
+      46.4825
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "360-cernauti",
+      "360-chisinau",
+      "360-iasi",
+      "365-kiev",
+      "365-minsk"
+    ],
+    "landPosition": true
+  },
+  "365-sevastopol": {
+    "id": "365-sevastopol",
+    "country": "365",
+    "name": "Севастополь",
+    "position": [
+      33.5254,
+      44.6167
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-kharkov"
+    ],
+    "landPosition": true
+  },
+  "365-stalingrad": {
+    "id": "365-stalingrad",
+    "country": "365",
+    "name": "Сталинград",
+    "position": [
+      44.5169,
+      48.708
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-capital",
+      "365-gorky",
+      "365-kharkov",
+      "365-kuibyshev",
+      "365-rostov",
+      "365-tbilisi"
+    ],
+    "landPosition": true
+  },
+  "365-smolensk": {
+    "id": "365-smolensk",
+    "country": "365",
+    "name": "Смоленск",
+    "position": [
+      32.0453,
+      54.7826
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-capital",
+      "365-kharkov",
+      "365-kiev",
+      "365-leningrad",
+      "365-minsk"
+    ],
+    "landPosition": true
+  },
+  "365-kazan": {
+    "id": "365-kazan",
+    "country": "365",
+    "name": "Казань",
+    "position": [
+      49.1064,
+      55.7961
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-gorky",
+      "365-kuibyshev",
+      "365-sverdlovsk"
+    ],
+    "landPosition": true
+  },
+  "365-sverdlovsk": {
+    "id": "365-sverdlovsk",
+    "country": "365",
+    "name": "Свердловск",
+    "position": [
+      60.5975,
+      56.8389
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-kazan",
+      "365-kuibyshev",
+      "365-novosibirsk",
+      "365-omsk",
+      "365-tashkent"
+    ],
+    "landPosition": true
+  },
+  "365-gorky": {
+    "id": "365-gorky",
+    "country": "365",
+    "name": "Горький",
+    "position": [
+      44.0065,
+      56.3269
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-capital",
+      "365-kazan",
+      "365-kuibyshev",
+      "365-stalingrad"
+    ],
+    "landPosition": true
+  },
+  "365-novosibirsk": {
+    "id": "365-novosibirsk",
+    "country": "365",
+    "name": "Новосибирск",
+    "position": [
+      82.9204,
+      55.0302
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-alma-ata",
+      "365-arkhangelsk",
+      "365-irkutsk",
+      "365-murmansk",
+      "365-omsk",
+      "365-sverdlovsk",
+      "710-urumqi",
+      "712-khovd"
+    ],
+    "landPosition": true
+  },
+  "365-omsk": {
+    "id": "365-omsk",
+    "country": "365",
+    "name": "Омск",
+    "position": [
+      73.3686,
+      54.9885
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-alma-ata",
+      "365-novosibirsk",
+      "365-sverdlovsk",
+      "365-tashkent"
+    ],
+    "landPosition": true
+  },
+  "365-irkutsk": {
+    "id": "365-irkutsk",
+    "country": "365",
+    "name": "Иркутск",
+    "position": [
+      104.2964,
+      52.287
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-murmansk",
+      "365-novosibirsk",
+      "710-harbin",
+      "712-capital",
+      "712-choibalsan",
+      "712-khovd"
+    ],
+    "landPosition": true
+  },
+  "365-vladivostok": {
+    "id": "365-vladivostok",
+    "country": "365",
+    "name": "Владивосток",
+    "position": [
+      131.8855,
+      43.1155
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-harbin",
+      "730-pyongyang"
+    ],
+    "landPosition": true
+  },
+  "365-khabarovsk": {
+    "id": "365-khabarovsk",
+    "country": "365",
+    "name": "Хабаровск",
+    "position": [
+      135.0719,
+      48.4802
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-murmansk",
+      "710-harbin",
+      "7351-capital"
+    ],
+    "landPosition": true
+  },
+  "365-murmansk": {
+    "id": "365-murmansk",
+    "country": "365",
+    "name": "Мурманск",
+    "position": [
+      33.0749,
+      68.9707
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-irkutsk",
+      "365-khabarovsk",
+      "365-novosibirsk",
+      "375-oulu"
+    ],
+    "landPosition": true
+  },
+  "365-tbilisi": {
+    "id": "365-tbilisi",
+    "country": "365",
+    "name": "Тбилиси",
+    "position": [
+      44.8271,
+      41.7151
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-baku",
+      "365-rostov",
+      "365-stalingrad",
+      "630-tabriz",
+      "640-erzurum",
+      "640-trabzon"
+    ],
+    "landPosition": true
+  },
+  "365-baku": {
+    "id": "365-baku",
+    "country": "365",
+    "name": "Баку",
+    "position": [
+      49.8671,
+      40.4093
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-tashkent",
+      "365-tbilisi",
+      "630-capital",
+      "630-mashhad",
+      "630-tabriz"
+    ],
+    "landPosition": true
+  },
+  "365-tashkent": {
+    "id": "365-tashkent",
+    "country": "365",
+    "name": "Ташкент",
+    "position": [
+      69.2401,
+      41.2995
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-alma-ata",
+      "365-baku",
+      "365-kuibyshev",
+      "365-omsk",
+      "365-sverdlovsk",
+      "630-mashhad",
+      "700-capital",
+      "700-herat",
+      "710-urumqi",
+      "750-lahore"
+    ],
+    "landPosition": true
+  },
+  "365-alma-ata": {
+    "id": "365-alma-ata",
+    "country": "365",
+    "name": "Алма-Ата",
+    "position": [
+      76.886,
+      43.2389
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-novosibirsk",
+      "365-omsk",
+      "365-tashkent",
+      "710-urumqi"
+    ],
+    "landPosition": true
+  },
+  "365-arkhangelsk": {
+    "id": "365-arkhangelsk",
+    "country": "365",
+    "name": "Архангельск",
+    "position": [
+      40.541,
+      64.5393
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-capital",
+      "365-gorky",
+      "365-kazan",
+      "365-leningrad",
+      "365-novosibirsk",
+      "365-sverdlovsk",
+      "375-oulu"
+    ],
+    "landPosition": true
+  },
+  "365-rostov": {
+    "id": "365-rostov",
+    "country": "365",
+    "name": "Ростов-на-Дону",
+    "position": [
+      39.7015,
+      47.2357
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-kharkov",
+      "365-stalingrad",
+      "365-tbilisi"
+    ],
+    "landPosition": true
+  },
+  "365-kuibyshev": {
+    "id": "365-kuibyshev",
+    "country": "365",
+    "name": "Куйбышев",
+    "position": [
+      50.1002,
+      53.1959
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-gorky",
+      "365-kazan",
+      "365-stalingrad",
+      "365-sverdlovsk",
+      "365-tashkent"
+    ],
+    "landPosition": true
+  },
+  "366-capital": {
+    "id": "366-capital",
+    "country": "366",
+    "name": "Tallinn",
+    "position": [
+      24.72806,
+      59.43389
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "366-narva",
+      "366-tartu"
+    ],
+    "landPosition": true
+  },
+  "366-tartu": {
+    "id": "366-tartu",
+    "country": "366",
+    "name": "Тарту",
+    "position": [
+      26.729,
+      58.378
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-leningrad",
+      "366-capital",
+      "366-narva",
+      "367-capital",
+      "367-daugavpils"
+    ],
+    "landPosition": true
+  },
+  "366-narva": {
+    "id": "366-narva",
+    "country": "366",
+    "name": "Нарва",
+    "position": [
+      28.1903,
+      59.3772
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-leningrad",
+      "366-capital",
+      "366-tartu"
+    ],
+    "landPosition": true
+  },
+  "367-capital": {
+    "id": "367-capital",
+    "country": "367",
+    "name": "Riga",
+    "position": [
+      24.133329,
+      56.96667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "366-tartu",
+      "367-daugavpils",
+      "367-liepaja",
+      "368-siauliai"
+    ],
+    "landPosition": true
+  },
+  "367-liepaja": {
+    "id": "367-liepaja",
+    "country": "367",
+    "name": "Лиепая",
+    "position": [
+      21.0108,
+      56.5047
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "367-capital",
+      "368-klaipeda",
+      "368-siauliai"
+    ],
+    "landPosition": true
+  },
+  "367-daugavpils": {
+    "id": "367-daugavpils",
+    "country": "367",
+    "name": "Даугавпилс",
+    "position": [
+      26.5362,
+      55.8747
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "290-wilno",
+      "365-leningrad",
+      "365-minsk",
+      "366-tartu",
+      "367-capital",
+      "368-capital",
+      "368-siauliai"
+    ],
+    "landPosition": true
+  },
+  "368-capital": {
+    "id": "368-capital",
+    "country": "368",
+    "name": "Kaunas",
+    "position": [
+      23.88003,
+      54.9504
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "255-konigsberg",
+      "290-bialystok",
+      "290-wilno",
+      "367-daugavpils",
+      "368-klaipeda",
+      "368-siauliai"
+    ],
+    "landPosition": true
+  },
+  "368-klaipeda": {
+    "id": "368-klaipeda",
+    "country": "368",
+    "name": "Мемель",
+    "position": [
+      21.1175,
+      55.7068
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-konigsberg",
+      "367-liepaja",
+      "368-capital",
+      "368-siauliai"
+    ],
+    "landPosition": true
+  },
+  "368-siauliai": {
+    "id": "368-siauliai",
+    "country": "368",
+    "name": "Шяуляй",
+    "position": [
+      23.3137,
+      55.9349
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "367-capital",
+      "367-daugavpils",
+      "367-liepaja",
+      "368-capital",
+      "368-klaipeda"
+    ],
+    "landPosition": true
+  },
+  "375-capital": {
+    "id": "375-capital",
+    "country": "375",
+    "name": "Хельсинки",
+    "position": [
+      24.93417,
+      60.17556
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "375-tampere",
+      "375-turku"
+    ],
+    "landPosition": true
+  },
+  "375-tampere": {
+    "id": "375-tampere",
+    "country": "375",
+    "name": "Тампере",
+    "position": [
+      23.761,
+      61.4978
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "375-capital",
+      "375-oulu",
+      "375-turku",
+      "375-viipuri"
+    ],
+    "landPosition": true
+  },
+  "375-turku": {
+    "id": "375-turku",
+    "country": "375",
+    "name": "Турку",
+    "position": [
+      22.2666,
+      60.4518
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "375-capital",
+      "375-oulu",
+      "375-tampere"
+    ],
+    "landPosition": true
+  },
+  "375-viipuri": {
+    "id": "375-viipuri",
+    "country": "375",
+    "name": "Выборг",
+    "position": [
+      28.749,
+      60.7139
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-leningrad",
+      "375-oulu",
+      "375-tampere"
+    ],
+    "landPosition": true
+  },
+  "375-oulu": {
+    "id": "375-oulu",
+    "country": "375",
+    "name": "Оулу",
+    "position": [
+      25.4651,
+      65.0121
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-arkhangelsk",
+      "365-leningrad",
+      "365-murmansk",
+      "375-tampere",
+      "375-turku",
+      "375-viipuri",
+      "380-kiruna",
+      "385-tromso"
+    ],
+    "landPosition": true
+  },
+  "380-capital": {
+    "id": "380-capital",
+    "country": "380",
+    "name": "Стокгольм",
+    "position": [
+      18.074522,
+      59.3399
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "380-gothenburg"
+    ],
+    "landPosition": true
+  },
+  "380-gothenburg": {
+    "id": "380-gothenburg",
+    "country": "380",
+    "name": "Гётеборг",
+    "position": [
+      11.9746,
+      57.7089
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "380-capital",
+      "380-kiruna",
+      "380-sundsvall",
+      "385-capital"
+    ],
+    "landPosition": true
+  },
+  "380-malmo": {
+    "id": "380-malmo",
+    "country": "380",
+    "name": "Мальмё",
+    "position": [
+      13.0038,
+      55.605
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "380-kiruna": {
+    "id": "380-kiruna",
+    "country": "380",
+    "name": "Кируна",
+    "position": [
+      20.2253,
+      67.8558
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "375-oulu",
+      "380-gothenburg",
+      "380-sundsvall",
+      "385-narvik",
+      "385-tromso",
+      "385-trondheim"
+    ],
+    "landPosition": true
+  },
+  "380-sundsvall": {
+    "id": "380-sundsvall",
+    "country": "380",
+    "name": "Сундсвалль",
+    "position": [
+      17.3069,
+      62.3908
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "380-gothenburg",
+      "380-kiruna",
+      "385-capital",
+      "385-trondheim"
+    ],
+    "landPosition": true
+  },
+  "385-capital": {
+    "id": "385-capital",
+    "country": "385",
+    "name": "Осло",
+    "position": [
+      10.752245,
+      59.91387
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "380-gothenburg",
+      "380-sundsvall",
+      "385-bergen",
+      "385-trondheim"
+    ],
+    "landPosition": true
+  },
+  "385-bergen": {
+    "id": "385-bergen",
+    "country": "385",
+    "name": "Берген",
+    "position": [
+      5.3221,
+      60.3913
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "385-capital",
+      "385-narvik",
+      "385-tromso",
+      "385-trondheim"
+    ],
+    "landPosition": true
+  },
+  "385-trondheim": {
+    "id": "385-trondheim",
+    "country": "385",
+    "name": "Тронхейм",
+    "position": [
+      10.3951,
+      63.4305
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "380-kiruna",
+      "380-sundsvall",
+      "385-bergen",
+      "385-capital",
+      "385-narvik"
+    ],
+    "landPosition": true
+  },
+  "385-narvik": {
+    "id": "385-narvik",
+    "country": "385",
+    "name": "Нарвик",
+    "position": [
+      17.4273,
+      68.4385
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "380-kiruna",
+      "385-bergen",
+      "385-tromso",
+      "385-trondheim"
+    ],
+    "landPosition": false
+  },
+  "385-tromso": {
+    "id": "385-tromso",
+    "country": "385",
+    "name": "Тромсё",
+    "position": [
+      18.9553,
+      69.6492
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "375-oulu",
+      "380-kiruna",
+      "385-bergen",
+      "385-narvik"
+    ],
+    "landPosition": true
+  },
+  "390-capital": {
+    "id": "390-capital",
+    "country": "390",
+    "name": "Копенгаген",
+    "position": [
+      12.566982,
+      55.67696
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "390-aarhus": {
+    "id": "390-aarhus",
+    "country": "390",
+    "name": "Орхус",
+    "position": [
+      10.2039,
+      56.1629
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "390-aalborg"
+    ],
+    "landPosition": true
+  },
+  "390-aalborg": {
+    "id": "390-aalborg",
+    "country": "390",
+    "name": "Ольборг",
+    "position": [
+      9.9217,
+      57.0488
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "390-aarhus"
+    ],
+    "landPosition": true
+  },
+  "390-odense": {
+    "id": "390-odense",
+    "country": "390",
+    "name": "Оденсе",
+    "position": [
+      10.4024,
+      55.4038
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "255-kiel"
+    ],
+    "landPosition": true
+  },
+  "395-capital": {
+    "id": "395-capital",
+    "country": "395",
+    "name": "Reykjavik",
+    "position": [
+      -21.950001,
+      64.15
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "402-capital": {
+    "id": "402-capital",
+    "country": "402",
+    "name": "Praia",
+    "position": [
+      -23.51667,
+      14.91667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "404-capital": {
+    "id": "404-capital",
+    "country": "404",
+    "name": "Bolama",
+    "position": [
+      -15.482804,
+      11.58295
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "433-capital",
+      "438-capital"
+    ],
+    "landPosition": true
+  },
+  "411-capital": {
+    "id": "411-capital",
+    "country": "411",
+    "name": "Malabo",
+    "position": [
+      8.737104,
+      3.75041
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "471-capital",
+      "481-capital"
+    ],
+    "landPosition": true
+  },
+  "420-capital": {
+    "id": "420-capital",
+    "country": "420",
+    "name": "Banjul",
+    "position": [
+      -16.591701,
+      13.45388
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "433-capital"
+    ],
+    "landPosition": true
+  },
+  "432-capital": {
+    "id": "432-capital",
+    "country": "432",
+    "name": "Bamako",
+    "position": [
+      -7.97491,
+      12.61771
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "433-capital",
+      "435-capital",
+      "436-capital",
+      "437-capital",
+      "438-capital",
+      "615-oran",
+      "615-tamanrasset"
+    ],
+    "landPosition": true
+  },
+  "433-capital": {
+    "id": "433-capital",
+    "country": "433",
+    "name": "Dakar",
+    "position": [
+      -17.45528,
+      14.70889
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "404-capital",
+      "420-capital",
+      "432-capital",
+      "435-capital",
+      "438-capital"
+    ],
+    "landPosition": true
+  },
+  "434-capital": {
+    "id": "434-capital",
+    "country": "434",
+    "name": "Porto-Novo",
+    "position": [
+      2.616667,
+      6.48333
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "436-capital",
+      "461-capital",
+      "475-capital"
+    ],
+    "landPosition": true
+  },
+  "435-capital": {
+    "id": "435-capital",
+    "country": "435",
+    "name": "Nouakchott",
+    "position": [
+      -16.027356,
+      18.11944
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "432-capital",
+      "433-capital",
+      "610-capital",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "436-capital": {
+    "id": "436-capital",
+    "country": "436",
+    "name": "Niamey",
+    "position": [
+      2.116667,
+      13.51667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "432-capital",
+      "434-capital",
+      "437-capital",
+      "461-capital",
+      "475-capital",
+      "483-capital",
+      "615-tamanrasset",
+      "620-sebha"
+    ],
+    "landPosition": true
+  },
+  "437-capital": {
+    "id": "437-capital",
+    "country": "437",
+    "name": "Abidjan",
+    "position": [
+      -4.040048,
+      5.32
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "432-capital",
+      "436-capital",
+      "438-capital",
+      "450-capital",
+      "452-capital",
+      "461-capital"
+    ],
+    "landPosition": true
+  },
+  "438-capital": {
+    "id": "438-capital",
+    "country": "438",
+    "name": "Conakry",
+    "position": [
+      -13.661917,
+      9.55133
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "404-capital",
+      "432-capital",
+      "433-capital",
+      "437-capital",
+      "450-capital",
+      "451-capital"
+    ],
+    "landPosition": true
+  },
+  "450-capital": {
+    "id": "450-capital",
+    "country": "450",
+    "name": "Monrovia",
+    "position": [
+      -10.80472,
+      6.31056
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "437-capital",
+      "438-capital",
+      "451-capital"
+    ],
+    "landPosition": true
+  },
+  "451-capital": {
+    "id": "451-capital",
+    "country": "451",
+    "name": "Freetown",
+    "position": [
+      -13.23417,
+      8.49
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "438-capital",
+      "450-capital"
+    ],
+    "landPosition": true
+  },
+  "452-capital": {
+    "id": "452-capital",
+    "country": "452",
+    "name": "Accra",
+    "position": [
+      -0.216667,
+      5.55
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "437-capital",
+      "461-capital",
+      "462-capital"
+    ],
+    "landPosition": true
+  },
+  "461-capital": {
+    "id": "461-capital",
+    "country": "461",
+    "name": "Lome",
+    "position": [
+      1.231362,
+      6.1725
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "434-capital",
+      "436-capital",
+      "437-capital",
+      "452-capital",
+      "462-capital"
+    ],
+    "landPosition": true
+  },
+  "462-capital": {
+    "id": "462-capital",
+    "country": "462",
+    "name": "Ho",
+    "position": [
+      0.469987,
+      6.60041
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "452-capital",
+      "461-capital"
+    ],
+    "landPosition": true
+  },
+  "471-capital": {
+    "id": "471-capital",
+    "country": "471",
+    "name": "Yaounde",
+    "position": [
+      11.51667,
+      3.86667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "411-capital",
+      "472-capital",
+      "475-capital",
+      "481-capital",
+      "482-capital",
+      "483-capital",
+      "484-capital"
+    ],
+    "landPosition": true
+  },
+  "472-capital": {
+    "id": "472-capital",
+    "country": "472",
+    "name": "Buea",
+    "position": [
+      9.231004,
+      4.155
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "471-capital",
+      "475-capital"
+    ],
+    "landPosition": true
+  },
+  "475-capital": {
+    "id": "475-capital",
+    "country": "475",
+    "name": "Лагос",
+    "position": [
+      3.3792,
+      6.5244
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "434-capital",
+      "436-capital",
+      "471-capital",
+      "472-capital",
+      "483-capital"
+    ],
+    "landPosition": true
+  },
+  "481-capital": {
+    "id": "481-capital",
+    "country": "481",
+    "name": "Libreville",
+    "position": [
+      9.45,
+      0.38333
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "411-capital",
+      "471-capital",
+      "484-capital"
+    ],
+    "landPosition": true
+  },
+  "482-capital": {
+    "id": "482-capital",
+    "country": "482",
+    "name": "Bangui",
+    "position": [
+      18.582937,
+      4.36808
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "471-capital",
+      "483-capital",
+      "484-capital",
+      "490-capital",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "483-capital": {
+    "id": "483-capital",
+    "country": "483",
+    "name": "Форт-Лами",
+    "position": [
+      15.0557,
+      12.1348
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "436-capital",
+      "471-capital",
+      "475-capital",
+      "482-capital",
+      "620-sebha",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "484-capital": {
+    "id": "484-capital",
+    "country": "484",
+    "name": "Brazzaville",
+    "position": [
+      15.28472,
+      -4.25917
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "471-capital",
+      "481-capital",
+      "482-capital",
+      "490-capital",
+      "540-capital"
+    ],
+    "landPosition": true
+  },
+  "490-capital": {
+    "id": "490-capital",
+    "country": "490",
+    "name": "Kinshasa (Léopoldville)",
+    "position": [
+      15.315,
+      -4.32972
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "482-capital",
+      "484-capital",
+      "500-capital",
+      "510-capital",
+      "515-capital",
+      "540-capital",
+      "551-capital",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "500-capital": {
+    "id": "500-capital",
+    "country": "500",
+    "name": "Энтеббе",
+    "position": [
+      32.443,
+      0.0512
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "490-capital",
+      "501-capital",
+      "510-capital",
+      "515-capital",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "501-capital": {
+    "id": "501-capital",
+    "country": "501",
+    "name": "Nairobi",
+    "position": [
+      36.816669,
+      -1.28333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "500-capital",
+      "510-capital",
+      "5200-capital",
+      "530-capital",
+      "530-dire-dawa",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "510-capital": {
+    "id": "510-capital",
+    "country": "510",
+    "name": "Дар-эс-Салам",
+    "position": [
+      39.2083,
+      -6.7924
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "490-capital",
+      "500-capital",
+      "501-capital",
+      "515-capital",
+      "541-capital",
+      "551-capital",
+      "553-capital"
+    ],
+    "landPosition": true
+  },
+  "511-capital": {
+    "id": "511-capital",
+    "country": "511",
+    "name": "Zanzibar City",
+    "position": [
+      39.195592,
+      -6.16698
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "515-capital": {
+    "id": "515-capital",
+    "country": "515",
+    "name": "Usumbura",
+    "position": [
+      29.360006,
+      -3.37609
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "490-capital",
+      "500-capital",
+      "510-capital"
+    ],
+    "landPosition": true
+  },
+  "521-capital": {
+    "id": "521-capital",
+    "country": "521",
+    "name": "Berbera",
+    "position": [
+      45.016415,
+      10.43555
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "5200-capital",
+      "522-capital",
+      "530-dire-dawa"
+    ],
+    "landPosition": true
+  },
+  "522-capital": {
+    "id": "522-capital",
+    "country": "522",
+    "name": "Djibouti",
+    "position": [
+      43.150575,
+      11.57036
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "521-capital",
+      "530-dire-dawa",
+      "531-capital"
+    ],
+    "landPosition": true
+  },
+  "530-capital": {
+    "id": "530-capital",
+    "country": "530",
+    "name": "Addis Ababa",
+    "position": [
+      38.77513,
+      9.01393
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "501-capital",
+      "530-dire-dawa",
+      "530-gondar",
+      "530-mekele",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "530-gondar": {
+    "id": "530-gondar",
+    "country": "530",
+    "name": "Гондэр",
+    "position": [
+      37.4667,
+      12.6
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "530-capital",
+      "530-mekele",
+      "531-capital",
+      "625-capital",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "530-dire-dawa": {
+    "id": "530-dire-dawa",
+    "country": "530",
+    "name": "Дыре-Дауа",
+    "position": [
+      41.8661,
+      9.6009
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "501-capital",
+      "5200-capital",
+      "521-capital",
+      "522-capital",
+      "530-capital",
+      "530-mekele",
+      "531-capital"
+    ],
+    "landPosition": true
+  },
+  "530-mekele": {
+    "id": "530-mekele",
+    "country": "530",
+    "name": "Мэкэле",
+    "position": [
+      39.4753,
+      13.4967
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "530-capital",
+      "530-dire-dawa",
+      "530-gondar",
+      "531-capital"
+    ],
+    "landPosition": true
+  },
+  "531-capital": {
+    "id": "531-capital",
+    "country": "531",
+    "name": "Asmara",
+    "position": [
+      38.933331,
+      15.33333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "522-capital",
+      "530-dire-dawa",
+      "530-gondar",
+      "530-mekele",
+      "625-capital",
+      "625-port-sudan"
+    ],
+    "landPosition": true
+  },
+  "540-capital": {
+    "id": "540-capital",
+    "country": "540",
+    "name": "Luanda",
+    "position": [
+      13.23444,
+      -8.83833
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "484-capital",
+      "490-capital",
+      "551-capital",
+      "565-capital"
+    ],
+    "landPosition": true
+  },
+  "541-capital": {
+    "id": "541-capital",
+    "country": "541",
+    "name": "Лоренсу-Маркиш",
+    "position": [
+      32.588,
+      -25.97
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "510-capital",
+      "551-capital",
+      "552-capital",
+      "553-capital",
+      "560-capital",
+      "560-durban",
+      "572-capital"
+    ],
+    "landPosition": true
+  },
+  "551-capital": {
+    "id": "551-capital",
+    "country": "551",
+    "name": "Lusaka",
+    "position": [
+      28.283331,
+      -15.41667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "490-capital",
+      "510-capital",
+      "540-capital",
+      "541-capital",
+      "552-capital",
+      "553-capital",
+      "565-capital"
+    ],
+    "landPosition": true
+  },
+  "552-capital": {
+    "id": "552-capital",
+    "country": "552",
+    "name": "Солсбери",
+    "position": [
+      31.053,
+      -17.824
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "541-capital",
+      "551-capital",
+      "560-capital",
+      "571-capital"
+    ],
+    "landPosition": true
+  },
+  "553-capital": {
+    "id": "553-capital",
+    "country": "553",
+    "name": "Lilongwe",
+    "position": [
+      33.783329,
+      -13.98333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "510-capital",
+      "541-capital",
+      "551-capital"
+    ],
+    "landPosition": true
+  },
+  "560-capital": {
+    "id": "560-capital",
+    "country": "560",
+    "name": "Pretoria",
+    "position": [
+      28.229441,
+      -25.70694
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "541-capital",
+      "552-capital",
+      "560-cape-town",
+      "560-durban",
+      "560-johannesburg",
+      "571-capital",
+      "572-capital"
+    ],
+    "landPosition": true
+  },
+  "560-cape-town": {
+    "id": "560-cape-town",
+    "country": "560",
+    "name": "Кейптаун",
+    "position": [
+      18.4241,
+      -33.9249
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "560-capital",
+      "560-johannesburg",
+      "560-port-elizabeth",
+      "565-capital"
+    ],
+    "landPosition": true
+  },
+  "560-johannesburg": {
+    "id": "560-johannesburg",
+    "country": "560",
+    "name": "Йоханнесбург",
+    "position": [
+      28.0473,
+      -26.2041
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "560-cape-town",
+      "560-capital",
+      "560-durban",
+      "560-port-elizabeth",
+      "565-capital",
+      "570-capital",
+      "571-capital",
+      "572-capital"
+    ],
+    "landPosition": true
+  },
+  "560-durban": {
+    "id": "560-durban",
+    "country": "560",
+    "name": "Дурбан",
+    "position": [
+      31.0218,
+      -29.8587
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "541-capital",
+      "560-capital",
+      "560-johannesburg",
+      "560-port-elizabeth",
+      "570-capital",
+      "572-capital"
+    ],
+    "landPosition": false
+  },
+  "560-port-elizabeth": {
+    "id": "560-port-elizabeth",
+    "country": "560",
+    "name": "Порт-Элизабет",
+    "position": [
+      25.6022,
+      -33.9608
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "560-cape-town",
+      "560-durban",
+      "560-johannesburg"
+    ],
+    "landPosition": true
+  },
+  "565-capital": {
+    "id": "565-capital",
+    "country": "565",
+    "name": "Windhoek",
+    "position": [
+      17.083611,
+      -22.57
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "540-capital",
+      "551-capital",
+      "560-cape-town",
+      "560-johannesburg",
+      "571-capital"
+    ],
+    "landPosition": true
+  },
+  "570-capital": {
+    "id": "570-capital",
+    "country": "570",
+    "name": "Maseru",
+    "position": [
+      27.48333,
+      -29.31667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "560-durban",
+      "560-johannesburg"
+    ],
+    "landPosition": true
+  },
+  "571-capital": {
+    "id": "571-capital",
+    "country": "571",
+    "name": "Gaborone",
+    "position": [
+      25.911949,
+      -24.64639
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "552-capital",
+      "560-capital",
+      "560-johannesburg",
+      "565-capital"
+    ],
+    "landPosition": true
+  },
+  "572-capital": {
+    "id": "572-capital",
+    "country": "572",
+    "name": "Mbabane",
+    "position": [
+      31.133329,
+      -26.31667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "541-capital",
+      "560-capital",
+      "560-durban",
+      "560-johannesburg"
+    ],
+    "landPosition": true
+  },
+  "580-capital": {
+    "id": "580-capital",
+    "country": "580",
+    "name": "Antananarivo",
+    "position": [
+      47.51667,
+      -18.91667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "585-capital": {
+    "id": "585-capital",
+    "country": "585",
+    "name": "Saint-Denis",
+    "position": [
+      55.4551,
+      -20.8907
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "590-capital": {
+    "id": "590-capital",
+    "country": "590",
+    "name": "Port Louis",
+    "position": [
+      57.49889,
+      -20.16195
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "600-capital": {
+    "id": "600-capital",
+    "country": "600",
+    "name": "Rabat",
+    "position": [
+      -6.83,
+      34.02
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "600-fes",
+      "600-marrakesh",
+      "602-capital"
+    ],
+    "landPosition": true
+  },
+  "600-casablanca": {
+    "id": "600-casablanca",
+    "country": "600",
+    "name": "Касабланка",
+    "position": [
+      -7.5898,
+      33.5731
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "600-marrakesh"
+    ],
+    "landPosition": true
+  },
+  "600-fes": {
+    "id": "600-fes",
+    "country": "600",
+    "name": "Фес",
+    "position": [
+      -4.9998,
+      34.0181
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "600-capital",
+      "600-marrakesh",
+      "602-capital",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "600-marrakesh": {
+    "id": "600-marrakesh",
+    "country": "600",
+    "name": "Марракеш",
+    "position": [
+      -7.9811,
+      31.6295
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "600-capital",
+      "600-casablanca",
+      "600-fes",
+      "602-capital",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "602-capital": {
+    "id": "602-capital",
+    "country": "602",
+    "name": "Tetuan",
+    "position": [
+      -5.366667,
+      35.56667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "600-capital",
+      "600-fes",
+      "600-marrakesh",
+      "610-capital",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "610-capital": {
+    "id": "610-capital",
+    "country": "610",
+    "name": "Villa Cisneros",
+    "position": [
+      -15.936811,
+      23.71406
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "435-capital",
+      "602-capital",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "615-capital": {
+    "id": "615-capital",
+    "country": "615",
+    "name": "Algiers",
+    "position": [
+      3.050556,
+      36.76305
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "615-constantine",
+      "615-oran"
+    ],
+    "landPosition": true
+  },
+  "615-oran": {
+    "id": "615-oran",
+    "country": "615",
+    "name": "Оран",
+    "position": [
+      -0.6417,
+      35.6976
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "432-capital",
+      "435-capital",
+      "600-fes",
+      "600-marrakesh",
+      "602-capital",
+      "610-capital",
+      "615-capital",
+      "615-constantine",
+      "615-tamanrasset"
+    ],
+    "landPosition": true
+  },
+  "615-constantine": {
+    "id": "615-constantine",
+    "country": "615",
+    "name": "Константина",
+    "position": [
+      6.6147,
+      36.365
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "615-capital",
+      "615-oran",
+      "615-tamanrasset",
+      "616-bizerte",
+      "616-capital",
+      "616-sfax",
+      "620-capital"
+    ],
+    "landPosition": true
+  },
+  "615-tamanrasset": {
+    "id": "615-tamanrasset",
+    "country": "615",
+    "name": "Таманрассет",
+    "position": [
+      5.5228,
+      22.785
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "432-capital",
+      "436-capital",
+      "615-constantine",
+      "615-oran",
+      "620-capital",
+      "620-sebha"
+    ],
+    "landPosition": true
+  },
+  "616-capital": {
+    "id": "616-capital",
+    "country": "616",
+    "name": "Tunis",
+    "position": [
+      10.17972,
+      36.80278
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "615-constantine",
+      "616-bizerte",
+      "616-sfax"
+    ],
+    "landPosition": true
+  },
+  "616-sfax": {
+    "id": "616-sfax",
+    "country": "616",
+    "name": "Сфакс",
+    "position": [
+      10.7603,
+      34.7406
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "615-constantine",
+      "616-bizerte",
+      "616-capital",
+      "620-capital"
+    ],
+    "landPosition": true
+  },
+  "616-bizerte": {
+    "id": "616-bizerte",
+    "country": "616",
+    "name": "Бизерта",
+    "position": [
+      9.8739,
+      37.2744
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "615-constantine",
+      "616-capital",
+      "616-sfax"
+    ],
+    "landPosition": false
+  },
+  "620-capital": {
+    "id": "620-capital",
+    "country": "620",
+    "name": "Tripoli",
+    "position": [
+      13.18,
+      32.8925
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "615-constantine",
+      "615-tamanrasset",
+      "616-sfax",
+      "620-sebha"
+    ],
+    "landPosition": true
+  },
+  "620-benghazi": {
+    "id": "620-benghazi",
+    "country": "620",
+    "name": "Бенгази",
+    "position": [
+      20.0686,
+      32.1194
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "620-tobruk"
+    ],
+    "landPosition": true
+  },
+  "620-tobruk": {
+    "id": "620-tobruk",
+    "country": "620",
+    "name": "Тобрук",
+    "position": [
+      23.9764,
+      32.0762
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "620-benghazi",
+      "620-sebha",
+      "625-capital",
+      "651-alexandria",
+      "651-aswan"
+    ],
+    "landPosition": false
+  },
+  "620-sebha": {
+    "id": "620-sebha",
+    "country": "620",
+    "name": "Себха",
+    "position": [
+      14.429,
+      27.0377
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "436-capital",
+      "483-capital",
+      "615-tamanrasset",
+      "620-capital",
+      "620-tobruk",
+      "625-el-obeid"
+    ],
+    "landPosition": true
+  },
+  "625-capital": {
+    "id": "625-capital",
+    "country": "625",
+    "name": "Khartoum",
+    "position": [
+      32.534168,
+      15.58806
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "530-gondar",
+      "531-capital",
+      "620-tobruk",
+      "625-el-obeid",
+      "625-port-sudan",
+      "651-aswan"
+    ],
+    "landPosition": true
+  },
+  "625-port-sudan": {
+    "id": "625-port-sudan",
+    "country": "625",
+    "name": "Порт-Судан",
+    "position": [
+      37.2167,
+      19.6167
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "531-capital",
+      "625-capital",
+      "625-el-obeid",
+      "651-aswan"
+    ],
+    "landPosition": true
+  },
+  "625-el-obeid": {
+    "id": "625-el-obeid",
+    "country": "625",
+    "name": "Эль-Обейд",
+    "position": [
+      30.2167,
+      13.1833
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "482-capital",
+      "483-capital",
+      "490-capital",
+      "500-capital",
+      "501-capital",
+      "530-capital",
+      "530-gondar",
+      "620-sebha",
+      "625-capital",
+      "625-port-sudan"
+    ],
+    "landPosition": true
+  },
+  "630-capital": {
+    "id": "630-capital",
+    "country": "630",
+    "name": "Tehran",
+    "position": [
+      51.42445,
+      35.67194
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "365-baku",
+      "630-abadan",
+      "630-isfahan",
+      "630-mashhad",
+      "630-tabriz"
+    ],
+    "landPosition": true
+  },
+  "630-tabriz": {
+    "id": "630-tabriz",
+    "country": "630",
+    "name": "Тебриз",
+    "position": [
+      46.2919,
+      38.0962
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-baku",
+      "365-tbilisi",
+      "630-abadan",
+      "630-capital",
+      "640-diyarbakir",
+      "640-erzurum",
+      "645-capital",
+      "645-mosul"
+    ],
+    "landPosition": true
+  },
+  "630-isfahan": {
+    "id": "630-isfahan",
+    "country": "630",
+    "name": "Исфахан",
+    "position": [
+      51.6776,
+      32.6546
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-abadan",
+      "630-capital",
+      "630-mashhad",
+      "630-shiraz"
+    ],
+    "landPosition": true
+  },
+  "630-shiraz": {
+    "id": "630-shiraz",
+    "country": "630",
+    "name": "Шираз",
+    "position": [
+      52.5837,
+      29.5918
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-isfahan",
+      "630-mashhad",
+      "750-karachi"
+    ],
+    "landPosition": true
+  },
+  "630-mashhad": {
+    "id": "630-mashhad",
+    "country": "630",
+    "name": "Мешхед",
+    "position": [
+      59.6062,
+      36.2605
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-baku",
+      "365-tashkent",
+      "630-capital",
+      "630-isfahan",
+      "630-shiraz",
+      "700-herat",
+      "700-kandahar",
+      "750-karachi"
+    ],
+    "landPosition": true
+  },
+  "630-abadan": {
+    "id": "630-abadan",
+    "country": "630",
+    "name": "Абадан",
+    "position": [
+      48.2977,
+      30.3473
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-capital",
+      "630-isfahan",
+      "630-tabriz",
+      "645-basra",
+      "645-capital"
+    ],
+    "landPosition": true
+  },
+  "640-capital": {
+    "id": "640-capital",
+    "country": "640",
+    "name": "Анкара",
+    "position": [
+      32.864441,
+      39.92722
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "640-antalya",
+      "640-diyarbakir",
+      "640-istanbul",
+      "640-trabzon"
+    ],
+    "landPosition": true
+  },
+  "640-istanbul": {
+    "id": "640-istanbul",
+    "country": "640",
+    "name": "Стамбул",
+    "position": [
+      28.9784,
+      41.0082
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "350-thessaloniki",
+      "355-burgas",
+      "640-antalya",
+      "640-capital",
+      "640-trabzon"
+    ],
+    "landPosition": false
+  },
+  "640-izmir": {
+    "id": "640-izmir",
+    "country": "640",
+    "name": "Измир",
+    "position": [
+      27.1428,
+      38.4237
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "640-antalya"
+    ],
+    "landPosition": true
+  },
+  "640-antalya": {
+    "id": "640-antalya",
+    "country": "640",
+    "name": "Анталья",
+    "position": [
+      30.7133,
+      36.8969
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "640-capital",
+      "640-diyarbakir",
+      "640-istanbul",
+      "640-izmir"
+    ],
+    "landPosition": true
+  },
+  "640-erzurum": {
+    "id": "640-erzurum",
+    "country": "640",
+    "name": "Эрзурум",
+    "position": [
+      41.2769,
+      39.9043
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-tbilisi",
+      "630-tabriz",
+      "640-diyarbakir",
+      "640-trabzon"
+    ],
+    "landPosition": true
+  },
+  "640-diyarbakir": {
+    "id": "640-diyarbakir",
+    "country": "640",
+    "name": "Диярбакыр",
+    "position": [
+      40.2306,
+      37.9144
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-tabriz",
+      "640-antalya",
+      "640-capital",
+      "640-erzurum",
+      "640-trabzon",
+      "645-mosul",
+      "652-aleppo",
+      "652-latakia"
+    ],
+    "landPosition": true
+  },
+  "640-trabzon": {
+    "id": "640-trabzon",
+    "country": "640",
+    "name": "Трабзон",
+    "position": [
+      39.7168,
+      41.0027
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-tbilisi",
+      "640-capital",
+      "640-diyarbakir",
+      "640-erzurum",
+      "640-istanbul"
+    ],
+    "landPosition": true
+  },
+  "645-capital": {
+    "id": "645-capital",
+    "country": "645",
+    "name": "Baghdad",
+    "position": [
+      44.39389,
+      33.33861
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "630-abadan",
+      "630-tabriz",
+      "645-basra",
+      "645-mosul",
+      "652-capital",
+      "663-capital",
+      "670-capital",
+      "670-medina"
+    ],
+    "landPosition": true
+  },
+  "645-basra": {
+    "id": "645-basra",
+    "country": "645",
+    "name": "Басра",
+    "position": [
+      47.7835,
+      30.5085
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-abadan",
+      "645-capital",
+      "645-mosul",
+      "670-capital"
+    ],
+    "landPosition": true
+  },
+  "645-mosul": {
+    "id": "645-mosul",
+    "country": "645",
+    "name": "Мосул",
+    "position": [
+      43.13,
+      36.335
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-tabriz",
+      "640-diyarbakir",
+      "645-basra",
+      "645-capital",
+      "652-aleppo",
+      "652-homs"
+    ],
+    "landPosition": true
+  },
+  "651-capital": {
+    "id": "651-capital",
+    "country": "651",
+    "name": "Cairo",
+    "position": [
+      31.25,
+      30.05
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "651-alexandria",
+      "651-aswan",
+      "651-port-said",
+      "651-suez"
+    ],
+    "landPosition": true
+  },
+  "651-alexandria": {
+    "id": "651-alexandria",
+    "country": "651",
+    "name": "Александрия",
+    "position": [
+      29.9187,
+      31.2001
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "620-tobruk",
+      "651-aswan",
+      "651-capital",
+      "651-port-said"
+    ],
+    "landPosition": true
+  },
+  "651-port-said": {
+    "id": "651-port-said",
+    "country": "651",
+    "name": "Порт-Саид",
+    "position": [
+      32.3019,
+      31.2653
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "651-alexandria",
+      "651-capital",
+      "651-suez",
+      "665-capital"
+    ],
+    "landPosition": true
+  },
+  "651-suez": {
+    "id": "651-suez",
+    "country": "651",
+    "name": "Суэц",
+    "position": [
+      32.5498,
+      29.9668
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "651-aswan",
+      "651-capital",
+      "651-port-said",
+      "665-capital"
+    ],
+    "landPosition": true
+  },
+  "651-aswan": {
+    "id": "651-aswan",
+    "country": "651",
+    "name": "Асуан",
+    "position": [
+      32.8998,
+      24.0889
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "620-tobruk",
+      "625-capital",
+      "625-port-sudan",
+      "651-alexandria",
+      "651-capital",
+      "651-suez"
+    ],
+    "landPosition": true
+  },
+  "652-capital": {
+    "id": "652-capital",
+    "country": "652",
+    "name": "Damascus",
+    "position": [
+      36.299999,
+      33.5
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "645-capital",
+      "660-capital",
+      "663-capital",
+      "665-capital"
+    ],
+    "landPosition": true
+  },
+  "652-aleppo": {
+    "id": "652-aleppo",
+    "country": "652",
+    "name": "Алеппо",
+    "position": [
+      37.1343,
+      36.2021
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "640-diyarbakir",
+      "645-mosul",
+      "652-homs",
+      "652-latakia"
+    ],
+    "landPosition": true
+  },
+  "652-homs": {
+    "id": "652-homs",
+    "country": "652",
+    "name": "Хомс",
+    "position": [
+      36.7234,
+      34.7324
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "645-mosul",
+      "652-aleppo",
+      "652-latakia",
+      "660-capital"
+    ],
+    "landPosition": true
+  },
+  "652-latakia": {
+    "id": "652-latakia",
+    "country": "652",
+    "name": "Латакия",
+    "position": [
+      35.7918,
+      35.5317
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "640-diyarbakir",
+      "652-aleppo",
+      "652-homs"
+    ],
+    "landPosition": true
+  },
+  "660-capital": {
+    "id": "660-capital",
+    "country": "660",
+    "name": "Beirut",
+    "position": [
+      35.50972,
+      33.87194
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "652-capital",
+      "652-homs",
+      "665-capital"
+    ],
+    "landPosition": true
+  },
+  "663-capital": {
+    "id": "663-capital",
+    "country": "663",
+    "name": "Amman",
+    "position": [
+      35.933331,
+      31.95
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "645-capital",
+      "652-capital",
+      "665-capital",
+      "670-medina"
+    ],
+    "landPosition": true
+  },
+  "665-capital": {
+    "id": "665-capital",
+    "country": "665",
+    "name": "(East) Jerusalem",
+    "position": [
+      35.206626,
+      31.77841
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "651-port-said",
+      "651-suez",
+      "652-capital",
+      "660-capital",
+      "663-capital"
+    ],
+    "landPosition": true
+  },
+  "670-capital": {
+    "id": "670-capital",
+    "country": "670",
+    "name": "Riyadh",
+    "position": [
+      46.772781,
+      24.64083
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "645-basra",
+      "645-capital",
+      "670-mecca",
+      "670-medina",
+      "694-capital",
+      "696-capital",
+      "698-capital"
+    ],
+    "landPosition": true
+  },
+  "670-jeddah": {
+    "id": "670-jeddah",
+    "country": "670",
+    "name": "Джидда",
+    "position": [
+      39.1925,
+      21.4858
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "670-mecca",
+      "670-medina"
+    ],
+    "landPosition": true
+  },
+  "670-mecca": {
+    "id": "670-mecca",
+    "country": "670",
+    "name": "Мекка",
+    "position": [
+      39.8579,
+      21.3891
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "670-capital",
+      "670-jeddah",
+      "670-medina",
+      "678-capital"
+    ],
+    "landPosition": true
+  },
+  "670-medina": {
+    "id": "670-medina",
+    "country": "670",
+    "name": "Медина",
+    "position": [
+      39.5692,
+      24.5247
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "645-capital",
+      "663-capital",
+      "670-capital",
+      "670-jeddah",
+      "670-mecca"
+    ],
+    "landPosition": true
+  },
+  "678-capital": {
+    "id": "678-capital",
+    "country": "678",
+    "name": "Sana'a",
+    "position": [
+      44.183331,
+      15.28333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "670-mecca"
+    ],
+    "landPosition": true
+  },
+  "694-capital": {
+    "id": "694-capital",
+    "country": "694",
+    "name": "Doha",
+    "position": [
+      51.533329,
+      25.28667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "670-capital"
+    ],
+    "landPosition": true
+  },
+  "696-capital": {
+    "id": "696-capital",
+    "country": "696",
+    "name": "Abu Dhabi",
+    "position": [
+      54.366661,
+      24.46667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "670-capital",
+      "698-capital"
+    ],
+    "landPosition": true
+  },
+  "698-capital": {
+    "id": "698-capital",
+    "country": "698",
+    "name": "Masqat",
+    "position": [
+      58.59333,
+      23.61333
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "670-capital",
+      "696-capital"
+    ],
+    "landPosition": true
+  },
+  "700-capital": {
+    "id": "700-capital",
+    "country": "700",
+    "name": "Kabul",
+    "position": [
+      69.183327,
+      34.51667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "365-tashkent",
+      "700-herat",
+      "700-kandahar",
+      "750-lahore"
+    ],
+    "landPosition": true
+  },
+  "700-herat": {
+    "id": "700-herat",
+    "country": "700",
+    "name": "Герат",
+    "position": [
+      62.2031,
+      34.3529
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-tashkent",
+      "630-mashhad",
+      "700-capital",
+      "700-kandahar"
+    ],
+    "landPosition": true
+  },
+  "700-kandahar": {
+    "id": "700-kandahar",
+    "country": "700",
+    "name": "Кандагар",
+    "position": [
+      65.7372,
+      31.6289
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-mashhad",
+      "700-capital",
+      "700-herat",
+      "750-karachi",
+      "750-lahore"
+    ],
+    "landPosition": true
+  },
+  "710-capital": {
+    "id": "710-capital",
+    "country": "710",
+    "name": "Нанкин",
+    "position": [
+      118.7969,
+      32.0603
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "710-changsha",
+      "710-shanghai",
+      "710-taiyuan",
+      "710-wuhan"
+    ],
+    "landPosition": true
+  },
+  "710-beijing": {
+    "id": "710-beijing",
+    "country": "710",
+    "name": "Пекин",
+    "position": [
+      116.4074,
+      39.9042
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-harbin",
+      "710-shenyang",
+      "710-taiyuan",
+      "710-tianjin",
+      "710-urumqi",
+      "712-capital",
+      "712-choibalsan"
+    ],
+    "landPosition": true
+  },
+  "710-shanghai": {
+    "id": "710-shanghai",
+    "country": "710",
+    "name": "Шанхай",
+    "position": [
+      121.4737,
+      31.2304
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-capital",
+      "710-changsha",
+      "710-guangzhou"
+    ],
+    "landPosition": true
+  },
+  "710-wuhan": {
+    "id": "710-wuhan",
+    "country": "710",
+    "name": "Ухань",
+    "position": [
+      114.3055,
+      30.5928
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-capital",
+      "710-changsha",
+      "710-chongqing",
+      "710-taiyuan",
+      "710-xian"
+    ],
+    "landPosition": true
+  },
+  "710-guangzhou": {
+    "id": "710-guangzhou",
+    "country": "710",
+    "name": "Гуанчжоу",
+    "position": [
+      113.2644,
+      23.1291
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-changsha",
+      "710-chongqing",
+      "710-kunming",
+      "710-shanghai",
+      "815-capital"
+    ],
+    "landPosition": true
+  },
+  "710-chongqing": {
+    "id": "710-chongqing",
+    "country": "710",
+    "name": "Чунцин",
+    "position": [
+      106.5516,
+      29.563
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-changsha",
+      "710-chengdu",
+      "710-guangzhou",
+      "710-kunming",
+      "710-wuhan",
+      "710-xian"
+    ],
+    "landPosition": true
+  },
+  "710-chengdu": {
+    "id": "710-chengdu",
+    "country": "710",
+    "name": "Чэнду",
+    "position": [
+      104.0665,
+      30.5728
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-chongqing",
+      "710-kunming",
+      "710-xian",
+      "711-capital"
+    ],
+    "landPosition": true
+  },
+  "710-xian": {
+    "id": "710-xian",
+    "country": "710",
+    "name": "Сиань",
+    "position": [
+      108.9398,
+      34.3416
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-chengdu",
+      "710-chongqing",
+      "710-taiyuan",
+      "710-urumqi",
+      "710-wuhan",
+      "711-capital"
+    ],
+    "landPosition": true
+  },
+  "710-tianjin": {
+    "id": "710-tianjin",
+    "country": "710",
+    "name": "Тяньцзинь",
+    "position": [
+      117.2009,
+      39.0842
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-beijing",
+      "710-shenyang",
+      "710-taiyuan"
+    ],
+    "landPosition": true
+  },
+  "710-qingdao": {
+    "id": "710-qingdao",
+    "country": "710",
+    "name": "Циндао",
+    "position": [
+      120.3826,
+      36.0671
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-taiyuan"
+    ],
+    "landPosition": true
+  },
+  "710-kunming": {
+    "id": "710-kunming",
+    "country": "710",
+    "name": "Куньмин",
+    "position": [
+      102.8329,
+      24.8801
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-chengdu",
+      "710-chongqing",
+      "710-guangzhou",
+      "711-capital",
+      "750-calcutta",
+      "750-rangoon",
+      "812-capital",
+      "815-capital"
+    ],
+    "landPosition": true
+  },
+  "710-changsha": {
+    "id": "710-changsha",
+    "country": "710",
+    "name": "Чанша",
+    "position": [
+      112.9388,
+      28.2282
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-capital",
+      "710-chongqing",
+      "710-guangzhou",
+      "710-shanghai",
+      "710-wuhan"
+    ],
+    "landPosition": true
+  },
+  "710-taiyuan": {
+    "id": "710-taiyuan",
+    "country": "710",
+    "name": "Тайюань",
+    "position": [
+      112.5492,
+      37.857
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-beijing",
+      "710-capital",
+      "710-qingdao",
+      "710-tianjin",
+      "710-urumqi",
+      "710-wuhan",
+      "710-xian",
+      "712-capital"
+    ],
+    "landPosition": true
+  },
+  "710-harbin": {
+    "id": "710-harbin",
+    "country": "710",
+    "name": "Харбин",
+    "position": [
+      126.5349,
+      45.8038
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-irkutsk",
+      "365-khabarovsk",
+      "365-vladivostok",
+      "710-beijing",
+      "710-shenyang",
+      "712-choibalsan",
+      "730-pyongyang"
+    ],
+    "landPosition": true
+  },
+  "710-shenyang": {
+    "id": "710-shenyang",
+    "country": "710",
+    "name": "Мукден",
+    "position": [
+      123.4315,
+      41.8057
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-beijing",
+      "710-harbin",
+      "710-tianjin",
+      "712-choibalsan",
+      "730-pyongyang"
+    ],
+    "landPosition": true
+  },
+  "710-urumqi": {
+    "id": "710-urumqi",
+    "country": "710",
+    "name": "Урумчи",
+    "position": [
+      87.6168,
+      43.8256
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-alma-ata",
+      "365-novosibirsk",
+      "365-tashkent",
+      "710-beijing",
+      "710-taiyuan",
+      "710-xian",
+      "711-capital",
+      "712-capital",
+      "712-khovd",
+      "750-lahore"
+    ],
+    "landPosition": true
+  },
+  "711-capital": {
+    "id": "711-capital",
+    "country": "711",
+    "name": "Lhasa",
+    "position": [
+      91.10001,
+      29.64502
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "710-chengdu",
+      "710-kunming",
+      "710-urumqi",
+      "710-xian",
+      "750-calcutta",
+      "750-capital",
+      "750-lahore",
+      "760-capital",
+      "790-capital"
+    ],
+    "landPosition": true
+  },
+  "712-capital": {
+    "id": "712-capital",
+    "country": "712",
+    "name": "Ulan Bator",
+    "position": [
+      106.916702,
+      47.91667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "365-irkutsk",
+      "710-beijing",
+      "710-taiyuan",
+      "710-urumqi",
+      "712-choibalsan",
+      "712-khovd"
+    ],
+    "landPosition": true
+  },
+  "712-khovd": {
+    "id": "712-khovd",
+    "country": "712",
+    "name": "Кобдо",
+    "position": [
+      91.6419,
+      48.0042
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-irkutsk",
+      "365-novosibirsk",
+      "710-urumqi",
+      "712-capital",
+      "712-choibalsan"
+    ],
+    "landPosition": true
+  },
+  "712-choibalsan": {
+    "id": "712-choibalsan",
+    "country": "712",
+    "name": "Баян-Тумэн",
+    "position": [
+      114.5356,
+      48.095
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-irkutsk",
+      "710-beijing",
+      "710-harbin",
+      "710-shenyang",
+      "712-capital",
+      "712-khovd"
+    ],
+    "landPosition": true
+  },
+  "713-capital": {
+    "id": "713-capital",
+    "country": "713",
+    "name": "Taipei",
+    "position": [
+      121.525002,
+      25.03917
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "713-kaohsiung",
+      "713-taichung"
+    ],
+    "landPosition": true
+  },
+  "713-kaohsiung": {
+    "id": "713-kaohsiung",
+    "country": "713",
+    "name": "Такао",
+    "position": [
+      120.3014,
+      22.6273
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "713-capital",
+      "713-taichung"
+    ],
+    "landPosition": true
+  },
+  "713-taichung": {
+    "id": "713-taichung",
+    "country": "713",
+    "name": "Тайтю",
+    "position": [
+      120.6736,
+      24.1477
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "713-capital",
+      "713-kaohsiung"
+    ],
+    "landPosition": true
+  },
+  "730-capital": {
+    "id": "730-capital",
+    "country": "730",
+    "name": "Seoul",
+    "position": [
+      126.999703,
+      37.56639
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "730-busan",
+      "730-incheon",
+      "730-pyongyang"
+    ],
+    "landPosition": true
+  },
+  "730-busan": {
+    "id": "730-busan",
+    "country": "730",
+    "name": "Пусан",
+    "position": [
+      129.0756,
+      35.1796
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "730-capital",
+      "730-incheon",
+      "730-pyongyang"
+    ],
+    "landPosition": true
+  },
+  "730-pyongyang": {
+    "id": "730-pyongyang",
+    "country": "730",
+    "name": "Пхеньян",
+    "position": [
+      125.7625,
+      39.0392
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-vladivostok",
+      "710-harbin",
+      "710-shenyang",
+      "730-busan",
+      "730-capital"
+    ],
+    "landPosition": true
+  },
+  "730-incheon": {
+    "id": "730-incheon",
+    "country": "730",
+    "name": "Инчхон",
+    "position": [
+      126.7052,
+      37.4563
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "730-busan",
+      "730-capital"
+    ],
+    "landPosition": true
+  },
+  "740-capital": {
+    "id": "740-capital",
+    "country": "740",
+    "name": "Токио",
+    "position": [
+      139.751404,
+      35.685
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "740-nagoya",
+      "740-sendai",
+      "740-yokohama"
+    ],
+    "landPosition": true
+  },
+  "740-osaka": {
+    "id": "740-osaka",
+    "country": "740",
+    "name": "Осака",
+    "position": [
+      135.5023,
+      34.6937
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-kyoto",
+      "740-nagoya",
+      "740-yokohama"
+    ],
+    "landPosition": true
+  },
+  "740-nagoya": {
+    "id": "740-nagoya",
+    "country": "740",
+    "name": "Нагоя",
+    "position": [
+      136.9066,
+      35.1815
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-capital",
+      "740-kyoto",
+      "740-osaka",
+      "740-sendai",
+      "740-yokohama"
+    ],
+    "landPosition": true
+  },
+  "740-kyoto": {
+    "id": "740-kyoto",
+    "country": "740",
+    "name": "Киото",
+    "position": [
+      135.7681,
+      35.0116
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-hiroshima",
+      "740-nagoya",
+      "740-osaka",
+      "740-sendai"
+    ],
+    "landPosition": true
+  },
+  "740-hiroshima": {
+    "id": "740-hiroshima",
+    "country": "740",
+    "name": "Хиросима",
+    "position": [
+      132.4553,
+      34.3853
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-kyoto"
+    ],
+    "landPosition": true
+  },
+  "740-fukuoka": {
+    "id": "740-fukuoka",
+    "country": "740",
+    "name": "Фукуока",
+    "position": [
+      130.4017,
+      33.5902
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-nagasaki"
+    ],
+    "landPosition": true
+  },
+  "740-sapporo": {
+    "id": "740-sapporo",
+    "country": "740",
+    "name": "Саппоро",
+    "position": [
+      141.3545,
+      43.0618
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "740-sendai": {
+    "id": "740-sendai",
+    "country": "740",
+    "name": "Сендай",
+    "position": [
+      140.8694,
+      38.2682
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-capital",
+      "740-kyoto",
+      "740-nagoya"
+    ],
+    "landPosition": true
+  },
+  "740-nagasaki": {
+    "id": "740-nagasaki",
+    "country": "740",
+    "name": "Нагасаки",
+    "position": [
+      129.8777,
+      32.7503
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-fukuoka"
+    ],
+    "landPosition": true
+  },
+  "740-yokohama": {
+    "id": "740-yokohama",
+    "country": "740",
+    "name": "Йокогама",
+    "position": [
+      139.638,
+      35.4437
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "740-capital",
+      "740-nagoya",
+      "740-osaka"
+    ],
+    "landPosition": true
+  },
+  "750-capital": {
+    "id": "750-capital",
+    "country": "750",
+    "name": "New Delhi (Delhi)",
+    "position": [
+      77.199997,
+      28.6
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "711-capital",
+      "750-bombay",
+      "750-calcutta",
+      "750-karachi",
+      "750-lahore",
+      "790-capital"
+    ],
+    "landPosition": true
+  },
+  "750-bombay": {
+    "id": "750-bombay",
+    "country": "750",
+    "name": "Бомбей",
+    "position": [
+      72.8777,
+      19.076
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "750-bangalore",
+      "750-calcutta",
+      "750-capital",
+      "750-madras"
+    ],
+    "landPosition": true
+  },
+  "750-calcutta": {
+    "id": "750-calcutta",
+    "country": "750",
+    "name": "Калькутта",
+    "position": [
+      88.3639,
+      22.5726
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-kunming",
+      "711-capital",
+      "750-bombay",
+      "750-capital",
+      "750-lahore",
+      "760-capital",
+      "790-capital"
+    ],
+    "landPosition": true
+  },
+  "750-madras": {
+    "id": "750-madras",
+    "country": "750",
+    "name": "Мадрас",
+    "position": [
+      80.2707,
+      13.0827
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "750-bangalore",
+      "750-bombay"
+    ],
+    "landPosition": true
+  },
+  "750-karachi": {
+    "id": "750-karachi",
+    "country": "750",
+    "name": "Карачи",
+    "position": [
+      67.0011,
+      24.8607
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "630-mashhad",
+      "630-shiraz",
+      "700-kandahar",
+      "750-capital",
+      "750-lahore"
+    ],
+    "landPosition": true
+  },
+  "750-lahore": {
+    "id": "750-lahore",
+    "country": "750",
+    "name": "Лахор",
+    "position": [
+      74.3587,
+      31.5204
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "365-tashkent",
+      "700-capital",
+      "700-kandahar",
+      "710-urumqi",
+      "711-capital",
+      "750-calcutta",
+      "750-capital",
+      "750-karachi"
+    ],
+    "landPosition": true
+  },
+  "750-rangoon": {
+    "id": "750-rangoon",
+    "country": "750",
+    "name": "Рангун",
+    "position": [
+      96.1951,
+      16.8661
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "710-kunming",
+      "800-capital",
+      "800-chiang-mai",
+      "800-songkhla",
+      "812-capital"
+    ],
+    "landPosition": true
+  },
+  "750-bangalore": {
+    "id": "750-bangalore",
+    "country": "750",
+    "name": "Бангалор",
+    "position": [
+      77.5946,
+      12.9716
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "750-bombay",
+      "750-madras"
+    ],
+    "landPosition": true
+  },
+  "760-capital": {
+    "id": "760-capital",
+    "country": "760",
+    "name": "Thimphu",
+    "position": [
+      89.599998,
+      27.48333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "711-capital",
+      "750-calcutta"
+    ],
+    "landPosition": true
+  },
+  "780-capital": {
+    "id": "780-capital",
+    "country": "780",
+    "name": "Colombo",
+    "position": [
+      79.847778,
+      6.93194
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "781-capital": {
+    "id": "781-capital",
+    "country": "781",
+    "name": "Male",
+    "position": [
+      73.5,
+      4.166667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "790-capital": {
+    "id": "790-capital",
+    "country": "790",
+    "name": "Kathmandu",
+    "position": [
+      85.316673,
+      27.71667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "711-capital",
+      "750-calcutta",
+      "750-capital"
+    ],
+    "landPosition": true
+  },
+  "800-capital": {
+    "id": "800-capital",
+    "country": "800",
+    "name": "Bangkok",
+    "position": [
+      100.516701,
+      13.75
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "750-rangoon",
+      "800-chiang-mai",
+      "811-capital",
+      "812-capital"
+    ],
+    "landPosition": true
+  },
+  "800-chiang-mai": {
+    "id": "800-chiang-mai",
+    "country": "800",
+    "name": "Чиангмай",
+    "position": [
+      98.9853,
+      18.7883
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "750-rangoon",
+      "800-capital",
+      "812-capital"
+    ],
+    "landPosition": true
+  },
+  "800-songkhla": {
+    "id": "800-songkhla",
+    "country": "800",
+    "name": "Сонгкхла",
+    "position": [
+      100.5951,
+      7.1988
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "750-rangoon",
+      "821-capital",
+      "822-capital"
+    ],
+    "landPosition": true
+  },
+  "811-capital": {
+    "id": "811-capital",
+    "country": "811",
+    "name": "Phnom Penh",
+    "position": [
+      104.916702,
+      11.55
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "800-capital",
+      "812-capital",
+      "815-capital"
+    ],
+    "landPosition": true
+  },
+  "812-capital": {
+    "id": "812-capital",
+    "country": "812",
+    "name": "Vientiane",
+    "position": [
+      102.599999,
+      17.96667
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "710-kunming",
+      "750-rangoon",
+      "800-capital",
+      "800-chiang-mai",
+      "811-capital",
+      "815-capital"
+    ],
+    "landPosition": true
+  },
+  "815-capital": {
+    "id": "815-capital",
+    "country": "815",
+    "name": "Hue",
+    "position": [
+      107.580038,
+      16.46999
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "710-guangzhou",
+      "710-kunming",
+      "811-capital",
+      "812-capital"
+    ],
+    "landPosition": true
+  },
+  "821-capital": {
+    "id": "821-capital",
+    "country": "821",
+    "name": "Kuala Lumpur",
+    "position": [
+      101.699997,
+      3.16667
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "800-songkhla",
+      "822-capital",
+      "827-capital"
+    ],
+    "landPosition": true
+  },
+  "822-capital": {
+    "id": "822-capital",
+    "country": "822",
+    "name": "Johor Bahru",
+    "position": [
+      103.7414,
+      1.4927
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "800-songkhla",
+      "821-capital",
+      "827-capital"
+    ],
+    "landPosition": true
+  },
+  "823-capital": {
+    "id": "823-capital",
+    "country": "823",
+    "name": "Sandakan (Elopura)",
+    "position": [
+      118.107974,
+      5.84296
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "824-capital",
+      "850-makassar"
+    ],
+    "landPosition": true
+  },
+  "824-capital": {
+    "id": "824-capital",
+    "country": "824",
+    "name": "Kuching",
+    "position": [
+      110.329999,
+      1.52997
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "823-capital",
+      "835-capital",
+      "850-capital",
+      "850-makassar",
+      "850-surabaya"
+    ],
+    "landPosition": true
+  },
+  "827-capital": {
+    "id": "827-capital",
+    "country": "827",
+    "name": "Singapore City",
+    "position": [
+      103.851959,
+      1.29027
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "821-capital",
+      "822-capital"
+    ],
+    "landPosition": true
+  },
+  "835-capital": {
+    "id": "835-capital",
+    "country": "835",
+    "name": "Bandar Seri Begawan",
+    "position": [
+      114.933296,
+      4.88333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "824-capital"
+    ],
+    "landPosition": true
+  },
+  "840-capital": {
+    "id": "840-capital",
+    "country": "840",
+    "name": "Manila",
+    "position": [
+      120.982201,
+      14.60417
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "840-cebu": {
+    "id": "840-cebu",
+    "country": "840",
+    "name": "Себу",
+    "position": [
+      123.8854,
+      10.3157
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "840-davao": {
+    "id": "840-davao",
+    "country": "840",
+    "name": "Давао",
+    "position": [
+      125.4553,
+      7.1907
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "850-capital": {
+    "id": "850-capital",
+    "country": "850",
+    "name": "Батавия",
+    "position": [
+      106.8294,
+      -6.1744
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "824-capital",
+      "850-bandung",
+      "850-medan"
+    ],
+    "landPosition": true
+  },
+  "850-surabaya": {
+    "id": "850-surabaya",
+    "country": "850",
+    "name": "Сурабая",
+    "position": [
+      112.7508,
+      -7.2575
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "824-capital",
+      "850-bandung"
+    ],
+    "landPosition": true
+  },
+  "850-bandung": {
+    "id": "850-bandung",
+    "country": "850",
+    "name": "Бандунг",
+    "position": [
+      107.6191,
+      -6.9175
+    ],
+    "capital": false,
+    "coastal": false,
+    "victoryPoints": 2,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "850-capital",
+      "850-surabaya"
+    ],
+    "landPosition": true
+  },
+  "850-medan": {
+    "id": "850-medan",
+    "country": "850",
+    "name": "Медан",
+    "position": [
+      98.6722,
+      3.5952
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "850-capital"
+    ],
+    "landPosition": true
+  },
+  "850-makassar": {
+    "id": "850-makassar",
+    "country": "850",
+    "name": "Макассар",
+    "position": [
+      119.4327,
+      -5.1477
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "823-capital",
+      "824-capital",
+      "860-capital",
+      "911-capital",
+      "912-capital"
+    ],
+    "landPosition": true
+  },
+  "860-capital": {
+    "id": "860-capital",
+    "country": "860",
+    "name": "Dili",
+    "position": [
+      125.573601,
+      -8.55861
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "850-makassar"
+    ],
+    "landPosition": true
+  },
+  "900-capital": {
+    "id": "900-capital",
+    "country": "900",
+    "name": "Canberra",
+    "position": [
+      149.216705,
+      -35.28333
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "900-adelaide",
+      "900-brisbane",
+      "900-melbourne",
+      "900-sydney"
+    ],
+    "landPosition": true
+  },
+  "900-sydney": {
+    "id": "900-sydney",
+    "country": "900",
+    "name": "Сидней",
+    "position": [
+      151.2093,
+      -33.8688
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-brisbane",
+      "900-capital"
+    ],
+    "landPosition": true
+  },
+  "900-melbourne": {
+    "id": "900-melbourne",
+    "country": "900",
+    "name": "Мельбурн",
+    "position": [
+      144.9631,
+      -37.8136
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-adelaide",
+      "900-capital"
+    ],
+    "landPosition": true
+  },
+  "900-brisbane": {
+    "id": "900-brisbane",
+    "country": "900",
+    "name": "Брисбен",
+    "position": [
+      153.0251,
+      -27.4698
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-adelaide",
+      "900-capital",
+      "900-darwin",
+      "900-sydney"
+    ],
+    "landPosition": true
+  },
+  "900-perth": {
+    "id": "900-perth",
+    "country": "900",
+    "name": "Перт",
+    "position": [
+      115.8605,
+      -31.9505
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-darwin"
+    ],
+    "landPosition": true
+  },
+  "900-adelaide": {
+    "id": "900-adelaide",
+    "country": "900",
+    "name": "Аделаида",
+    "position": [
+      138.6007,
+      -34.9285
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-brisbane",
+      "900-capital",
+      "900-darwin",
+      "900-melbourne"
+    ],
+    "landPosition": true
+  },
+  "900-darwin": {
+    "id": "900-darwin",
+    "country": "900",
+    "name": "Дарвин",
+    "position": [
+      130.8456,
+      -12.4634
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [
+      "900-adelaide",
+      "900-brisbane",
+      "900-perth"
+    ],
+    "landPosition": false
+  },
+  "911-capital": {
+    "id": "911-capital",
+    "country": "911",
+    "name": "Port Moresby",
+    "position": [
+      147.192504,
+      -9.46471
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "850-makassar",
+      "912-capital"
+    ],
+    "landPosition": true
+  },
+  "912-capital": {
+    "id": "912-capital",
+    "country": "912",
+    "name": "Rabaul (Simpsonhafen)",
+    "position": [
+      152.143431,
+      -4.20549
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "850-makassar",
+      "911-capital"
+    ],
+    "landPosition": true
+  },
+  "920-capital": {
+    "id": "920-capital",
+    "country": "920",
+    "name": "Wellington",
+    "position": [
+      174.783295,
+      -41.3
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "920-auckland": {
+    "id": "920-auckland",
+    "country": "920",
+    "name": "Окленд",
+    "position": [
+      174.7633,
+      -36.8485
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "920-christchurch": {
+    "id": "920-christchurch",
+    "country": "920",
+    "name": "Крайстчерч",
+    "position": [
+      172.6362,
+      -43.5321
+    ],
+    "capital": false,
+    "coastal": true,
+    "victoryPoints": 3,
+    "industry": 1,
+    "garrison": 12,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "930-capital": {
+    "id": "930-capital",
+    "country": "930",
+    "name": "Nouméa",
+    "position": [
+      166.458,
+      -22.2758
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "940-capital": {
+    "id": "940-capital",
+    "country": "940",
+    "name": "Tulaghi",
+    "position": [
+      160.14759,
+      -9.08558
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "950-capital": {
+    "id": "950-capital",
+    "country": "950",
+    "name": "Suva",
+    "position": [
+      178.430299,
+      -18.13408
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "960-capital": {
+    "id": "960-capital",
+    "country": "960",
+    "name": "Pape'ete",
+    "position": [
+      -149.5665,
+      -17.53733
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [],
+    "landPosition": true
+  },
+  "1201-capital": {
+    "id": "1201-capital",
+    "country": "1201",
+    "name": "Saint-Elie",
+    "position": [
+      -53.2764,
+      4.8227
+    ],
+    "capital": true,
+    "coastal": false,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "115-capital",
+      "120-capital",
+      "140-manaus"
+    ],
+    "landPosition": true
+  },
+  "5200-capital": {
+    "id": "5200-capital",
+    "country": "5200",
+    "name": "Mogadishu",
+    "position": [
+      45.366678,
+      2.046934
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "501-capital",
+      "521-capital",
+      "530-dire-dawa"
+    ],
+    "landPosition": true
+  },
+  "7351-capital": {
+    "id": "7351-capital",
+    "country": "7351",
+    "name": "Toyohara",
+    "position": [
+      142.740011,
+      46.96497
+    ],
+    "capital": true,
+    "coastal": true,
+    "victoryPoints": 5,
+    "industry": 2,
+    "garrison": 24,
+    "neighbors": [
+      "365-khabarovsk"
+    ],
+    "landPosition": true
+  }
+}
